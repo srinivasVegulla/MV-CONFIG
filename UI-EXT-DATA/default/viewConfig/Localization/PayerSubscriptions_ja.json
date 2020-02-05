@@ -1,0 +1,24 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "製品オファーID",
+        "Name": "productofferid"
+      },
+      {
+        "Value": "サブスクリプション名",
+        "Name": "name"
+      },
+      {
+        "Value": "サブスクリプション名",
+        "Name": "displayname"
+      },
+      {
+        "Value": "説明",
+        "Name": "subscriptiondesc"
+      },
+      {
+        "Value": "登録者数",
+        "Name": "nosubscribers"
+      }
+     ]}
+}

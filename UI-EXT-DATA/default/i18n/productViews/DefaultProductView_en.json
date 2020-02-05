@@ -1,0 +1,172 @@
+{"mt_config": {
+    "language_code": "US",
+    "locale_space": {
+        "name": "metratech.com/defaultproductview",
+        "locale_entry": [
+            {
+                "Value": "Product View",
+                "Name": "metratech.com/DefaultProductView"
+            },
+            {
+                "Value": "Account",
+                "Name": "metratech.com/DefaultProductView/AccountID"
+            },
+            {
+                "Value": "Amount",
+                "Name": "metratech.com/DefaultProductView/Amount"
+            },
+            {
+                "Value": "Amount With Tax",
+                "Name": "metratech.com/DefaultProductView/AmountWithTax"
+            },
+            {
+                "Value": "Amount With Tax",
+                "Name": "metratech.com/DefaultProductView/AmountWithTaxAsString"
+            },
+            {
+                "Value": "Can Adjust",
+                "Name": "metratech.com/DefaultProductView/CanAdjust"
+            },
+            {
+                "Value": "Can Manage Adjustments",
+                "Name": "metratech.com/DefaultProductView/CanManageAdjustments"
+            },
+            {
+                "Value": "Can Rebill",
+                "Name": "metratech.com/DefaultProductView/CanRebill"
+            },
+            {
+                "Value": "County Tax Amount",
+                "Name": "metratech.com/DefaultProductView/CountyTaxAmount"
+            },
+            {
+                "Value": "County Tax Amount",
+                "Name": "metratech.com/DefaultProductView/CountyTaxAmountAsString"
+            },
+            {
+                "Value": "Currency",
+                "Name": "metratech.com/DefaultProductView/Currency"
+            },
+            {
+                "Value": "Display Amount",
+                "Name": "metratech.com/DefaultProductView/DisplayAmount"
+            },
+            {
+                "Value": "Display Amount",
+                "Name": "metratech.com/DefaultProductView/DisplayAmountAsString"
+            },
+            {
+                "Value": "Federal Tax Amount",
+                "Name": "metratech.com/DefaultProductView/FederalTaxAmount"
+            },
+            {
+                "Value": "Federal Tax Amount",
+                "Name": "metratech.com/DefaultProductView/FederalTaxAmountAsString"
+            },
+            {
+                "Value": "Interval",
+                "Name": "metratech.com/DefaultProductView/IntervalID"
+            },
+            {
+                "Value": "Is Adjusted",
+                "Name": "metratech.com/DefaultProductView/IsAdjusted"
+            },
+            {
+                "Value": "Is Interval Soft Closed",
+                "Name": "metratech.com/DefaultProductView/IsIntervalSoftClosed"
+            },
+            {
+                "Value": "Is Post-bill Adjusted",
+                "Name": "metratech.com/DefaultProductView/IsPostBillAdjusted"
+            },
+            {
+                "Value": "Is Pre-bill Adjusted",
+                "Name": "metratech.com/DefaultProductView/IsPreBillAdjusted"
+            },
+            {
+                "Value": "Is Pre-bill Transaction",
+                "Name": "metratech.com/DefaultProductView/IsPreBillTransaction"
+            },
+            {
+                "Value": "Is tax inclusive?",
+                "Name": "metratech.com/DefaultProductView/IsTaxInclusive"
+            },
+            {
+                "Value": "Is tax informational?",
+                "Name": "metratech.com/DefaultProductView/IsTaxInformational"
+            },
+            {
+                "Value": "Local Tax Amount",
+                "Name": "metratech.com/DefaultProductView/LocalTaxAmount"
+            },
+            {
+                "Value": "Local Tax Amount",
+                "Name": "metratech.com/DefaultProductView/LocalTaxAmountAsString"
+            },
+            {
+                "Value": "Other Tax Amount",
+                "Name": "metratech.com/DefaultProductView/OtherTaxAmount"
+            },
+            {
+                "Value": "Other Tax Amount",
+                "Name": "metratech.com/DefaultProductView/OtherTaxAmountAsString"
+            },
+            {
+                "Value": "Parent Session",
+                "Name": "metratech.com/DefaultProductView/ParentSessionID"
+            },
+            {
+                "Value": "PI Instance",
+                "Name": "metratech.com/DefaultProductView/PIInstance"
+            },
+            {
+                "Value": "PI Template",
+                "Name": "metratech.com/DefaultProductView/PITemplate"
+            },
+            {
+                "Value": "Post-bill Adjustment",
+                "Name": "metratech.com/DefaultProductView/PostBillAdjustmentID"
+            },
+            {
+                "Value": "Pre-bill Adjustment",
+                "Name": "metratech.com/DefaultProductView/PreBillAdjustmentID"
+            },
+            {
+                "Value": "Session",
+                "Name": "metratech.com/DefaultProductView/SessionID"
+            },
+            {
+                "Value": "Session Type",
+                "Name": "metratech.com/DefaultProductView/SessionType"
+            },
+            {
+                "Value": "Session Type Value",
+                "Name": "metratech.com/DefaultProductView/SessionType Value"
+            },
+            {
+                "Value": "State Tax Amount",
+                "Name": "metratech.com/DefaultProductView/StateTaxAmount"
+            },
+            {
+                "Value": "State Tax Amount",
+                "Name": "metratech.com/DefaultProductView/StateTaxAmountAsString"
+            },
+            {
+                "Value": "Tax Amount",
+                "Name": "metratech.com/DefaultProductView/TaxAmount"
+            },
+            {
+                "Value": "Tax Amount",
+                "Name": "metratech.com/DefaultProductView/TaxAmountAsString"
+            },
+            {
+                "Value": "Time Stamp",
+                "Name": "metratech.com/DefaultProductView/TimeStamp"
+            },
+            {
+                "Value": "View",
+                "Name": "metratech.com/DefaultProductView/ViewID"
+            }
+        ]
+    }
+}}

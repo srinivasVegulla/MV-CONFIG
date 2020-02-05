@@ -1,0 +1,72 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "תאריך",
+        "Name": "time"
+      },
+      {
+        "Value": "שם משתמש",
+        "Name": "username"
+      },
+      {
+        "Value": "זיהוי משתמש",
+        "Name": "userid"
+      },
+      {
+        "Value": "מזהה אירוע",
+        "Name": "eventid"
+      },
+      {
+        "Value": "אירוע",
+        "Name": "eventname"
+      },
+      {
+        "Value": "שם ישות",
+        "Name": "entityname"
+      },
+      {
+        "Value": "מזהה ישות",
+        "Name": "entityid"
+      },
+      {
+        "Value": "סוג ישות",
+        "Name": "entitytype"
+      },
+      {
+        "Value": "פרטים",
+        "Name": "details"
+      },
+      {
+        "Value": "מחובר",
+        "Name": "loggedinas"
+      },
+      {
+        "Value": "מזהה ביקורת",
+        "Name": "id_audit"
+      },
+      {
+        "Value": "מזהה אירוע",
+        "Name": "id_event"
+      },
+      {
+        "Value": "זיהוי משתמש",
+        "Name": "id_userid"
+      },
+      {
+        "Value": "מזהה סוג ישות",
+        "Name": "id_entitytype"
+      },
+      {
+        "Value": "מזהה ישות",
+        "Name": "id_entity"
+      },
+      {
+        "Value": "מחובר כמו tx",
+        "Name": "tx_logged_in_as"
+      },
+      {
+        "Value": "תאריך יצירה",
+        "Name": "dt_crt"
+      }
+    ]}
+}

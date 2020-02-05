@@ -1,0 +1,172 @@
+{"columns" : {
+    "fields": [
+      {
+        "Key": "accountnumber",
+        "DisplayName": "Account Number",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },      
+      {
+        "Key": "amount",
+        "DisplayName": "Amount",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "Numeric",
+        "IsCurrency": true,
+        "CurrencySymbol": "currency"
+      },
+      {
+        "Key": "invoices",
+        "DisplayName": "Invoices",
+        "IsColumn": true,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "Object",
+        "IsCurrency": true,
+        "CurrencySymbol": "currency"
+      },
+      {
+        "Key": "invoiceString",
+        "DisplayName": "Invoice#",
+        "IsColumn": true,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : true,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": true,
+        "CurrencySymbol": "currency"
+      },
+      {
+        "Key": "invoiceAmount",
+        "DisplayName": "Invoices Amount",
+        "IsColumn": true,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : true,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": true,
+        "CurrencySymbol": "currency"
+      },
+      {
+        "Key": "creditcardtype",
+        "DisplayName": "Payment Method",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "currency",
+        "DisplayName": "Currency",
+        "IsColumn": false,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "description",
+        "DisplayName": "Description",
+        "IsColumn": false,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "paymentinstid",
+        "DisplayName": "Number is required",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "Numeric",
+        "IsCurrency": false
+      },
+      {
+        "Key": "paymenttype",
+        "DisplayName": "Payment Type",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "status",
+        "DisplayName": "Status",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "transactiondate",
+        "DisplayName": "Payment Date",
+        "IsColumn": true,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : true,
+        "DefaultColumn": false,
+        "DataType": "Date",
+        "IsCurrency": false
+      },
+      {
+        "Key": "transactiontype",
+        "DisplayName": "Transaction Type",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      }
+    ]},
+  "filters":[
+      {
+        "name": "SUCCESS",
+        "visibility": false,
+        "localeResourceKey": "TEXT_STATUS_SUCCESS"
+      },
+      {
+        "name": "PENDING",
+        "visibility": true,
+        "localeResourceKey": "TEXT_STATUS_PENDING"
+      },
+      {
+        "name": "REJECTED",
+        "visibility": true,
+        "localeResourceKey": "TEXT_STATUS_REJECTED"
+      },
+      {
+        "name": "RECEIVED_REQUEST",
+        "visibility": true,
+        "localeResourceKey": ""
+      }]
+}

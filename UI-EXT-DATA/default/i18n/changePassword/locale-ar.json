@@ -1,0 +1,21 @@
+{
+	"CHANGE_PASSWORD_TITLE": "تغيير كلمة المرور",
+	"CHANGE_PASSWORD_TEXT_CURRENT_PASSWORD": "كلمة المرور الحالية",
+	"CHANGE_PASSWORD_TEXT_NEW_PASSWORD": "كلمة المرور الجديدة",
+	"CHANGE_PASSWORD_TEXT_VERIFY_PASSWORD": "التحقق من كلمة المرور",
+	"CHANGE_PASSWORD_STRENGTH_CONDITION1": ".يجب أن يتراوح طولها بين 7 و1024 حرفًا",
+	"CHANGE_PASSWORD_STRENGTH_CONDITION2": ".يجب أن تحتوي على الأقل على حرف كبير واحد وحرف صغير واحد ورقم واحد",
+	"CHANGE_PASSWORD_STRENGTH_CONDITION3": ".الأحرف الخاصة اختيارية",
+	"CHANGE_PASSWORD_REQUIRED_ERROR_MSG": ".كلمة المرور مطلوبة",
+	"CHANGE_PASSWORD_VERIFY_PASSWORD_REQUIRED_ERROR_MSG": ".التحقق من كلمة المرور مطلوب",
+	"CHANGE_PASSWORD_INCORRECT_PATTERN": ".لا تستوفي كلمة المرور متطلبات الأمان",
+	"CHANGE_PASSWORD_VERIFY_PASSWORD": ".كلمتا المرور غير متطابقتين",
+	"CHANGE_PASSWORD_INVALID_OLD_PASSWORD": ".كلمة مرور قديمة غير صالحة",
+	"CHANGE_PASSWORD_INVALID_NEW_PASSWORD": ".لا تستوفي كلمة المرور الجديدة متطلبات الأمان",
+	"CHANGE_PASSWORD_ACCOUNT_LOCKED": ".تم قفل حساباتك لأسباب تتعلق بالأمان. يرجى الاتصال بمركز الدعم لحل المشكلة",
+	"CHANGE_PASSWORD_STRENGTH": ".كلمة المرور ليست قوية كما ينبغي",
+	"CHANGE_PASSWORD_USED_BEFORE": ".تم استخدام كلمة المرور من قبل",
+	"CHANGE_PASSWORD_FAILED_UPDATE": ".فشل تغيير كلمة المرور. يرجى الاتصال بدعم العملاء",
+	"CHANGE_PASSWORD_TEXT_REQUIRED_FIELD": "حقل مطلوب",
+	"CHANGE_CURRENT_PASSWORD_REQUIRED_ERROR_MSG": ".كلمة المرور الحالية مطلوبة"
+}

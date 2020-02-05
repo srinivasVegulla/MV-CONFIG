@@ -1,0 +1,59 @@
+{"columns" : {
+    "fields": [
+      {
+        "Key": "productofferid",
+        "DisplayName": "Product Offer ID",
+        "IsColumn": true,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "Numeric",
+        "IsCurrency": false
+      },      
+      {
+        "Key": "name",
+        "DisplayName": "Subscription Name",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "displayname",
+        "DisplayName": "Subscription Name",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "subscriptiondesc",
+        "DisplayName": "Description",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "nosubscribers",
+        "DisplayName": "No. Of Subscribers",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "Numeric",
+        "IsCurrency": false
+      }
+    ]}
+}

@@ -1,0 +1,80 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Tiempo de emisión",
+        "Name": "issueTime"
+      },
+      {
+        "Value": "Cantidad",
+        "Name": "chargeAmount"
+      },
+      {
+        "Value": "Cantidad",
+        "Name": "chargeAmountAsString"
+      },
+      {
+        "Value": "Descripción",
+        "Name": "description"
+      },
+      {
+        "Value": "Estado",
+        "Name": "status"
+      },
+      {
+        "Value": "Moneda de Cargo",
+        "Name": "chargeCurrency"
+      },
+      {
+        "Value": "Código GL",
+        "Name": "glCode"
+      },
+      {
+        "Value": "ID de cuenta del emisor",
+        "Name": "issuerAccountId"
+      },
+      {
+        "Value": "Código adicional",
+        "Name": "additionalCode"
+      },
+      {
+        "Value": "Importe del Impuesto de Cargo",
+        "Name": "chargeTaxAmount"
+      },
+      {
+        "Value": "ID de Carga Externa",
+        "Name": "externalChargeId"
+      },
+      {
+        "Value": "ID de Carga Interna",
+        "Name": "internalChargeId"
+      },
+      {
+        "Value": "Num Units",
+        "Name": "numUnits"
+      },
+      {
+        "Value": "Tasa",
+        "Name": "rate"
+      },
+      {
+        "Value": "Tarifa Adicional",
+        "Name": "additionalRate"
+      },
+      {
+        "Value": "ID de cuenta del suscriptor",
+        "Name": "subscriberAccountId"
+      },
+      {
+        "Value": "ID do intervalo do guia",
+        "Name": "guideIntervalId"
+      },
+      {
+        "Value": "Impuesto Implícito",
+        "Name": "taxImplied"
+      },
+      {
+        "Value": "Informacion Tributaria",
+        "Name": "taxInformational"
+      }
+    ]}
+}

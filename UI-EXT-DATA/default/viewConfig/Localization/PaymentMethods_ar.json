@@ -1,0 +1,108 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "نوع الحساب",
+        "Name": "accountType"
+      },
+      {
+        "Value": "العنوان 1",
+        "Name": "address1"
+      },
+      {
+        "Value": "العنوان 2",
+        "Name": "address2"
+      },
+      {
+        "Value": "الدفع التلقائي",
+        "Name": "autoPay"
+      },
+      {
+        "Value": "اسم البنك",
+        "Name": "bankname"
+      },
+      {
+        "Value": "مدينة",
+        "Name": "city"
+      },
+      {
+        "Value": "تاريخ الإنشاء",
+        "Name": "dtCreated"
+      },
+      {
+        "Value": "تاريخ الانتهاء",
+        "Name": "expDate"
+      },
+      {
+        "Value": "تنسيق تاريخ انتهاء الصلاحية",
+        "Name": "expDateFormat"
+      },
+      {
+        "Value": "الاسم الاول",
+        "Name": "firstName"
+      },
+      {
+        "Value": "رقم الحساب",
+        "Name": "idAcct"
+      },
+      {
+        "Value": "الرقم التعريفي للبلد",
+        "Name": "idCountry"
+      },
+      {
+        "Value": "نوع بطاقة الائتمان",
+        "Name": "idCreditcardType"
+      },
+      {
+        "Value": "أفضلية",
+        "Name": "idPriority"
+      },
+      {
+        "Value": "الكنية",
+        "Name": "lastName"
+      },
+      {
+        "Value": "التكلفة القصوى لكل دورة",
+        "Name": "maxChargePerCycle"
+      },
+      {
+        "Value": "الاسم الأوسط",
+        "Name": "middleName"
+      },
+      {
+        "Value": "نوع بطاقة الائتمان",
+        "Name": "nameCreditcardType"
+      },
+      {
+        "Value": "طريقة إدخال نوع الدفع",
+        "Name": "paymentMethodTypeId"
+      },
+       {
+        "Value": "طريقة الدفع اسم النوع",
+        "Name": "paymentMethodTypeName"
+      },
+       {
+        "Value": "رقم التوصيل",
+        "Name": "routingnumber"
+      },
+      {
+        "Value": "حالة",
+        "Name": "state"
+      },
+      {
+        "Value": "رقم الحساب المقتطع",
+        "Name": "truncdAcctNum"
+      },
+      {
+        "Value": "Blixtlås",
+        "Name": "zip"
+      },
+      {
+        "Value": "معرف الدفع الصك",
+        "Name": "idPaymentInstrument"
+      },
+       {
+        "Value": "تم جدولة الدفع",
+        "Name": "paymentScheduled"
+      }
+    ]}
+}

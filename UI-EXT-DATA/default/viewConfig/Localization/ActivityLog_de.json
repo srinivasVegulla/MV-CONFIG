@@ -1,0 +1,72 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Datum",
+        "Name": "time"
+      },
+      {
+        "Value": "Benutzername",
+        "Name": "username"
+      },
+      {
+        "Value": "Benutzeridentifikation",
+        "Name": "userid"
+      },
+      {
+        "Value": "Ereignis-ID",
+        "Name": "eventid"
+      },
+      {
+        "Value": "Event",
+        "Name": "eventname"
+      },
+      {
+        "Value": "Entitätsname",
+        "Name": "entityname"
+      },
+      {
+        "Value": "Entity Id",
+        "Name": "entityid"
+      },
+      {
+        "Value": "Entitätstyp",
+        "Name": "entitytype"
+      },
+      {
+        "Value": "Details",
+        "Name": "details"
+      },
+      {
+        "Value": "Eingeloggt",
+        "Name": "loggedinas"
+      },
+      {
+        "Value": "Audit-ID",
+        "Name": "id_audit"
+      },
+      {
+        "Value": "Ereignis-ID",
+        "Name": "id_event"
+      },
+      {
+        "Value": "Benutzeridentifikation",
+        "Name": "id_userid"
+      },
+      {
+        "Value": "Objekttyp-ID",
+        "Name": "id_entitytype"
+      },
+      {
+        "Value": "Entity Id",
+        "Name": "id_entity"
+      },
+      {
+        "Value": "Eingetragen als tx",
+        "Name": "tx_logged_in_as"
+      },
+      {
+        "Value": "Credit Amount_de",
+        "Name": "dt_crt"
+      }
+    ]}
+}

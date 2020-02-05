@@ -1,0 +1,20 @@
+{  
+  "RESETPASSWORD_HEADING": "Glömt lösenordet",
+  "RESETPASSWORD_NEW_PASSWORD": "Nytt lösenord",
+  "RESETPASSWORD_TEXT_PASSWORD": "Lösenord",
+  "RESETPASSWORD_STRENGTH_CONDITION1": "Måste vara mellan 7 och 1 024 tecken.",
+  "RESETPASSWORD_STRENGTH_CONDITION2": "Måste innehålla minst en gemen, en versal och en siffra.",
+  "RESETPASSWORD_STRENGTH_CONDITION3": "Specialtecken är inte obligatoriska.",
+  "RESETPASSWORD_REQUIRED_ERROR_MSG": "Lösenord måste anges.",
+  "RESETPASSWORD_INCORRECT_PATTERN": "Lösenordet uppfyller inte säkerhetskraven.",
+  "RESETPASSWORD_CONFIRM_PASSWORD": "Bekräfta lösenord",
+  "RESETPASSWORD_TEXT_VERIFY_PASSWORD": "Bekräfta lösenord",
+  "RESETPASSWORD_VERIFY_PASSWORD_REQUIRED_ERROR_MSG": "Bekräftelse av lösenord måste anges.",
+  "RESETPASSWORD_VERIFY_PASSWORD": "Lösenorden matchar inte.",
+  "RESETPASSWORD_TEXT_REQUIRED_FIELD": "Obligatoriskt fält",
+  "RESETPASSWORD_INPUT_CANCEL": "Avbryt",
+  "RESETPASSWORD_SAVE_AND_LOGIN": "Spara ändringar och logga in",
+  "RESETPASSWORD_USED_BEFORE": "Lösenordet har använts tidigare.",
+  "LOGIN_RESETPASSWORD_ERROR": "Ett fel uppkom vid behandling av din begäran. Försök igen eller kontakta kundtjänst för assistans.",
+  "LOGIN_RESETPASSWORD_LINK_EXPIRED": "Denna länk gäller inte längre. Begär en ny länk eller kontakta kundtjänst för assistans."
+}

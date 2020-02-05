@@ -1,0 +1,37 @@
+debug: true
+oauth-server-url: zvorole-01-MV.ls1gaugmr0germrns0etczhgea.bx.internal.cloudapp.net
+server:
+  port: 8080
+  ssl:
+    key-store: ecbapikeystore.jks
+    key-store-password: ecbapipwd
+    key-password: ecbapipwd
+    keyStoreType: JKS
+    keyAlias: ecb-server
+    trustStoreType: JKS
+    
+  #session.cookie.http-only: true 
+spring:  
+  cloud:
+    config:
+      allow-override: true
+      overrideSystemProperties: false
+      override-none: true
+      
+security:
+  require_ssl: true
+  oauth2:
+    client:
+      clientId: clientapp
+      clientSecret: 123456
+    resource:
+      tokenInfoUri: https://${oauth-server-url}:8083/uaa/oauth/check_token
+      preferTokenInfo: true
+  filter:
+    authorized:
+      request:
+        env: false
+        swagger: false
+
+metraview.contentRootDir: C:/ECB/METRAVIEW-CONFIG/UI-EXT-DATA/
+logging.level.com.ericsson.ecb: INFO

@@ -1,0 +1,5 @@
+{
+  "STORAGEDISCOUNT.Title": "Remise de stockage",
+  "STORAGEDISCOUNT.Subtitle": "Remise sur un stockage simple avec allocation de retour",
+  "SMARTCONCIERGECHARGEDECISION.RangeTickFormat": "Nombre d'événements:{qualifiedTotal} Montant:{totalGeneratedAmount:c}"
+}

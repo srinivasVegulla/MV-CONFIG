@@ -1,0 +1,172 @@
+{"mt_config": {
+    "language_code": "jp",
+    "locale_space": {
+        "name": "metratech.com/defaultproductview",
+        "locale_entry": [
+            {
+                "Value": "製品ビュー",
+                "Name": "metratech.com/DefaultProductView"
+            },
+            {
+                "Value": "アカウント",
+                "Name": "metratech.com/DefaultProductView/AccountID"
+            },
+            {
+                "Value": "金額",
+                "Name": "metratech.com/DefaultProductView/Amount"
+            },
+            {
+                "Value": "税込み金額",
+                "Name": "metratech.com/DefaultProductView/AmountWithTax"
+            },
+            {
+                "Value": "税込み金額",
+                "Name": "metratech.com/DefaultProductView/AmountWithTaxAsString"
+            },
+            {
+                "Value": "調整できます",
+                "Name": "metratech.com/DefaultProductView/CanAdjust"
+            },
+            {
+                "Value": "調整を管理できます",
+                "Name": "metratech.com/DefaultProductView/CanManageAdjustments"
+            },
+            {
+                "Value": "再請求できます",
+                "Name": "metratech.com/DefaultProductView/CanRebill"
+            },
+            {
+                "Value": "国税額",
+                "Name": "metratech.com/DefaultProductView/CountyTaxAmount"
+            },
+            {
+                "Value": "国税額",
+                "Name": "metratech.com/DefaultProductView/CountyTaxAmountAsString"
+            },
+            {
+                "Value": "通貨",
+                "Name": "metratech.com/DefaultProductView/Currency"
+            },
+            {
+                "Value": "表示金額",
+                "Name": "metratech.com/DefaultProductView/DisplayAmount"
+            },
+            {
+                "Value": "表示金額",
+                "Name": "metratech.com/DefaultProductView/DisplayAmountAsString"
+            },
+            {
+                "Value": "連邦税額",
+                "Name": "metratech.com/DefaultProductView/FederalTaxAmount"
+            },
+            {
+                "Value": "連邦税額",
+                "Name": "metratech.com/DefaultProductView/FederalTaxAmountAsString"
+            },
+            {
+                "Value": "期間",
+                "Name": "metratech.com/DefaultProductView/IntervalID"
+            },
+            {
+                "Value": "調整されている",
+                "Name": "metratech.com/DefaultProductView/IsAdjusted"
+            },
+            {
+                "Value": "ソフト クローズした期間である",
+                "Name": "metratech.com/DefaultProductView/IsIntervalSoftClosed"
+            },
+            {
+                "Value": "Is tax inclusive?",
+                "Name": "metratech.com/DefaultProductView/IsTaxInclusive"
+            },
+            {
+                "Value": "Is tax informational?",
+                "Name": "metratech.com/DefaultProductView/IsTaxInformational"
+            },
+            {
+                "Value": "請求後に調整されている",
+                "Name": "metratech.com/DefaultProductView/IsPostBillAdjusted"
+            },
+            {
+                "Value": "請求前に調整されている",
+                "Name": "metratech.com/DefaultProductView/IsPreBillAdjusted"
+            },
+            {
+                "Value": "請求前の取引である",
+                "Name": "metratech.com/DefaultProductView/IsPreBillTransaction"
+            },
+            {
+                "Value": "地方税額",
+                "Name": "metratech.com/DefaultProductView/LocalTaxAmount"
+            },
+            {
+                "Value": "地方税額",
+                "Name": "metratech.com/DefaultProductView/LocalTaxAmountAsString"
+            },
+            {
+                "Value": "その他の税額",
+                "Name": "metratech.com/DefaultProductView/OtherTaxAmount"
+            },
+            {
+                "Value": "その他の税額",
+                "Name": "metratech.com/DefaultProductView/OtherTaxAmountAsString"
+            },
+            {
+                "Value": "親セッション",
+                "Name": "metratech.com/DefaultProductView/ParentSessionID"
+            },
+            {
+                "Value": "PI インスタンス",
+                "Name": "metratech.com/DefaultProductView/PIInstance"
+            },
+            {
+                "Value": "PI テンプレート",
+                "Name": "metratech.com/DefaultProductView/PITemplate"
+            },
+            {
+                "Value": "Post-bill Adjustment",
+                "Name": "metratech.com/DefaultProductView/PostBillAdjustmentID"
+            },
+            {
+                "Value": "請求前の調整",
+                "Name": "metratech.com/DefaultProductView/PreBillAdjustmentID"
+            },
+            {
+                "Value": "セッション",
+                "Name": "metratech.com/DefaultProductView/SessionID"
+            },
+            {
+                "Value": "セッション種別",
+                "Name": "metratech.com/DefaultProductView/SessionType"
+            },
+            {
+                "Value": "セッション種別の値",
+                "Name": "metratech.com/DefaultProductView/SessionType Value"
+            },
+            {
+                "Value": "州税額",
+                "Name": "metratech.com/DefaultProductView/StateTaxAmount"
+            },
+            {
+                "Value": "州税額",
+                "Name": "metratech.com/DefaultProductView/StateTaxAmountAsString"
+            },
+            {
+                "Value": "税額",
+                "Name": "metratech.com/DefaultProductView/TaxAmount"
+            },
+            {
+                "Value": "税額",
+                "Name": "metratech.com/DefaultProductView/TaxAmountAsString"
+            },
+            {
+                "Value": "タイム スタンプ",
+                "Name": "metratech.com/DefaultProductView/TimeStamp"
+            },
+            {
+                "Value": "ビュー",
+                "Name": "metratech.com/DefaultProductView/ViewID"
+            }
+        ]
+    }
+}}

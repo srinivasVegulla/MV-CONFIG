@@ -1,0 +1,124 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Type d'ajustement",
+        "Name": "adjtype"
+      },
+      {
+        "Value": "ID de document",
+        "Name": "id_sess"
+      },
+      {
+        "Value": "Timestamp",
+        "Name": "dt_session"
+      },
+      {
+        "Value": "Intervalle d'utilisation",
+        "Name": "id_usage_interval"
+      },
+      {
+        "Value": "Date d'ajustement",
+        "Name": "c_credittime"
+      },
+      {
+        "Value": "Statut",
+        "Name": "c_status"
+      },
+      {
+        "Value": "Identification de la demande",
+        "Name": "c_requestid"
+      },
+      {
+        "Value": "Id. De session de contenu",
+        "Name": "c_contentionsessionid"
+      },
+      {
+        "Value": "Notification par courrier électronique",
+        "Name": "c_emailnotification"
+      },
+      {
+        "Value": "Adresse e-mail",
+        "Name": "c_emailaddress"
+      },
+      {
+        "Value": "Texte de l'email",
+        "Name": "c_emailtext"
+      },
+      {
+        "Value": "Émetteur",
+        "Name": "c_issuer"
+      },
+      {
+        "Value": "Code de raison",
+        "Name": "c_reason"
+      },
+      {
+        "Value": "Autre",
+        "Name": "c_other"
+      },
+      {
+        "Value": "La description",
+        "Name": "c_invoicecomment"
+      },
+      {
+        "Value": "Commentaire interne",
+        "Name": "c_internalcomment"
+      },
+      {
+        "Value": "Montant de la demande",
+        "Name": "c_requestamount"
+      },
+      {
+        "Value": "Montant du crédit",
+        "Name": "c_creditamount"
+      },
+      {
+        "Value": "ID d'interface de guide",
+        "Name": "c_guideintervalid"
+      },
+      {
+        "Value": "ID de compte d'abonné",
+        "Name": "c_subscriberaccountid"
+      },
+      {
+        "Value": "Note de crédit d'émission",
+        "Name": "c_issuecreditnote"
+      },
+      {
+        "Value": "Id. De modèle de note de crédit",
+        "Name": "c_creditnotetemplateid"
+      },
+      {
+        "Value": "Note de crédit Commentaire",
+        "Name": "c_creditnotecomment"
+      },
+      {
+        "Value": "Id. D'ajustement divers",
+        "Name": "c_miscadjustmentid"
+      },
+      {
+        "Value": "Monnaie de notation",
+        "Name": "c_ratingcurrency"
+      },
+      {
+        "Value": "Monnaie de facturation",
+        "Name": "c_billingcurrency"
+      },
+      {
+        "Value": "Devise",
+        "Name": "currency"
+      },
+      {
+        "Value": "Montant",
+        "Name": "amount"
+      },
+      {
+        "Value": "Timestamp",
+        "Name": "timeestamp"
+      },
+      {
+        "Value": "raison",
+        "Name": "reasoncode"
+      }
+    ]}
+}

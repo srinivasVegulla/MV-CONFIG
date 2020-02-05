@@ -1,0 +1,120 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "מזהה הפעלה",
+        "Name": "id_sess"
+      },
+      {
+        "Value": "חותמת זמן",
+        "Name": "dt_session"
+      },
+      {
+        "Value": "מרווח שימוש",
+        "Name": "id_usage_interval"
+      },
+      {
+        "Value": "זמן אשראי",
+        "Name": "c_credittime"
+      },
+      {
+        "Value": "סטָטוּס",
+        "Name": "c_status"
+      },
+      {
+        "Value": "מזהה בקשה",
+        "Name": "c_requestid"
+      },
+      {
+        "Value": "מזהה הפעלת תוכן",
+        "Name": "c_contentionsessionid"
+      },
+      {
+        "Value": "הודעת אימייל",
+        "Name": "c_emailnotification"
+      },
+      {
+        "Value": "כתובת דוא\"ל",
+        "Name": "c_emailaddress"
+      },
+      {
+        "Value": "טקסט אימייל",
+        "Name": "c_emailtext"
+      },
+      {
+        "Value": "מנפיק",
+        "Name": "c_issuer"
+      },
+      {
+        "Value": "קוד סיבה",
+        "Name": "c_reason"
+      },
+      {
+        "Value": "אַחֵר",
+        "Name": "c_other"
+      },
+      {
+        "Value": "תיאור חשבונית",
+        "Name": "c_invoicecomment"
+      },
+      {
+        "Value": "הערה פנימית",
+        "Name": "c_internalcomment"
+      },
+      {
+        "Value": "סכום בקשה",
+        "Name": "c_requestamount"
+      },
+      {
+        "Value": "סכום אשראי",
+        "Name": "c_creditamount"
+      },
+      {
+        "Value": "זיהוי מרווח מרווח",
+        "Name": "c_guideintervalid"
+      },
+      {
+        "Value": "מזהה חשבון מנוי",
+        "Name": "c_subscriberaccountid"
+      },
+      {
+        "Value": "הנפקת אשראי הערה",
+        "Name": "c_issuecreditnote"
+      },
+      {
+        "Value": "זיהוי תבנית הערה של אשראי",
+        "Name": "c_creditnotetemplateid"
+      },
+      {
+        "Value": "הערה הערה אשראי",
+        "Name": "c_creditnotecomment"
+      },
+      {
+        "Value": "מזהה התאמה שונה",
+        "Name": "c_miscadjustmentid"
+      },
+      {
+        "Value": "מטבע דירוג",
+        "Name": "c_ratingcurrency"
+      },
+      {
+        "Value": "מטבע חיוב",
+        "Name": "c_billingcurrency"
+      },
+      {
+        "Value": "מַטְבֵּעַ",
+        "Name": "currency"
+      },
+      {
+        "Value": "כמות",
+        "Name": "amount"
+      },
+      {
+        "Value": "חותמת זמן",
+        "Name": "timeestamp"
+      },
+      {
+        "Value": "קוד סיבה",
+        "Name": "reasoncode"
+      }
+    ]}
+}

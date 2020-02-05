@@ -1,0 +1,5 @@
+{
+  "STORAGEDISCOUNT.Title": "Storage Discount",
+  "STORAGEDISCOUNT.Subtitle": "Storage Single Bucket Discount With Back Allocation",
+  "SMARTCONCIERGECHARGEDECISION.RangeTickFormat": "Number Events:{qualifiedTotal} Amount:{totalGeneratedAmount:c}"
+}

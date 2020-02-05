@@ -1,0 +1,57 @@
+{
+  "columns": {
+    "fields": [{
+        "Value": "Número da conta",
+        "Name": "accountnumber"
+      },
+      {
+        "Value": "Cantidad",
+        "Name": "amount"
+      },
+      {
+        "Value": "Facturas",
+        "Name": "invoices"
+      },
+      {
+        "Value": "Facturas#",
+        "Name": "invoiceString"
+      },
+      {
+        "Value": "Cantidad de facturas",
+        "Name": "invoiceAmount"
+      },
+      {
+        "Value": "Método de pago",
+        "Name": "creditcardtype"
+      },
+      {
+        "Value": "Moneda",
+        "Name": "currency"
+      },
+      {
+        "Value": "Descripción",
+        "Name": "description"
+      },
+      {
+        "Value": "ID de instalación de pago",
+        "Name": "paymentinstid"
+      },
+      {
+        "Value": "Tipo de pago",
+        "Name": "paymenttype"
+      },
+      {
+        "Value": "Estado",
+        "Name": "status"
+      },
+      {
+        "Value": "Fecha de pago",
+        "Name": "transactiondate"
+      },
+      {
+        "Value": "tipo de transacción",
+        "Name": "transactiontype"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "זמן הנפקה",
+        "Name": "issueTime"
+      },
+      {
+        "Value": "כמות",
+        "Name": "chargeAmount"
+      },
+      {
+        "Value": "כמות",
+        "Name": "chargeAmountAsString"
+      },
+      {
+        "Value": "תאור",
+        "Name": "description"
+      },
+      {
+        "Value": "סטָטוּס",
+        "Name": "status"
+      },
+      {
+        "Value": "מטען מטבע",
+        "Name": "chargeCurrency"
+      },
+      {
+        "Value": "קוד GL",
+        "Name": "glCode"
+      },
+      {
+        "Value": "מזהה חשבון מנפיק",
+        "Name": "issuerAccountId"
+      },
+      {
+        "Value": "קוד נוסף",
+        "Name": "additionalCode"
+      },
+      {
+        "Value": "סכום מס טעינה",
+        "Name": "chargeTaxAmount"
+      },
+      {
+        "Value": "תעודת חיוב חיצונית",
+        "Name": "externalChargeId"
+      },
+      {
+        "Value": "תעודת חיוב פנימית",
+        "Name": "internalChargeId"
+      },
+      {
+        "Value": "יחידות Num",
+        "Name": "numUnits"
+      },
+      {
+        "Value": "ציון",
+        "Name": "rate"
+      },
+      {
+        "Value": "שער נוסף",
+        "Name": "additionalRate"
+      },
+      {
+        "Value": "מזהה חשבון של Suscriber",
+        "Name": "subscriberAccountId"
+      },
+      {
+        "Value": "מזהה מרווח מרווח",
+        "Name": "guideIntervalId"
+      },
+      {
+        "Value": "מס משתמע",
+        "Name": "taxImplied"
+      },
+      {
+        "Value": "מס מידע",
+        "Name": "taxInformational"
+      }
+    ]}
+}

@@ -1,0 +1,20 @@
+{  
+  "RESETPASSWORD_HEADING": "「パスワードを忘れました。",
+  "RESETPASSWORD_NEW_PASSWORD": "「新しいパスワード",
+  "RESETPASSWORD_TEXT_PASSWORD": "「パスワード",
+  "RESETPASSWORD_STRENGTH_CONDITION1": "「7 ～ 1024 文字で入力してください。",
+  "RESETPASSWORD_STRENGTH_CONDITION2": "「必ず1つの以上の小文字、1つ以上の大文字、1つ以上の数字を入れてください。",
+  "RESETPASSWORD_STRENGTH_CONDITION3": "「特殊文字は任意です。",
+  "RESETPASSWORD_REQUIRED_ERROR_MSG": "「パスワードが必要です。",
+  "RESETPASSWORD_INCORRECT_PATTERN": "「パスワードがセキュリティ要件を満たしていません。",
+  "RESETPASSWORD_CONFIRM_PASSWORD": "「パスワードを確定してください。",
+  "RESETPASSWORD_TEXT_VERIFY_PASSWORD": "「パスワードの確認",
+  "RESETPASSWORD_VERIFY_PASSWORD_REQUIRED_ERROR_MSG": "「確認用のパスワードが必要です。",
+  "RESETPASSWORD_VERIFY_PASSWORD": "「パスワードが一致しません。",
+  "RESETPASSWORD_TEXT_REQUIRED_FIELD": "「必須項目",
+  "RESETPASSWORD_INPUT_CANCEL": "「キャンセル",
+  "RESETPASSWORD_SAVE_AND_LOGIN": "「変更を保存してログイン",
+  "RESETPASSWORD_USED_BEFORE": "「以前使われたことのあるパスワードです。",
+  "LOGIN_RESETPASSWORD_ERROR": "「リクエストを処理中にエラーが発生しました。もう一度試すか、カスタマーサービスにご連絡ください。",
+  "LOGIN_RESETPASSWORD_LINK_EXPIRED": "「このリンクは期限切れです。新しいリンクを要求するか、カスタマーサービスにご連絡ください。"
+}

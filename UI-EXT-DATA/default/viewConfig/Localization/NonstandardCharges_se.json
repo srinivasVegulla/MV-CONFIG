@@ -1,0 +1,80 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Utgivningstid",
+        "Name": "issueTime"
+      },
+      {
+        "Value": "Belopp",
+        "Name": "chargeAmount"
+      },
+      {
+        "Value": "Belopp",
+        "Name": "chargeAmountAsString"
+      },
+      {
+        "Value": "Beskrivning",
+        "Name": "description"
+      },
+      {
+        "Value": "Status",
+        "Name": "status"
+      },
+      {
+        "Value": "Laddningsvaluta",
+        "Name": "chargeCurrency"
+      },
+      {
+        "Value": "GLCode",
+        "Name": "glCode"
+      },
+      {
+        "Value": "Emittentkonto-ID",
+        "Name": "issuerAccountId"
+      },
+      {
+        "Value": "Ytterligare kod",
+        "Name": "additionalCode"
+      },
+      {
+        "Value": "Avgiftsskattbelopp",
+        "Name": "chargeTaxAmount"
+      },
+      {
+        "Value": "Externt laddnings-ID",
+        "Name": "externalChargeId"
+      },
+      {
+        "Value": "Internt laddnings-ID",
+        "Name": "internalChargeId"
+      },
+      {
+        "Value": "Num Enheter",
+        "Name": "numUnits"
+      },
+      {
+        "Value": "Betygsätta",
+        "Name": "rate"
+      },
+      {
+        "Value": "Ytterligare skattesats",
+        "Name": "additionalRate"
+      },
+      {
+        "Value": "Abonnentkonto-ID",
+        "Name": "subscriberAccountId"
+      },
+      {
+        "Value": "Guide Interval ID",
+        "Name": "guideIntervalId"
+      },
+      {
+        "Value": "Skattebelagd",
+        "Name": "taxImplied"
+      },
+      {
+        "Value": "Skatteinformation",
+        "Name": "taxInformational"
+      }
+    ]}
+}

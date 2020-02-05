@@ -1,0 +1,80 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "מזהה מנוי",
+        "Name": "subscriptionId"
+      },
+      {
+        "Value": "מזהה הצעת מוצר",
+        "Name": "productOfferingId"
+      },
+      {
+        "Value": "סטָטוּס",
+        "Name": "status"
+      },
+      {
+        "Value": "שם מנוי",
+        "Name": "subscriptionName"
+      },
+      {
+        "Value": "ביטול רישום משתמש",
+        "Name": "userUnsubscribe"
+      },
+      {
+        "Value": "תאריך התחלה",
+        "Name": "startDate"
+      },
+      {
+        "Value": "תאריך התחלה",
+        "Name": "startDateAsString"
+      },
+      {
+        "Value": "תאריך סיום",
+        "Name": "endDate"
+      },
+      {
+        "Value": "תאריך סיום",
+        "Name": "endDateAsString"
+      },
+      {
+        "Value": "תאור",
+        "Name": "description"
+      },
+      {
+        "Value": "תאריך יצירה",
+        "Name": "createDate"
+      },
+      {
+        "Value": "מזהה חשבון",
+        "Name": "accountId"
+      },
+      {
+        "Value": "שפה",
+        "Name": "lang"
+      },
+      {
+        "Value": "מזהה שפה",
+        "Name": "languageId"
+      },
+      {
+        "Value": "לא בתוקף",
+        "Name": "expired"
+      },
+      {
+        "Value": "ציטוט מזהה אצווה",
+        "Name": "quoteBatchId"
+      },
+      {
+        "Value": "ערכים אופייניים",
+        "Name": "characteristicValues"
+      },
+      {
+        "Value": "מזהה מזהה",
+        "Name": "udrcValues"
+      },
+      {
+        "Value": "הוא Bundle",
+        "Name": "isBundle"
+      }
+    ]}
+}

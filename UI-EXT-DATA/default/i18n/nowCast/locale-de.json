@@ -1,0 +1,5 @@
+{
+  "STORAGEDISCOUNT.Title": "Lagerrabatt",
+  "STORAGEDISCOUNT.Subtitle": "Lagerungsrabatt mit hinterer Zuteilung",
+  "SMARTCONCIERGECHARGEDECISION.RangeTickFormat": "Nummernereignisse:{qualifiedTotal} Betrag:{totalGeneratedAmount:c}"
+}

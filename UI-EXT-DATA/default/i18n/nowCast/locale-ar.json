@@ -1,0 +1,5 @@
+{
+  "STORAGEDISCOUNT.Title": "خصم التخزين",
+  "STORAGEDISCOUNT.Subtitle": "خصم حزمة مفردة للتخزين مع تخصيص رجوع",
+  "SMARTCONCIERGECHARGEDECISION.RangeTickFormat": "عدد الأحداث:{qualifiedTotal} المبلغ:{totalGeneratedAmount:c}"
+}

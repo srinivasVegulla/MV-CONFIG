@@ -1,0 +1,172 @@
+{"mt_config": {
+    "language_code": "es-MX",
+    "locale_space": {
+        "name": "metratech.com/defaultproductview",
+        "locale_entry": [
+            {
+                "Value": "Vista de producto",
+                "Name": "metratech.com/DefaultProductView"
+            },
+            {
+                "Value": "Cuenta",
+                "Name": "metratech.com/DefaultProductView/AccountID"
+            },
+            {
+                "Value": "Monto",
+                "Name": "metratech.com/DefaultProductView/Amount"
+            },
+            {
+                "Value": "Monto con impuesto",
+                "Name": "metratech.com/DefaultProductView/AmountWithTax"
+            },
+            {
+                "Value": "Monto con impuesto",
+                "Name": "metratech.com/DefaultProductView/AmountWithTaxAsString"
+            },
+            {
+                "Value": "Se puede ajustar",
+                "Name": "metratech.com/DefaultProductView/CanAdjust"
+            },
+            {
+                "Value": "Se pueden administrar ajustes",
+                "Name": "metratech.com/DefaultProductView/CanManageAdjustments"
+            },
+            {
+                "Value": "Se puede volver a facturar",
+                "Name": "metratech.com/DefaultProductView/CanRebill"
+            },
+            {
+                "Value": "Monto del impuesto del condado",
+                "Name": "metratech.com/DefaultProductView/CountyTaxAmount"
+            },
+            {
+                "Value": "Monto del impuesto del condado",
+                "Name": "metratech.com/DefaultProductView/CountyTaxAmountAsString"
+            },
+            {
+                "Value": "Divisa",
+                "Name": "metratech.com/DefaultProductView/Currency"
+            },
+            {
+                "Value": "Mostrar monto",
+                "Name": "metratech.com/DefaultProductView/DisplayAmount"
+            },
+            {
+                "Value": "Mostrar monto",
+                "Name": "metratech.com/DefaultProductView/DisplayAmountAsString"
+            },
+            {
+                "Value": "Monto del impuesto federal",
+                "Name": "metratech.com/DefaultProductView/FederalTaxAmount"
+            },
+            {
+                "Value": "Monto del impuesto federal",
+                "Name": "metratech.com/DefaultProductView/FederalTaxAmountAsString"
+            },
+            {
+                "Value": "Intervalo",
+                "Name": "metratech.com/DefaultProductView/IntervalID"
+            },
+            {
+                "Value": "Es ajustado",
+                "Name": "metratech.com/DefaultProductView/IsAdjusted"
+            },
+            {
+                "Value": "Es intervalo cerrado por software",
+                "Name": "metratech.com/DefaultProductView/IsIntervalSoftClosed"
+            },
+            {
+                "Value": "Is tax inclusive?",
+                "Name": "metratech.com/DefaultProductView/IsTaxInclusive"
+            },
+            {
+                "Value": "Is tax informational?",
+                "Name": "metratech.com/DefaultProductView/IsTaxInformational"
+            },
+            {
+                "Value": "Es ajustado posterior a la facturación",
+                "Name": "metratech.com/DefaultProductView/IsPostBillAdjusted"
+            },
+            {
+                "Value": "Es ajustado previo a la facturación",
+                "Name": "metratech.com/DefaultProductView/IsPreBillAdjusted"
+            },
+            {
+                "Value": "Es una transacción previa a la facturación",
+                "Name": "metratech.com/DefaultProductView/IsPreBillTransaction"
+            },
+            {
+                "Value": "Monto del impuesto local",
+                "Name": "metratech.com/DefaultProductView/LocalTaxAmount"
+            },
+            {
+                "Value": "Monto del impuesto local",
+                "Name": "metratech.com/DefaultProductView/LocalTaxAmountAsString"
+            },
+            {
+                "Value": "Otro monto del impuesto",
+                "Name": "metratech.com/DefaultProductView/OtherTaxAmount"
+            },
+            {
+                "Value": "Otro monto del impuesto",
+                "Name": "metratech.com/DefaultProductView/OtherTaxAmountAsString"
+            },
+            {
+                "Value": "Sesión primaria",
+                "Name": "metratech.com/DefaultProductView/ParentSessionID"
+            },
+            {
+                "Value": "Instancia de PI",
+                "Name": "metratech.com/DefaultProductView/PIInstance"
+            },
+            {
+                "Value": "Plantilla de PI",
+                "Name": "metratech.com/DefaultProductView/PITemplate"
+            },
+            {
+                "Value": "Ajuste posterior a la facturación",
+                "Name": "metratech.com/DefaultProductView/PostBillAdjustmentID"
+            },
+            {
+                "Value": "Ajuste previo a la facturación",
+                "Name": "metratech.com/DefaultProductView/PreBillAdjustmentID"
+            },
+            {
+                "Value": "Sesión",
+                "Name": "metratech.com/DefaultProductView/SessionID"
+            },
+            {
+                "Value": "Tipo de sesión",
+                "Name": "metratech.com/DefaultProductView/SessionType"
+            },
+            {
+                "Value": "Valor de tipo de sesión",
+                "Name": "metratech.com/DefaultProductView/SessionType Value"
+            },
+            {
+                "Value": "Monto del impuesto estatal",
+                "Name": "metratech.com/DefaultProductView/StateTaxAmount"
+            },
+            {
+                "Value": "Monto del impuesto estatal",
+                "Name": "metratech.com/DefaultProductView/StateTaxAmountAsString"
+            },
+            {
+                "Value": "Monto del impuesto",
+                "Name": "metratech.com/DefaultProductView/TaxAmount"
+            },
+            {
+                "Value": "Monto del impuesto",
+                "Name": "metratech.com/DefaultProductView/TaxAmountAsString"
+            },
+            {
+                "Value": "Marca de tiempo",
+                "Name": "metratech.com/DefaultProductView/TimeStamp"
+            },
+            {
+                "Value": "Ver",
+                "Name": "metratech.com/DefaultProductView/ViewID"
+            }
+        ]
+    }
+}}

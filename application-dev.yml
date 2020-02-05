@@ -1,0 +1,10 @@
+debug: false
+security:
+  oauth2:
+    resource:
+      tokenInfoUri: http://localhost:8081/uaa/oauth/check_token
+      preferTokenInfo: true
+metraview:
+  contentRootDir: /opt/ECB/METRAVIEW-CONFIG/UI-EXT-DATA/
+  
+logging.level.com.ericsson.ecb: INFO

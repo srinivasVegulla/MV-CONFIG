@@ -1,0 +1,98 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Identificação de sessão",
+        "Name": "sessionId"
+      },
+      {
+        "Value": "Montante",
+        "Name": "amount"
+      },
+      {
+        "Value": "Moeda",
+        "Name": "currency"
+      },
+      {
+        "Value": "Descrição",
+        "Name": "description"
+      },
+      {
+        "Value": "Data de pagamento",
+        "Name": "paymentDate"
+      },
+      {
+        "Value": "String da data de pagamento",
+        "Name": "paymentDateString"
+      },
+      {
+        "Value": "Código de razão",
+        "Name": "reasonCode"
+      },
+      {
+        "Value": "Nome do Código de Razão",
+        "Name": "reasonCodeName"
+      },
+      {
+        "Value": "Método de pagamento",
+        "Name": "paymentMethod"
+      },
+      {
+        "Value": "Nome do método de pagamento",
+        "Name": "paymentMethodName"
+      },
+      {
+        "Value": "tipo de cartão de crédito",
+        "Name": "creditCardType"
+      },
+      {
+        "Value": "Nome do Tipo de Cartão de Crédito",
+        "Name": "creditCardTypeName"
+      },
+      {
+        "Value": "Número de cheques ou cartões",
+        "Name": "checkOrCardNumber"
+      },
+      {
+        "Value": "ID de transação de pagamento",
+        "Name": "paymentTxnId"
+      },
+      {
+        "Value": "Referência ID",
+        "Name": "referenceId"
+      },
+      {
+        "Value": "Número necessário",
+        "Name": "paymentinstid"
+      },
+      {
+        "Value": "Tipo de pagamento",
+        "Name": "paymenttype"
+      },
+      {
+        "Value": "ID de inst. De pagamento",
+        "Name": "paymentinstid"
+      },
+      {
+        "Value": "Tipo de pagamento",
+        "Name": "paymenttype"
+      },
+      {
+        "Value": "Status",
+        "Name": "status"
+      },
+      {
+        "Value": "Data da transação",
+        "Name": "transactiondate"
+      }
+     ]}
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,224 @@
+{"columns" : {
+    "fields": [
+      {
+        "Key": "sessionId",
+        "DisplayName": "Session Id",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "Numeric",
+        "IsCurrency": false
+      },      
+      {
+        "Key": "amount",
+        "DisplayName": "Amount",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "Numeric",
+        "IsCurrency": true,
+        "CurrencySymbol": "currency"
+      },
+      {
+        "Key": "currency",
+        "DisplayName": "Currency",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : true,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "description",
+        "DisplayName": "Description",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "paymentDate",
+        "DisplayName": "Payment Date",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : false,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "Date",
+        "IsCurrency": false
+      },
+      {
+        "Key": "paymentDateString",
+        "DisplayName": "Payment Date String",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "reasonCode",
+        "DisplayName": "Reason Code",
+        "IsColumn": false,
+        "Sortable" : true,
+        "Filterable" : false,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "reasonCodeName",
+        "DisplayName": "Reason",
+        "IsColumn": true,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "paymentMethod",
+        "DisplayName": "Payment Method Code",
+        "IsColumn": false,
+        "Sortable" : true,
+        "Filterable" : false,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "paymentMethodName",
+        "DisplayName": "Payment Type",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : false,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "creditCardType",
+        "DisplayName": "Credit Card Type Code",
+        "IsColumn": false,
+        "Sortable" : true,
+        "Filterable" : false,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "creditCardTypeName",
+        "DisplayName": "Payment Method",
+        "IsColumn": true,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "checkOrCardNumber",
+        "DisplayName": "Check Or Card Number",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "Numeric",
+        "IsCurrency": false
+      },
+      {
+        "Key": "paymentTxnId",
+        "DisplayName": "Payment Transaction Id",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "Numeric",
+        "IsCurrency": false
+      },
+      {
+        "Key": "referenceId",
+        "DisplayName": "Reference Id",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "Numeric",
+        "IsCurrency": false
+      },
+      {
+        "Key": "accountnumber",
+        "DisplayName": "Account Number",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "paymentinstid",
+        "DisplayName": "Payment Inst Id",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "Numeric",
+        "IsCurrency": false
+      },
+      {
+        "Key": "paymenttype",
+        "DisplayName": "Payment Type",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "status",
+        "DisplayName": "Status",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "transactiondate",
+        "DisplayName": "Payment Date",
+        "IsColumn": true,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "DateTime",
+        "IsCurrency": false
+      }
+    ]}
+}

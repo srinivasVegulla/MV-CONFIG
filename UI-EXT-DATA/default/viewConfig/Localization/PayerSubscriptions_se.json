@@ -1,0 +1,24 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Produktleverans-id",
+        "Name": "productofferid"
+      },
+      {
+        "Value": "Prenumerationsnamn",
+        "Name": "name"
+      },
+      {
+        "Value": "Prenumerationsnamn",
+        "Name": "displayname"
+      },
+      {
+        "Value": "Beskrivning",
+        "Name": "subscriptiondesc"
+      },
+      {
+        "Value": "Antal abonnenter",
+        "Name": "nosubscribers"
+      }
+     ]}
+}

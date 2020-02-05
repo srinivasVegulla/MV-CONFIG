@@ -1,0 +1,34 @@
+{"columns" : {
+    "cardNames": [
+      {
+        "name": "statements",
+        "localeResourceKey": "TEXT_DOWNLOAD_STATEMENTS",
+        "billPeriodDisplay": true,
+        "dateRangeDisplay": false
+      },      
+      {
+        "name": "invoicesText",
+        "localeResourceKey": "TEXT_DOWNLOAD_INVOICES",
+        "billPeriodDisplay": true,
+        "dateRangeDisplay": false
+      },
+      {
+        "name": "creditNotes",
+        "localeResourceKey": "TEXT_DOWNLOAD_CREDIT_NOTES",
+        "billPeriodDisplay": true,
+        "dateRangeDisplay": true
+      },
+      {
+        "name": "debitNotes",
+        "localeResourceKey": "TEXT_DOWNLOAD_DEBIT_NOTES",
+        "billPeriodDisplay": true,
+        "dateRangeDisplay": true
+      },
+      {
+        "name": "quotes",
+        "localeResourceKey": "TEXT_QUOTES",
+        "billPeriodDisplay": false,
+        "dateRangeDisplay": true
+      }
+    ]}
+}

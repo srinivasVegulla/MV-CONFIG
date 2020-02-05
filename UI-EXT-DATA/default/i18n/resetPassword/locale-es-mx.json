@@ -1,0 +1,20 @@
+{
+	"RESETPASSWORD_HEADING": "Contraseña olvidada",
+	"RESETPASSWORD_NEW_PASSWORD": "Nueva contraseña",
+	"RESETPASSWORD_TEXT_PASSWORD": "Contraseña",
+	"RESETPASSWORD_STRENGTH_CONDITION1": "Deben ser entre 7 y 1024 caracteres.",
+	"RESETPASSWORD_STRENGTH_CONDITION2": "Debe contener al menos una letra minúscula, una letra mayúscula y un dígito.",
+	"RESETPASSWORD_STRENGTH_CONDITION3": "Los caracteres especiales son opcionales.",
+	"RESETPASSWORD_REQUIRED_ERROR_MSG": "Se requiere la contraseña.",
+	"RESETPASSWORD_INCORRECT_PATTERN": "La contraseña no cumple los requerimientos de seguridad.",
+	"RESETPASSWORD_CONFIRM_PASSWORD": "Confirmar contraseña",
+	"RESETPASSWORD_TEXT_VERIFY_PASSWORD": "Verifique contraseña",
+	"RESETPASSWORD_VERIFY_PASSWORD_REQUIRED_ERROR_MSG": "Se requiere verificar la contraseña.",
+	"RESETPASSWORD_VERIFY_PASSWORD": "Las contraseñas no coinciden.",
+	"RESETPASSWORD_TEXT_REQUIRED_FIELD": "Campo requerido",
+	"RESETPASSWORD_INPUT_CANCEL": "Cancelar",
+	"RESETPASSWORD_SAVE_AND_LOGIN": "Guardar cambios e iniciar sesión",
+	"RESETPASSWORD_USED_BEFORE": "La contraseña ha sido usada antes.",
+	"LOGIN_RESETPASSWORD_ERROR": "Hubo un error al procesar su solicitud. Intente otra vez o llame a servicio al cliente para ayuda.",
+	"LOGIN_RESETPASSWORD_LINK_EXPIRED": "Este enlace ha expirado. Solicite nuevo enlace o llame a servicio al cliente para ayuda."
+}

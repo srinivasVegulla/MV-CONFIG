@@ -1,0 +1,94 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "セッションID",
+        "Name": "sessionId"
+      },
+      {
+        "Value": "量",
+        "Name": "amount"
+      },
+      {
+        "Value": "通貨",
+        "Name": "currency"
+      },
+      {
+        "Value": "説明",
+        "Name": "description"
+      },
+      {
+        "Value": "支払期日",
+        "Name": "paymentDate"
+      },
+      {
+        "Value": "支払日文字列",
+        "Name": "paymentDateString"
+      },
+      {
+        "Value": "理由コード",
+        "Name": "reasonCode"
+      },
+      {
+        "Value": "理由コード名",
+        "Name": "reasonCodeName"
+      },
+      {
+        "Value": "支払方法",
+        "Name": "paymentMethod"
+      },
+      {
+        "Value": "支払い方法名",
+        "Name": "paymentMethodName"
+      },
+      {
+        "Value": "クレジットカードの種類",
+        "Name": "creditCardType"
+      },
+      {
+        "Value": "クレジットカードの種類名",
+        "Name": "creditCardTypeName"
+      },
+      {
+        "Value": "チェックまたはカード番号",
+        "Name": "checkOrCardNumber"
+      },
+      {
+        "Value": "支払いトランザクションID",
+        "Name": "paymentTxnId"
+      },
+      {
+        "Value": "参照ID",
+        "Name": "referenceId"
+      },
+      {
+        "Value": "口座番号",
+        "Name": "accountnumber"
+      },
+      {
+        "Value": "支払いInst Id",
+        "Name": "paymentinstid"
+      },
+      {
+        "Value": "払いの種類",
+        "Name": "paymenttype"
+      },
+      {
+        "Value": "状態",
+        "Name": "status"
+      },
+      {
+        "Value": "取引日",
+        "Name": "transactiondate"
+      }
+     ]}
+}
+
+
+
+
+
+
+
+
+
+

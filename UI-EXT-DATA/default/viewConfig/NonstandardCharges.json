@@ -1,0 +1,216 @@
+{"columns" : {
+    "fields": [
+      {
+        "Key": "issueTime",
+        "DisplayName": "Issue Time",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "Date",
+        "IsCurrency": false
+      },      
+      {
+        "Key": "chargeAmount",
+        "DisplayName": "Amount",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "Numeric",
+        "IsCurrency": true,
+        "CurrencySymbol": "chargeCurrency"
+      },
+      {
+        "Key": "chargeAmountAsString",
+        "DisplayName": "Amount",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "Numeric",
+        "IsCurrency": false,
+        "CurrencySymbol": "chargeCurrency"
+      },
+      {
+        "Key": "description",
+        "DisplayName": "Description",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "status",
+        "DisplayName": "Status",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "chargeCurrency",
+        "DisplayName": "Charge Currency",
+        "IsColumn": false,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "glCode",
+        "DisplayName": "GLCode",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "issuerAccountId",
+        "DisplayName": "Issuer Account ID",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "additionalCode",
+        "DisplayName": "Additional Code",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "chargeTaxAmount",
+        "DisplayName": "Charge Tax Amount",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "Numeric",
+        "IsCurrency": true,
+        "CurrencySymbol": "chargeCurrency"
+      },
+      {
+        "Key": "externalChargeId",
+        "DisplayName": "External Charge ID",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "internalChargeId",
+        "DisplayName": "Internal Charge ID",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "numUnits",
+        "DisplayName": "Num Units",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "rate",
+        "DisplayName": "Rate",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "additionalRate",
+        "DisplayName": "Additional Rate",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "subscriberAccountId",
+        "DisplayName": "Suscriber Account ID",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "guideIntervalId",
+        "DisplayName": "Guide Interval ID",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "taxImplied",
+        "DisplayName": "Is Tax Implied",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "Numeric",
+        "IsCurrency": false
+      },
+      {
+        "Key": "taxInformational",
+        "DisplayName": "Is Tax Informational",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      }
+    ]}
+}

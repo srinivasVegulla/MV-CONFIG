@@ -1,0 +1,124 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "調整のタイプ",
+        "Name": "adjtype"
+      },
+      {
+        "Value": "ドキュメントID",
+        "Name": "id_sess"
+      },
+      {
+        "Value": "タイムスタンプ",
+        "Name": "dt_session"
+      },
+      {
+        "Value": "使用間隔",
+        "Name": "id_usage_interval"
+      },
+      {
+        "Value": "調整日",
+        "Name": "c_credittime"
+      },
+      {
+        "Value": "状態",
+        "Name": "c_status"
+      },
+      {
+        "Value": "リクエストID",
+        "Name": "c_requestid"
+      },
+      {
+        "Value": "コンテンツセッションID",
+        "Name": "c_contentionsessionid"
+      },
+      {
+        "Value": "電子メール通知",
+        "Name": "c_emailnotification"
+      },
+      {
+        "Value": "電子メールアドレス",
+        "Name": "c_emailaddress"
+      },
+      {
+        "Value": "メールテキスト",
+        "Name": "c_emailtext"
+      },
+      {
+        "Value": "発行者",
+        "Name": "c_issuer"
+      },
+      {
+        "Value": "理由コード",
+        "Name": "c_reason"
+      },
+      {
+        "Value": "その他",
+        "Name": "c_other"
+      },
+      {
+        "Value": "説明",
+        "Name": "c_invoicecomment"
+      },
+      {
+        "Value": "内部コメント",
+        "Name": "c_internalcomment"
+      },
+      {
+        "Value": "請求額",
+        "Name": "c_requestamount"
+      },
+      {
+        "Value": "与信額",
+        "Name": "c_creditamount"
+      },
+      {
+        "Value": "ガイド間隔ID",
+        "Name": "c_guideintervalid"
+      },
+      {
+        "Value": "購読者のアカウントID",
+        "Name": "c_subscriberaccountid"
+      },
+      {
+        "Value": "発行クレジットノート",
+        "Name": "c_issuecreditnote"
+      },
+      {
+        "Value": "クレジットノートテンプレートID",
+        "Name": "c_creditnotetemplateid"
+      },
+      {
+        "Value": "クレジットノートコメント",
+        "Name": "c_creditnotecomment"
+      },
+      {
+        "Value": "その他の調整ID",
+        "Name": "c_miscadjustmentid"
+      },
+      {
+        "Value": "格付け通貨",
+        "Name": "c_ratingcurrency"
+      },
+      {
+        "Value": "請求通貨",
+        "Name": "c_billingcurrency"
+      },
+      {
+        "Value": "通貨",
+        "Name": "currency"
+      },
+      {
+        "Value": "量",
+        "Name": "amount"
+      },
+      {
+        "Value": "タイムスタンプ",
+        "Name": "timeestamp"
+      },
+      {
+        "Value": "理由",
+        "Name": "reasoncode"
+      }
+    ]}
+}

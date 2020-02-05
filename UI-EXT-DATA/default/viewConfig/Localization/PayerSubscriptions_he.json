@@ -1,0 +1,24 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "מזהה מבצע מוצר",
+        "Name": "productofferid"
+      },
+      {
+        "Value": "שם מנוי",
+        "Name": "name"
+      },
+      {
+        "Value": "שם מנוי",
+        "Name": "DisplayName"
+      },
+      {
+        "Value": "תאור",
+        "Name": "subscriptiondesc"
+      },
+      {
+        "Value": "מס 'מנויים",
+        "Name": "nosubscribers"
+      }
+     ]}
+}

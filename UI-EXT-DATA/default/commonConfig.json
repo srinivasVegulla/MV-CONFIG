@@ -1,0 +1,25 @@
+{
+  "BillingActivity": 
+    {
+      "billCount": "5"
+    },
+  "UsageActivity": 
+    {
+      "usageCount": "5"
+    },
+  "displayName": {
+    "avaialablFields": ["firstName", "lastName", "company", "userName" ],
+    "rule": {
+    "welcomeName":    [["company"], ["firstName","lastName"], ["firstName"], ["lastName"], ["userName"]  ],
+    "systemBarName":  [["userName"]],
+    "accountNameinDropdown": [["firstName","lastName"], ["firstName"], ["lastName"], ["company"], ["userName"] ],
+    "billManagedAccounts": [["firstName","lastName"], ["firstName"], ["lastName"], ["company"], ["userName"] ]
+    }
+  },
+  "childAccount": {
+    "pageSize": 30,
+    "bufferSize": 3,
+    "nodeAtaTimeCanOpen": 20
+  }
+}
+

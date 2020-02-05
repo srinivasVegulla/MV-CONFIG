@@ -1,0 +1,14 @@
+# metraview-ui configuration file for DEV environment
+server:
+    port: 8001
+    
+zuul:
+    routes:
+        oauth:
+          path: /oauth/**
+          url: http://10.200.37.7:8081/uaa/oauth
+        api:
+          path: /api/**
+          url: http://10.200.37.7:8082
+          
+logging.level.com.ericsson.ecb: DEBUG

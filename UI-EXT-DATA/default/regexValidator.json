@@ -1,0 +1,12 @@
+{
+  "Login": 
+    {
+      "username": ""
+    },
+  "SignUp" : 
+    {
+      "usernamePattern": "^([^(0-9!@#$%^&*()|?\/.=_+<>\\-)])+[-A-Za-z0-9@_.]*$",
+      "minimumLength": 6,
+      "maximumLength": 128
+    }  
+}

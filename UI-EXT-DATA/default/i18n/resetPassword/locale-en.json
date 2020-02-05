@@ -1,0 +1,20 @@
+{  
+  "RESETPASSWORD_HEADING": "Forgot Password",
+  "RESETPASSWORD_NEW_PASSWORD": "New Password",
+  "RESETPASSWORD_TEXT_PASSWORD": "Password",
+  "RESETPASSWORD_STRENGTH_CONDITION1": "Must be between 7 and 1024 characters.",
+  "RESETPASSWORD_STRENGTH_CONDITION2": "Must contain at least one lowercase letter, one uppercase letter and one digit.",
+  "RESETPASSWORD_STRENGTH_CONDITION3": "Special characters are optional.",
+  "RESETPASSWORD_REQUIRED_ERROR_MSG": "Password is required.",
+  "RESETPASSWORD_INCORRECT_PATTERN": "The Password does not meet the security requirements.",
+  "RESETPASSWORD_CONFIRM_PASSWORD": "Confirm Password",
+  "RESETPASSWORD_TEXT_VERIFY_PASSWORD": "Verify Password",
+  "RESETPASSWORD_VERIFY_PASSWORD_REQUIRED_ERROR_MSG": "Verify Password is required.",
+  "RESETPASSWORD_VERIFY_PASSWORD": "Passwords do not match.",
+  "RESETPASSWORD_TEXT_REQUIRED_FIELD": "Required Field",
+  "RESETPASSWORD_INPUT_CANCEL": "Cancel",
+  "RESETPASSWORD_SAVE_AND_LOGIN": "Save Changes and Login",
+  "RESETPASSWORD_USED_BEFORE": "Password has been used before.",
+  "LOGIN_RESETPASSWORD_ERROR": "There was an error while processing your request. Try Again or call customer service for assistance.",
+  "LOGIN_RESETPASSWORD_LINK_EXPIRED": "This link has expired. Request new link or call customer service for assistance."
+}

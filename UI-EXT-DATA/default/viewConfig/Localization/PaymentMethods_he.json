@@ -1,0 +1,108 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "סוג החשבון",
+        "Name": "accountType"
+      },
+      {
+        "Value": "כתובת 1",
+        "Name": "address1"
+      },
+      {
+        "Value": "כתובת 2",
+        "Name": "address2"
+      },
+      {
+        "Value": "תשלום אוטומטי",
+        "Name": "autoPay"
+      },
+      {
+        "Value": "שם הבנק",
+        "Name": "bankname"
+      },
+      {
+        "Value": "עִיר",
+        "Name": "city"
+      },
+      {
+        "Value": "תאריך יצירה",
+        "Name": "dtCreated"
+      },
+      {
+        "Value": "תאריך תפוגה",
+        "Name": "expDate"
+      },
+      {
+        "Value": "פורמט תאריך תפוגה",
+        "Name": "expDateFormat"
+      },
+      {
+        "Value": "שם פרטי",
+        "Name": "firstName"
+      },
+      {
+        "Value": "מזהה חשבון",
+        "Name": "idAcct"
+      },
+      {
+        "Value": "מזהה מדינה",
+        "Name": "idCountry"
+      },
+      {
+        "Value": "סוג כרטיס אשראי",
+        "Name": "idCreditcardType"
+      },
+      {
+        "Value": "עדיפות",
+        "Name": "idPriority"
+      },
+      {
+        "Value": "שם משפחה",
+        "Name": "lastName"
+      },
+      {
+        "Value": "עלות מקסימלית לכל מחזור",
+        "Name": "maxChargePerCycle"
+      },
+      {
+        "Value": "שם אמצעי",
+        "Name": "middleName"
+      },
+      {
+        "Value": "סוג כרטיס אשראי",
+        "Name": "nameCreditcardType"
+      },
+      {
+        "Value": "זיהוי סוג אמצעי תשלום",
+        "Name": "paymentMethodTypeId"
+      },
+       {
+        "Value": "שם סוג אמצעי תשלום",
+        "Name": "paymentMethodTypeName"
+      },
+       {
+        "Value": "מספר ניתוב",
+        "Name": "routingnumber"
+      },
+      {
+        "Value": "מדינה",
+        "Name": "state"
+      },
+      {
+        "Value": "מספר חשבון מקוצר",
+        "Name": "truncdAcctNum"
+      },
+      {
+        "Value": "רוכסן",
+        "Name": "zip"
+      },
+      {
+        "Value": "מזהה זיהוי התשלום",
+        "Name": "idPaymentInstrument"
+      },
+       {
+        "Value": "תשלום מתוזמן",
+        "Name": "paymentScheduled"
+      }
+    ]}
+}

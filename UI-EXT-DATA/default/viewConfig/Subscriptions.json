@@ -1,0 +1,213 @@
+{"columns" : {
+    "fields": [
+      {
+        "Key": "subscriptionId",
+        "DisplayName": "Subscription ID",
+        "IsColumn": false,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : false,
+        "DefaultColumn": true,
+        "DataType": "Numeric",
+        "IsCurrency": false
+      },      
+      {
+        "Key": "productOfferingId",
+        "DisplayName": "Product Offering ID",
+        "IsColumn": true,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "Numeric",
+        "IsCurrency": false
+      },
+      {
+        "Key": "status",
+        "DisplayName": "Status",
+        "IsColumn": false,
+        "Sortable" : true,
+        "Filterable" : false,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "subscriptionName",
+        "DisplayName": "Subscription Name",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "description",
+        "DisplayName": "Description",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "userUnsubscribe",
+        "DisplayName": "User Unsubscribe",
+        "IsColumn": true,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "startDate",
+        "DisplayName": "Start Date",
+        "IsColumn": true,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "DateTime",
+        "IsCurrency": false
+      },
+      {
+        "Key": "startDateAsString",
+        "DisplayName": "Start Date",
+        "IsColumn": false,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : false,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "endDate",
+        "DisplayName": "End Date",
+        "IsColumn": true,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "DateTime",
+        "IsCurrency": false
+      },
+      {
+        "Key": "endDateAsString",
+        "DisplayName": "End Date",
+        "IsColumn": false,
+        "Sortable" : true,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "createDate",
+        "DisplayName": "Created Date",
+        "IsColumn": false,
+        "Sortable" : true,
+        "Filterable" : false,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "Date",
+        "IsCurrency": false
+      },
+      {
+        "Key": "accountId",
+        "DisplayName": "Account ID",
+        "IsColumn": false,
+        "Sortable" : true,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "Numeric",
+        "IsCurrency": false
+      },
+      {
+        "Key": "lang",
+        "DisplayName": "Language",
+        "IsColumn": false,
+        "Sortable" : true,
+        "Filterable" : false,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "languageId",
+        "DisplayName": "Language ID",
+        "IsColumn": false,
+        "Sortable" : true,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": true,
+        "DataType": "Numeric",
+        "IsCurrency": false
+      },
+      {
+        "Key": "expired",
+        "DisplayName": "Expired",
+        "IsColumn": true,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "Boolean",
+        "IsCurrency": false
+      },
+      {
+        "Key": "quoteBatchId",
+        "DisplayName": "Quote Bath ID",
+        "IsColumn": false,
+        "Sortable" : true,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": true,
+        "DataType": "Numeric",
+        "IsCurrency": false
+      },
+      {
+        "Key": "characteristicValues",
+        "DisplayName": "Characterstic Values",
+        "IsColumn": false,
+        "Sortable" : true,
+        "Filterable" : false,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "udrcValues",
+        "DisplayName": "Reference ID",
+        "IsColumn": false,
+        "Sortable" : true,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "isBundle",
+        "DisplayName": "Is Bundle",
+        "IsColumn": false,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      }
+    ]}
+}

@@ -1,0 +1,124 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "نوع التعديل",
+        "Name": "adjtype"
+      },
+      {
+        "Value": "معرف المستند",
+        "Name": "id_sess"
+      },
+      {
+        "Value": "الطابع الزمني",
+        "Name": "dt_session"
+      },
+      {
+        "Value": "فترة الاستخدام",
+        "Name": "id_usage_interval"
+      },
+      {
+        "Value": "تاريخ التعديل",
+        "Name": "c_credittime"
+      },
+      {
+        "Value": "الحالة",
+        "Name": "c_status"
+      },
+      {
+        "Value": "طلب معرف",
+        "Name": "c_requestid"
+      },
+      {
+        "Value": "معرف جلسة المحتوى",
+        "Name": "c_contentionsessionid"
+      },
+      {
+        "Value": "إشعار البريد الإلكتروني",
+        "Name": "c_emailnotification"
+      },
+      {
+        "Value": "عنوان البريد الإلكتروني",
+        "Name": "c_emailaddress"
+      },
+      {
+        "Value": "نص البريد الإلكتروني",
+        "Name": "c_emailtext"
+      },
+      {
+        "Value": "المصدر",
+        "Name": "c_issuer"
+      },
+      {
+        "Value": "رمز السبب",
+        "Name": "c_reason"
+      },
+      {
+        "Value": "آخر",
+        "Name": "c_other"
+      },
+      {
+        "Value": "وصف",
+        "Name": "c_invoicecomment"
+      },
+      {
+        "Value": "التعليق الداخلي",
+        "Name": "c_internalcomment"
+      },
+      {
+        "Value": "طلب المبلغ",
+        "Name": "c_requestamount"
+      },
+      {
+        "Value": "مبلغ الائتمان",
+        "Name": "c_creditamount"
+      },
+      {
+        "Value": "دليل الفاصل الزمني إد",
+        "Name": "c_guideintervalid"
+      },
+      {
+        "Value": "معرف حساب المشترك",
+        "Name": "c_subscriberaccountid"
+      },
+      {
+        "Value": "إصدار إشعار ائتماني",
+        "Name": "c_issuecreditnote"
+      },
+      {
+        "Value": "رقم تعريف نموذج الملاحظة الائتمانية",
+        "Name": "c_creditnotetemplateid"
+      },
+      {
+        "Value": "ملاحظة ائتمانية تعليق",
+        "Name": "c_creditnotecomment"
+      },
+      {
+        "Value": "رقم تعريف التعديل المتنوع",
+        "Name": "c_miscadjustmentid"
+      },
+      {
+        "Value": "تصنيف العملة",
+        "Name": "c_ratingcurrency"
+      },
+      {
+        "Value": "العملة الفواتير",
+        "Name": "c_billingcurrency"
+      },
+      {
+        "Value": "دقة",
+        "Name": "currency"
+      },
+      {
+        "Value": "كمية",
+        "Name": "amount"
+      },
+      {
+        "Value": "الطابع الزمني",
+        "Name": "timeestamp"
+      },
+      {
+        "Value": "السبب",
+        "Name": "reasoncode"
+      }
+    ]}
+}

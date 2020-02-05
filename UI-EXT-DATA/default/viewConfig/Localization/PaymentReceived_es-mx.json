@@ -1,0 +1,94 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "ID de sesi�n",
+        "Name": "sessionId"
+      },
+      {
+        "Value": "Cantidad",
+        "Name": "amount"
+      },
+      {
+        "Value": "Moneda",
+        "Name": "currency"
+      },
+      {
+        "Value": "Descripción",
+        "Name": "description"
+      },
+      {
+        "Value": "Fecha de pago",
+        "Name": "paymentDate"
+      },
+      {
+        "Value": "Cadena de fechas de pago",
+        "Name": "paymentDateString"
+      },
+      {
+        "Value": "Código de razón",
+        "Name": "reasonCode"
+      },
+      {
+        "Value": "Razón",
+        "Name": "reasonCodeName"
+      },
+      {
+        "Value": "Método de pago",
+        "Name": "paymentMethod"
+      },
+      {
+        "Value": "Tipo de pago",
+        "Name": "paymentMethodName"
+      },
+      {
+        "Value": "tipo de tarjeta de crédito",
+        "Name": "creditCardType"
+      },
+      {
+        "Value": "Método de pago",
+        "Name": "creditCardTypeName"
+      },
+      {
+        "Value": "Número de cheque o tarjeta",
+        "Name": "checkOrCardNumber"
+      },
+      {
+        "Value": "ID de transacción de pago",
+        "Name": "paymentTxnId"
+      },
+      {
+        "Value": "Identificación de referencia",
+        "Name": "referenceId"
+      },
+      {
+        "Value": "Número de cuenta",
+        "Name": "accountnumber"
+      },
+      {
+        "Value": "ID de instalación de pago",
+        "Name": "paymentinstid"
+      },
+      {
+        "Value": "Tipo de pago",
+        "Name": "paymenttype"
+      },
+      {
+        "Value": "Estado",
+        "Name": "status"
+      },
+      {
+        "Value": "Fecha de pago",
+        "Name": "transactiondate"
+      }
+     ]}
+}
+
+
+
+
+
+
+
+
+
+

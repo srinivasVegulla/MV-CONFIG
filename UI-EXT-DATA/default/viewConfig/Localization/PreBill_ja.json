@@ -1,0 +1,140 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "セッションID",
+        "Name": "id_sess"
+      },
+      {
+        "Value": "通貨",
+        "Name": "currency"
+      },
+      {
+        "Value": "未調整金額",
+        "Name": "unadjustedamount"
+      },
+      {
+        "Value": "税金未調整金額",
+        "Name": "unadjustedamountwithtax"
+      },
+      {
+        "Value": "総連邦税",
+        "Name": "totalfederaltax"
+      },
+      {
+        "Value": "総州税",
+        "Name": "totalstatetax"
+      },
+      {
+        "Value": "総国税",
+        "Name": "totalcountytax"
+      },
+      {
+        "Value": "総地方税",
+        "Name": "totallocaltax"
+      },
+      {
+        "Value": "その他の税金",
+        "Name": "totalothertax"
+      },
+      {
+        "Value": "郵便配達税調整額",
+        "Name": "postbillfedtaxadjamt"
+      },
+      {
+        "Value": "郵便番号連邦税調整額",
+        "Name": "postbillstatetaxadjamt"
+      },
+      {
+        "Value": "ポストビル国別税額調整額",
+        "Name": "postbillcntytaxadjamt"
+      },
+      {
+        "Value": "郵便局地方税調整額",
+        "Name": "postbilllocaltaxadjamt"
+      },
+      {
+        "Value": "郵便その他の税調整額",
+        "Name": "postbillothertaxadjamt"
+      },
+      {
+        "Value": "プリビル連邦税調整額",
+        "Name": "prebillfedtaxadjamt"
+      },
+      {
+        "Value": "プレビル州税調整額",
+        "Name": "prebillstatetaxadjamt"
+      },
+      {
+        "Value": "事前ビルディングスタディジャム",
+        "Name": "prebillcntytaxadjamt"
+      },
+      {
+        "Value": "プリビル地方税調整額",
+        "Name": "prebilllocaltaxadjamt"
+      },
+      {
+        "Value": "プリベールその他税調整額",
+        "Name": "prebillothertaxadjamt"
+      },
+       {
+        "Value": "調整額",
+        "Name": "adjustmentamount"
+      },
+       {
+        "Value": "調整額",
+        "Name": "adjustedamount"
+      },
+      {
+        "Value": "税金調整額",
+        "Name": "adjustmentamountwithtax"
+      },
+      {
+        "Value": "税金調整額",
+        "Name": "adjustedamountwithtax"
+      },
+      {
+        "Value": "調整テンプレートの表示名",
+        "Name": "adjustmenttemplatedisplayname"
+      },
+      {
+        "Value": "調整済みの表示名",
+        "Name": "adjustmentinstancedisplayname"
+      },
+       {
+        "Value": "説明",
+        "Name": "description"
+      },
+       {
+        "Value": "理由コード",
+        "Name": "reasoncode"
+      },
+       {
+        "Value": "理由コード名",
+        "Name": "reasoncodename"
+      },
+       {
+        "Value": "理由コード説明",
+        "Name": "reasoncodedescription"
+      },
+       {
+        "Value": "理由コードの表示名",
+        "Name": "reasoncodedisplayname"
+      },
+       {
+        "Value": "使用間隔のID",
+        "Name": "id_usage_interval"
+      },
+       {
+        "Value": "アカウントID",
+        "Name": "id_acc"
+      },
+      {
+        "Value": "調整タイプ",
+        "Name": "n_adjustmenttype"
+      },
+      {
+        "Value": "セッションの日付",
+        "Name": "dt_session"
+      }
+    ]}
+}

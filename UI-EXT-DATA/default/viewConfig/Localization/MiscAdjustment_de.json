@@ -1,0 +1,124 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Art der Anpassung",
+        "Name": "adjtype"
+      },
+      {
+        "Value": "Dokument Identifikation",
+        "Name": "id_sess"
+      },
+      {
+        "Value": "Zeitstempel",
+        "Name": "dt_session"
+      },
+      {
+        "Value": "Verwendungsintervall",
+        "Name": "id_usage_interval"
+      },
+      {
+        "Value": "Datum der Anpassung",
+        "Name": "c_credittime"
+      },
+      {
+        "Value": "Status",
+        "Name": "c_status"
+      },
+      {
+        "Value": "Anfrage ID",
+        "Name": "c_requestid"
+      },
+      {
+        "Value": "Content Session Id",
+        "Name": "c_contentionsessionid"
+      },
+      {
+        "Value": "Email Benachrichtigung",
+        "Name": "c_emailnotification"
+      },
+      {
+        "Value": "E-Mail-Addresse",
+        "Name": "c_emailaddress"
+      },
+      {
+        "Value": "Email Text",
+        "Name": "c_emailtext"
+      },
+      {
+        "Value": "Emittentin",
+        "Name": "c_issuer"
+      },
+      {
+        "Value": "Grundcode",
+        "Name": "c_reason"
+      },
+      {
+        "Value": "Andere",
+        "Name": "c_other"
+      },
+      {
+        "Value": "Beschreibung",
+        "Name": "c_invoicecomment"
+      },
+      {
+        "Value": "Interner Kommentar",
+        "Name": "c_internalcomment"
+      },
+      {
+        "Value": "Anforderungsbetrag",
+        "Name": "c_requestamount"
+      },
+      {
+        "Value": "Kreditbetrag",
+        "Name": "c_creditamount"
+      },
+      {
+        "Value": "Leitfaden Interval Id",
+        "Name": "c_guideintervalid"
+      },
+      {
+        "Value": "Abonnenten-Konto-ID",
+        "Name": "c_subscriberaccountid"
+      },
+      {
+        "Value": "Ausgaberecht",
+        "Name": "c_issuecreditnote"
+      },
+      {
+        "Value": "Gutschrift-Vorlage-ID",
+        "Name": "c_creditnotetemplateid"
+      },
+      {
+        "Value": "Gutschrift Hinweis",
+        "Name": "c_creditnotecomment"
+      },
+      {
+        "Value": "Sonstiges Anpassungs-ID",
+        "Name": "c_miscadjustmentid"
+      },
+      {
+        "Value": "Bewertung Währung",
+        "Name": "c_ratingcurrency"
+      },
+      {
+        "Value": "Rechnungswährung",
+        "Name": "c_billingcurrency"
+      },
+      {
+        "Value": "Währung",
+        "Name": "currency"
+      },
+      {
+        "Value": "Menge",
+        "Name": "amount"
+      },
+      {
+        "Value": "Zeitstempel",
+        "Name": "timeestamp"
+      },
+      {
+        "Value": "Grund",
+        "Name": "reasoncode"
+      }
+    ]}
+}

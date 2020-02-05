@@ -1,0 +1,20 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "ファイル名",
+        "Name": "fileName"
+      },
+      {
+        "Value": "ファイル名",
+        "Name": "FileName"
+      },
+      {
+        "Value": "開始日",
+        "Name": "startdate"
+      },
+      {
+        "Value": "終了日",
+        "Name": "enddate"
+      }
+    ]}
+}

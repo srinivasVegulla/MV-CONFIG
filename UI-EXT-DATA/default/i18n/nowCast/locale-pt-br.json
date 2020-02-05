@@ -1,0 +1,5 @@
+{
+	"STORAGEDISCOUNT.Title": "Desconto de armazenamento",
+	"STORAGEDISCOUNT.Subtitle": "Desconto de compartimento único de armazenamento com alocação de volta",
+	"SMARTCONCIERGECHARGEDECISION.RangeTickFormat": "Eventos numéricos:{qualifiedTotal} Valor:{totalGeneratedAmount:c}"
+}

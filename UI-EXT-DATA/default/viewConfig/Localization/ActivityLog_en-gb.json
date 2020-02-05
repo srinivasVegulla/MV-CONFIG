@@ -1,0 +1,72 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Date",
+        "Name": "time"
+      },
+      {
+        "Value": "User Name",
+        "Name": "username"
+      },
+      {
+        "Value": "User Id",
+        "Name": "userid"
+      },
+      {
+        "Value": "Event Id",
+        "Name": "eventid"
+      },
+      {
+        "Value": "Event",
+        "Name": "eventname"
+      },
+      {
+        "Value": "Entity Name",
+        "Name": "entityname"
+      },
+      {
+        "Value": "Entity Id",
+        "Name": "entityid"
+      },
+      {
+        "Value": "Entity Type",
+        "Name": "entitytype"
+      },
+      {
+        "Value": "Details",
+        "Name": "details"
+      },
+      {
+        "Value": "Logged In",
+        "Name": "loggedinas"
+      },
+      {
+        "Value": "Audit ID",
+        "Name": "id_audit"
+      },
+      {
+        "Value": "Event Id",
+        "Name": "id_event"
+      },
+      {
+        "Value": "User Id",
+        "Name": "id_userid"
+      },
+      {
+        "Value": "Entity Type Id",
+        "Name": "id_entitytype"
+      },
+      {
+        "Value": "Entity Id",
+        "Name": "id_entity"
+      },
+      {
+        "Value": "Logged in as tx",
+        "Name": "tx_logged_in_as"
+      },
+      {
+        "Value": "Created Date",
+        "Name": "dt_crt"
+      }
+    ]}
+}

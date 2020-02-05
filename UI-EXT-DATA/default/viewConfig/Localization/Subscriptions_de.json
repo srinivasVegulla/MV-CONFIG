@@ -1,0 +1,80 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Abonnement-ID",
+        "Name": "subscriptionId"
+      },
+      {
+        "Value": "Produktangebot ID",
+        "Name": "productOfferingId"
+      },
+      {
+        "Value": "Status",
+        "Name": "status"
+      },
+      {
+        "Value": "Abonnementname",
+        "Name": "subscriptionName"
+      },
+      {
+        "Value": "Benutzer abbestellen",
+        "Name": "userUnsubscribe"
+      },
+      {
+        "Value": "Anfangsdatum",
+        "Name": "startDate"
+      },
+      {
+        "Value": "Anfangsdatum",
+        "Name": "startDateAsString"
+      },
+      {
+        "Value": "Enddatum",
+        "Name": "endDate"
+      },
+      {
+        "Value": "Enddatum",
+        "Name": "endDateAsString"
+      },
+      {
+        "Value": "Beschreibung",
+        "Name": "description"
+      },
+      {
+        "Value": "Erstellungsdatum",
+        "Name": "createDate"
+      },
+      {
+        "Value": "Konto-ID",
+        "Name": "accountId"
+      },
+      {
+        "Value": "Sprache",
+        "Name": "lang"
+      },
+      {
+        "Value": "Sprach-ID",
+        "Name": "languageId"
+      },
+      {
+        "Value": "Abgelaufen",
+        "Name": "expired"
+      },
+      {
+        "Value": "Zitat Batch ID",
+        "Name": "quoteBatchId"
+      },
+      {
+        "Value": "Charakteristische Werte",
+        "Name": "characteristicValues"
+      },
+      {
+        "Value": "Referenz ID",
+        "Name": "udrcValues"
+      },
+      {
+        "Value": "Ist Bundle",
+        "Name": "isBundle"
+      }
+    ]}
+}

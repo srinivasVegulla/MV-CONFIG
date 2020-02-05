@@ -1,0 +1,12 @@
+{
+  "FORGOTPASSWORD_INSTRUCTION_WRONG_USERNAME_EMAIL": ".שם משתמש שגוי או שלא נמצא דואר אלקטרוני התואם את שם המשתמש. נסה שוב או פנה לשירות לקוחות",
+  "FORGOTPASSWORD_INSTRUCTION_PROCESSING_ERROR": ".אירעה שגיאה בביצוע הבקשה. נסה שוב או פנה לשירות לקוחות",
+  "FORGOTPASSWORD_INSTRUCTION_SENDING_EMAIL_ERROR": ".אירעה שגיאה בשליחת דואר אלקטרוני",
+  "FORGOTPASSWORD_INSTRUCTION_USERNAME_TO_EMAIL_INSTRUCTION": ".הזן את שם המשתמש בכדי שיישלחו אליך, בדואר אלקטרוני, ההוראות לאתחול הסיסמה",
+  "FORGOTPASSWORD_INSTRUCTION_EMAIL_SENT_SUCCESSFULLY": ".נשלח אליך דואר אלקטרוני. אנא פעל לפי ההוראות בדוא\"ל בכדי לאתחל את הסיסמה שלך",
+  "FORGOTPASSWORD_INSTRUCTION_INPUT_SEND": "שלח",
+  "FORGOTPASSWORD_INSTRUCTION_BACKTO_LOGINFORM": "חזרה למסך כניסה",
+  "FORGOTPASSWORD_INSTRUCTION_INPUT_USERNAME": "שם משתמש",
+  "FORGOTPASSWORD_INSTRUCTION_VALIDATION_PATTERN_USERNAME": ".תווים לא חוקיים",
+  "FORGOTPASSWORD_INSTRUCTION_VALIDATION_REQUIRED_USERNAME": ".נדרש שם משתמש"
+}

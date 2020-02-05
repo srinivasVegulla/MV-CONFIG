@@ -1,0 +1,108 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Konto Typ",
+        "Name": "accountType"
+      },
+      {
+        "Value": "Adresse 1",
+        "Name": "address1"
+      },
+      {
+        "Value": "Adresse 2",
+        "Name": "address2"
+      },
+      {
+        "Value": "Auto bezahlen",
+        "Name": "autoPay"
+      },
+      {
+        "Value": "Bank Name",
+        "Name": "bankname"
+      },
+      {
+        "Value": "Stadt",
+        "Name": "city"
+      },
+      {
+        "Value": "Datum erstellt",
+        "Name": "dtCreated"
+      },
+      {
+        "Value": "Verfallsdatum",
+        "Name": "expDate"
+      },
+      {
+        "Value": "Verfalldatum Format",
+        "Name": "expDateFormat"
+      },
+      {
+        "Value": "Vorname",
+        "Name": "firstName"
+      },
+      {
+        "Value": "Konto-ID",
+        "Name": "idAcct"
+      },
+      {
+        "Value": "Länder-ID",
+        "Name": "idCountry"
+      },
+      {
+        "Value": "Kreditkartentyp",
+        "Name": "idCreditcardType"
+      },
+      {
+        "Value": "Priorität",
+        "Name": "idPriority"
+      },
+      {
+        "Value": "Familienname",
+        "Name": "lastName"
+      },
+      {
+        "Value": "Maximale Ladung pro Zyklus",
+        "Name": "maxChargePerCycle"
+      },
+      {
+        "Value": "Zweiter Vorname",
+        "Name": "middleName"
+      },
+      {
+        "Value": "Kreditkartentyp",
+        "Name": "nameCreditcardType"
+      },
+      {
+        "Value": "Zahlungsmethode Typ Id",
+        "Name": "paymentMethodTypeId"
+      },
+       {
+        "Value": "Zahlungsmethode Typ Name",
+        "Name": "paymentMethodTypeName"
+      },
+       {
+        "Value": "Routing-Nummer",
+        "Name": "routingnumber"
+      },
+      {
+        "Value": "Bundesland",
+        "Name": "state"
+      },
+      {
+        "Value": "Trunkierte Kontonummer",
+        "Name": "truncdAcctNum"
+      },
+      {
+        "Value": "Postleitzahl",
+        "Name": "zip"
+      },
+      {
+        "Value": "Zahlungs-ID-Instrument",
+        "Name": "idPaymentInstrument"
+      },
+       {
+        "Value": "Zahlung geplant",
+        "Name": "paymentScheduled"
+      }
+    ]}
+}

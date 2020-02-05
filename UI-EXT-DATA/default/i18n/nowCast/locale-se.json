@@ -1,0 +1,5 @@
+{
+  "STORAGEDISCOUNT.Title": "Lagringsrabatt",
+  "STORAGEDISCOUNT.Subtitle": "Storage Single Bucket Rabatt med Back Allocation",
+  "SMARTCONCIERGECHARGEDECISION.RangeTickFormat": "Antal händelser:{qualifiedTotal} Belopp:{totalGeneratedAmount:c}"
+}

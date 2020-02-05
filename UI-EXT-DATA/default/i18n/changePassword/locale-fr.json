@@ -1,0 +1,21 @@
+﻿{
+  "CHANGE_PASSWORD_TITLE": "Changer le mot de passe",
+	"CHANGE_PASSWORD_TEXT_CURRENT_PASSWORD": "Mot de passe actuel",
+	"CHANGE_PASSWORD_TEXT_NEW_PASSWORD": "Nouveau mot de passe",
+	"CHANGE_PASSWORD_TEXT_VERIFY_PASSWORD": "Vérifier le mot de passe",
+	"CHANGE_PASSWORD_STRENGTH_CONDITION1": "Il doit contenir de 7 à 1024 caractères.",
+	"CHANGE_PASSWORD_STRENGTH_CONDITION2": "Il doit contenir au moins une lettre minuscule, une lettre majuscule et un chiffre.",
+	"CHANGE_PASSWORD_STRENGTH_CONDITION3": "Les caractères spéciaux sont facultatifs.",
+	"CHANGE_PASSWORD_REQUIRED_ERROR_MSG": "Le mot de passe obligatoire.",
+	"CHANGE_PASSWORD_VERIFY_PASSWORD_REQUIRED_ERROR_MSG": "La vérification du mot de passe est obligatoire.",
+	"CHANGE_PASSWORD_INCORRECT_PATTERN": "Le mot de passe ne respecte pas les exigences de sécurité.",
+	"CHANGE_PASSWORD_VERIFY_PASSWORD": "Les mots de passe ne correspondent pas.",
+	"CHANGE_PASSWORD_INVALID_OLD_PASSWORD": "Ancien mot de passe incorrect.",
+	"CHANGE_PASSWORD_INVALID_NEW_PASSWORD": "Le nouveau mot de passe ne respecte pas les exigences de sécurité.",
+	"CHANGE_PASSWORD_ACCOUNT_LOCKED": "Votre compte a été bloqué pour des raisons de sécurité. Veuillez contacter le support pour résoudre le problème.",
+	"CHANGE_PASSWORD_STRENGTH": "Le mot de passe n'est pas assez fort.",
+	"CHANGE_PASSWORD_USED_BEFORE": "Le mot de passe a déjà été utilisé.",
+	"CHANGE_PASSWORD_FAILED_UPDATE": "Échec du changement de mot de passe. Veuillez contacter le service client.",
+	"CHANGE_PASSWORD_TEXT_REQUIRED_FIELD": "Champ obligatoire",
+	"CHANGE_CURRENT_PASSWORD_REQUIRED_ERROR_MSG": "Le mot de passe actuel est obligatoire."
+}

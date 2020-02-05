@@ -1,0 +1,80 @@
+{"columns" : {
+    "fields": [
+      {
+        "displayName": "サブスクリプションID",
+        "key": "subscriptionId"
+      },
+      {
+        "displayName": "製品提供ID",
+        "key": "productOfferingId"
+      },
+      {
+        "displayName": "状態",
+        "key": "status"
+      },
+      {
+        "Value": "サブスクリプション名",
+        "Name": "subscriptionName"
+      },
+      {
+        "Value": "ユーザー退会",
+        "Name": "userUnsubscribe"
+      },
+      {
+        "Value": "開始日",
+        "Name": "startDate"
+      },
+      {
+        "Value": "開始日",
+        "Name": "startDateAsString"
+      },
+      {
+        "Value": "終了日",
+        "Name": "endDate"
+      },
+      {
+        "Value": "終了日",
+        "Name": "endDateAsString"
+      },
+      {
+        "Value": "説明",
+        "Name": "description"
+      },
+      {
+        "Value": "作成日",
+        "Name": "createDate"
+      },
+      {
+        "Value": "アカウントID",
+        "Name": "accountId"
+      },
+      {
+        "Value": "言語",
+        "Name": "lang"
+      },
+      {
+        "Value": "言語ID",
+        "Name": "languageId"
+      },
+      {
+        "Value": "期限切れ",
+        "Name": "expired"
+      },
+      {
+        "Value": "バッチIDを引用",
+        "Name": "quoteBatchId"
+      },
+      {
+        "Value": "特性値",
+        "Name": "characteristicValues"
+      },
+      {
+        "Value": "参照ID",
+        "Name": "udrcValues"
+      },
+      {
+        "Value": "バンドルです",
+        "Name": "isBundle"
+      }
+    ]}
+}

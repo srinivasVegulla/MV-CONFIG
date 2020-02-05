@@ -1,0 +1,140 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Session-ID",
+        "Name": "id_sess"
+      },
+      {
+        "Value": "Währung",
+        "Name": "currency"
+      },
+      {
+        "Value": "Unbereinigter Betrag",
+        "Name": "unadjustedamount"
+      },
+      {
+        "Value": "Unbereinigter Betrag mit Steuern",
+        "Name": "unadjustedamountwithtax"
+      },
+      {
+        "Value": "Summe Bundessteuer",
+        "Name": "totalfederaltax"
+      },
+      {
+        "Value": "Körperschaftssteuer",
+        "Name": "totalstatetax"
+      },
+      {
+        "Value": "Summe Landessteuer",
+        "Name": "totalcountytax"
+      },
+      {
+        "Value": "Gesamtsumme",
+        "Name": "totallocaltax"
+      },
+      {
+        "Value": "Summe Sonstige Steuern",
+        "Name": "totalothertax"
+      },
+      {
+        "Value": "Postbill Fed Steueranpassung Betrag",
+        "Name": "postbillfedtaxadjamt"
+      },
+      {
+        "Value": "Postbill Federal Tax Anpassung Betrag",
+        "Name": "postbillstatetaxadjamt"
+      },
+      {
+        "Value": "Postbill Landsteuer Anpassung Betrag",
+        "Name": "postbillcntytaxadjamt"
+      },
+      {
+        "Value": "Postbill Lokale Steuer Anpassung Betrag",
+        "Name": "postbilllocaltaxadjamt"
+      },
+      {
+        "Value": "Postbill Andere Steuer Anpassung Betrag",
+        "Name": "postbillothertaxadjamt"
+      },
+      {
+        "Value": "Prebill Federal Tax Adjust Betrag",
+        "Name": "prebillfedtaxadjamt"
+      },
+      {
+        "Value": "Prebill State Tax Anpassung Betrag",
+        "Name": "prebillstatetaxadjamt"
+      },
+      {
+        "Value": "Prebillcntytaxadjamt",
+        "Name": "prebillcntytaxadjamt"
+      },
+      {
+        "Value": "Prebill Local Tax Adjust Betrag",
+        "Name": "prebilllocaltaxadjamt"
+      },
+      {
+        "Value": "Prebill Andere Steuer Anpassung Betrag",
+        "Name": "prebillothertaxadjamt"
+      },
+       {
+        "Value": "Anpassungsbetrag",
+        "Name": "adjustmentamount"
+      },
+       {
+        "Value": "Angepasster Betrag",
+        "Name": "adjustedamount"
+      },
+      {
+        "Value": "Anpassungsbetrag mit Steuern",
+        "Name": "adjustmentamountwithtax"
+      },
+      {
+        "Value": "Bereinigter Betrag mit Steuern",
+        "Name": "adjustedamountwithtax"
+      },
+      {
+        "Value": "Anpassungsvorlage Anzeigename",
+        "Name": "adjustmenttemplatedisplayname"
+      },
+      {
+        "Value": "Anpassung Instanzierter Anzeigename",
+        "Name": "adjustmentinstancedisplayname"
+      },
+       {
+        "Value": "Beschreibung",
+        "Name": "description"
+      },
+       {
+        "Value": "Grundcode",
+        "Name": "reasoncode"
+      },
+       {
+        "Value": "Grund Code Name",
+        "Name": "reasoncodename"
+      },
+       {
+        "Value": "Ursache Code Beschreibung",
+        "Name": "reasoncodedescription"
+      },
+       {
+        "Value": "Ursachencode Anzeigename",
+        "Name": "reasoncodedisplayname"
+      },
+       {
+        "Value": "Verwendungsintervall-ID",
+        "Name": "id_usage_interval"
+      },
+       {
+        "Value": "Konto-ID",
+        "Name": "id_acc"
+      },
+      {
+        "Value": "Einstellungsart",
+        "Name": "n_adjustmenttype"
+      },
+      {
+        "Value": "Sitzungsdatum",
+        "Name": "dt_session"
+      }
+    ]}
+}

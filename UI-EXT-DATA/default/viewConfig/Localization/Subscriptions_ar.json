@@ -1,0 +1,80 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "معرف الإشتراك",
+        "Name": "subscriptionId"
+      },
+      {
+        "Value": "رقم تعريف المنتج",
+        "Name": "productOfferingId"
+      },
+      {
+        "Value": "الحالة",
+        "Name": "status"
+      },
+      {
+        "Value": "اسم الاشتراك",
+        "Name": "subscriptionName"
+      },
+      {
+        "Value": "إلغاء اشتراك المستخدم",
+        "Name": "userUnsubscribe"
+      },
+      {
+        "Value": "تاريخ البدء",
+        "Name": "startDate"
+      },
+      {
+        "Value": "تاريخ البدء",
+        "Name": "startDateAsString"
+      },
+      {
+        "Value": "تاريخ الانتهاء",
+        "Name": "endDate"
+      },
+      {
+        "Value": "تاريخ الانتهاء",
+        "Name": "endDateAsString"
+      },
+      {
+        "Value": "وصف",
+        "Name": "description"
+      },
+      {
+        "Value": "تاريخ الإنشاء",
+        "Name": "createDate"
+      },
+      {
+        "Value": "رقم الحساب",
+        "Name": "accountId"
+      },
+      {
+        "Value": "لغة",
+        "Name": "lang"
+      },
+      {
+        "Value": "معرف اللغة",
+        "Name": "languageId"
+      },
+      {
+        "Value": "منتهية الصلاحية",
+        "Name": "expired"
+      },
+      {
+        "Value": "اقتباس دفعة معرف",
+        "Name": "quoteBatchId"
+      },
+      {
+        "Value": "القيم المميزة",
+        "Name": "characteristicValues"
+      },
+      {
+        "Value": "الرقم المرجعي",
+        "Name": "udrcValues"
+      },
+      {
+        "Value": "هو حزمة",
+        "Name": "isBundle"
+      }
+    ]}
+}

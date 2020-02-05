@@ -1,0 +1,31 @@
+{"columns" : {
+    "fields": [
+      {
+        "Key": "fileName",
+        "DisplayName": "File Name",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false   
+      },
+       {
+        "Key": "startdate",
+        "DisplayName": "Start Date",
+        "IsColumn": true,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false  
+      },
+      {
+        "Key": "enddate",
+        "DisplayName": "End Date",
+        "IsColumn": true,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false  
+      }
+    ]}
+}

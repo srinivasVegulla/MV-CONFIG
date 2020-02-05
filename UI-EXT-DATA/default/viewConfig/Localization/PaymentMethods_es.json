@@ -1,0 +1,109 @@
+{
+  "columns": {
+    "fields": [{
+        "Value": "Tipo de cuenta",
+        "Name": "accountType"
+      },
+      {
+        "Value": "Dirección 1",
+        "Name": "address1"
+      },
+      {
+        "Value": "Dirección 2",
+        "Name": "address2"
+      },
+      {
+        "Value": "Pago automático",
+        "Name": "autoPay"
+      },
+      {
+        "Value": "Nombre del banco",
+        "Name": "bankname"
+      },
+      {
+        "Value": "Ciudad",
+        "Name": "city"
+      },
+      {
+        "Value": "fecha de creacion",
+        "Name": "dtCreated"
+      },
+      {
+        "Value": "Fecha de caducidad",
+        "Name": "expDate"
+      },
+      {
+        "Value": "Formato de fecha de caducidad",
+        "Name": "expDateFormat"
+      },
+      {
+        "Value": "Nombre de pila",
+        "Name": "firstName"
+      },
+      {
+        "Value": "ID de la cuenta",
+        "Name": "idAcct"
+      },
+      {
+        "Value": "Id del país",
+        "Name": "idCountry"
+      },
+      {
+        "Value": "Tipo de tarjeta de crédito",
+        "Name": "idCreditcardType"
+      },
+      {
+        "Value": "Prioridad",
+        "Name": "idPriority"
+      },
+      {
+        "Value": "Apellido",
+        "Name": "lastName"
+      },
+      {
+        "Value": "Carga máxima por ciclo",
+        "Name": "maxChargePerCycle"
+      },
+      {
+        "Value": "Segundo nombre",
+        "Name": "middleName"
+      },
+      {
+        "Value": "tipo de tarjeta de crédito",
+        "Name": "nameCreditcardType"
+      },
+      {
+        "Value": "ID de tipo de método de pago",
+        "Name": "paymentMethodTypeId"
+      },
+      {
+        "Value": "Tipo de método de pago Nombre",
+        "Name": "paymentMethodTypeName"
+      },
+      {
+        "Value": "Número de ruta",
+        "Name": "routingnumber"
+      },
+      {
+        "Value": "estado",
+        "Name": "state"
+      },
+      {
+        "Value": "Número de cuenta truncado",
+        "Name": "truncdAcctNum"
+      },
+      {
+        "Value": "Cremallera",
+        "Name": "zip"
+      },
+      {
+        "Value": "Instrumento de identificación de pago",
+        "Name": "idPaymentInstrument"
+      },
+      {
+        "Value": "Pago programado",
+        "Name": "paymentScheduled"
+      }
+    ]
+  }
+}

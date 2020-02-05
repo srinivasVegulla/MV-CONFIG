@@ -1,0 +1,72 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Encontro",
+        "Name": "time"
+      },
+      {
+        "Value": "Nome de usuário",
+        "Name": "username"
+      },
+      {
+        "Value": "ID do usuário",
+        "Name": "userid"
+      },
+      {
+        "Value": "ID do evento",
+        "Name": "eventid"
+      },
+      {
+        "Value": "Evento",
+        "Name": "eventname"
+      },
+      {
+        "Value": "Nome da Entidade",
+        "Name": "entityname"
+      },
+      {
+        "Value": "Entity Id",
+        "Name": "entityid"
+      },
+      {
+        "Value": "Tipo de Entidade",
+        "Name": "entitytype"
+      },
+      {
+        "Value": "Detalhes",
+        "Name": "details"
+      },
+      {
+        "Value": "Logged In",
+        "Name": "loggedinas"
+      },
+      {
+        "Value": "ID de auditoria",
+        "Name": "id_audit"
+      },
+      {
+        "Value": "ID do evento",
+        "Name": "id_event"
+      },
+      {
+        "Value": "ID do usuário",
+        "Name": "id_userid"
+      },
+      {
+        "Value": "Id. De Tipo de Entidade",
+        "Name": "id_entitytype"
+      },
+      {
+        "Value": "Entity Id",
+        "Name": "id_entity"
+      },
+      {
+        "Value": "Conectado como tx",
+        "Name": "tx_logged_in_as"
+      },
+      {
+        "Value": "Data criada",
+        "Name": "dt_crt"
+      }
+    ]}
+}

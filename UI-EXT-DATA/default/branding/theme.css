@@ -1,0 +1,1014 @@
+/*Theme.css is used to override the base themes for ECB Customer View (aka MetraView V2).*/
+/*This is the overrides for the Ericsson Branding*/
+/*There 3 sections of branding: 1) Login pages, 2) dashboard, and 3) overlays*/
+
+/* Favicon and Application name defined in *** theme.properties.json *** file  */
+
+.ecb-mainContainerAlignment.container-fluid {
+	padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 0;
+    margin-right: 0;
+	width: 100%
+	
+}
+.ecb-mainContainerAlignment {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		overflow-y: auto;
+	}
+.ecb-shellContainerAlignment {
+	margin-top: 0;
+}
+
+@media (max-width: 991px) {
+	.container, .container-fluid {
+		width: 100vw!important;
+	}
+}
+
+@media (max-width: 767px) {
+	.ecb-horizontalBarFix {
+		margin-left: inherit;
+		overflow-x: hidden;
+	}
+}
+
+
+/* ***Apply Branding for Login page*** */
+.security-login-view {
+	background-color: #0c0c0c; /*aaS1: just the background for the login form part of the page */
+	width: 100%;  /*aaS1: fixing layout bug */
+	margin-left: -15px; /*aaS1: fixing layout bug */
+	margin-right: -15px; /*aaS1: fixing layout bug */
+}
+
+
+
+/*The image on the right hand side can be changed. Put it in the folder and point to it here.*/
+.security-login-view .login-background {
+  background-color: #000; /*image covers this background color; shows with no image*/
+  background-image: url("/static/default/branding/login-bg01.jpg"); /*image location (make sure matches path) and name*/
+  background-position: right bottom; /*position image to show during resizing*/
+  background-attachment: fixed;
+}
+
+.sign-up-view {
+  background-image: url("/static/default/branding/login-bg01.jpg");/*image location (make sure matches path) and name (can be different from login page)*/
+}
+
+/*The logo on the login page can be changed. Put it in the folder and point to it here.*/
+.security-login-view .login-content .login-logo {
+  background-image: url(/static/default/branding/ericsson_econ.svg);/*image location (make sure matches path) and name of logo*/  /*aaS1: light logo */
+  background-repeat: no-repeat;
+  background-size: contain;/*forces the image to resize to the dimensions below, proportionally*/
+  height:60px;/*set the height and width to ensure the image renders correctly*/ /*aaS1: light logo */
+  width: 60px; /*aaS1: light logo */
+}
+
+/*The application title style can be changed here.*/
+/*Ericssons logo is a rainbow font color. It is rendered by clipping the font out of the background*/
+.security-login-view .login-content .login-title {
+  color: #f2f2f2; /*This is the fall back font color for non webkit browsers.*/ /*aaS1:#f2f2f2 */
+  background: none;/*This the font color for webkit.*/ /*aaS1:#f2f2f2 */
+  font-family: "Ericsson Hilda", "Source Han Sans", Arial, "Helvetica Neue", Helvetica,sans-serif; /*Put desired font cascade here.*/ /*aaS1: removed EricssonCapitalTT, added Ericsson Hilda, "Source Han Sans" */
+  font-size: 28px;
+  font-weight: 400; /*aaS1:400 */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: inherit;
+  text-transform: capitalize;
+}
+
+/*Change the login username and password inputs.*/
+.input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn, .input-lg {
+  width: 100%; /*forces width on phone to be 100%.*/
+  background-color: #0c0c0c; /*aaS1: login input background same as login page*/
+  color: #f2f2f2; /*This is the fall back font color for non webkit browsers.*/ /*aaS1:#f2f2f2 */
+  border: 1px solid #4e4e4e; /*aaS1:darker borders */
+}
+
+/*Change the login button style here.*/
+/*login button style: Normal.*/
+.security-login-view .login-content .btn-primary {
+  color: #fff;
+  font-family: "Ericsson Hilda", "Source Han Sans", Arial, "Helvetica Neue", Helvetica,sans-serif; /*aaS1: made same as security-login-view */
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: none;
+  border-style: none;
+  background-color: #0082F0; /*aaS1:#0082F0 */
+}
+
+/*login button style: Disabled. It is disabled before the values are entered.*/
+.security-login-view .login-content .btn:disabled {
+  background-color: #0082F0; /*aaS1:#0082F0 */
+}
+
+/*login button style: Hover.*/
+.security-login-view .login-content .btn-primary:hover {
+  background-color: #3ea6ff; /*aaS1:hover: #3ea6ff; */
+}
+
+/*Change the sign up link style here.*/
+/*signup link style: Normal.*/
+.security-login-view .login-content .btn-link {
+  color: #0082F0; /*aaS1:#0082F0 */
+  background-color: #0c0c0c !important; /*aaS1: #0c0c0c !important (important is used in the app css - this needs it to override) */
+  font-family: "Ericsson Hilda", "Source Han Sans", Arial, "Helvetica Neue", Helvetica,sans-serif; /*aaS1: made same as security-login-view */
+  font-size: medium;
+  font-weight: normal;
+}
+
+/*signup link style: Disabled.*/
+.security-login-view .login-content .btn-link:disabled {
+  color: #b0b0af;
+}
+
+/*signup link style: Hover.*/
+.security-login-view .login-content .btn-link:hover {
+  color: #3ea6ff; /*aaS1:hover: #3ea6ff; */
+}
+
+/*Change the copyright text style here.*/
+.security-login-view .login-content .login-copyright {
+  color: #f2f2f2;  /*aaS1:#f2f2f2 */
+  opacity: .4;     /*aaS1:darken 40% */
+}
+
+/* ***Apply Branding for dashboard page*** */
+/*Change the page backgroung color here. This also applies to the login pages*/
+body {
+  background-color: #e0e0e0; /*aaS1: Login and inside pages are different*/
+  font-family: "Ericsson Hilda", "Source Han Sans", Arial, "Helvetica Neue", Helvetica,sans-serif; /*aaS1: made same as security-login-view */
+}
+
+/*The system bar is the top header bar on the dashboard with the logo and application name.*/
+/*Above the bar there is a thin line.*/
+.systemBar {
+  background: -webkit-linear-gradient(left, #0c0c0c 0%, #0c0c0c 25%, #0c0c0c 50%, #0c0c0c 75%, #0c0c0c 100%);
+  background: -o-linear-gradient(left, #0c0c0c 0%, #0c0c0c 25%, #0c0c0c 50%, #0c0c0c 75%, #0c0c0c 100%);
+  background: linear-gradient(to right, #0c0c0c 0%, #0c0c0c 25%, #0c0c0c 50%, #0c0c0c 75%, #0c0c0c 100%);
+}
+
+/*Below the thin line is the rest of the bar.*/
+.ebSystemBar {
+  background-image: none; /*aaS1:#0c0c0c remove gradient*/
+  background-color: #0c0c0c;  /*aaS1:#0c0c0c*/
+}
+
+.systemBar .ebSystemBar {
+	background-image: none;  /*aaS1:added to remove the gradient image*/
+}
+
+/*Change the systemBar logo.*/
+.systemBar .ebSystemBarLogo .company-logo {
+  background-image: url("/static/default/branding/ericsson_econ.svg"); /*image location (make sure matches path) and name of logo*/  /*aaS1: light logo */
+  background-size: contain;
+}
+
+/*Change the systemBar text.*/
+.ebSystemBar>ul h3,
+.systemBar .ebSystemBar-logo h3 {
+  color: #f2f2f2;  /*aaS1:#f2f2f2 */
+}
+
+/*Change the application name styles.*/
+.systemBar .ebSystemBarTitle .company-title,
+.ecb-selectedNavLink,
+.ecb-navigationHamIcon {
+	color: #f2f2f2;  /*aaS1:#f2f2f2 */
+}
+
+.ecb-userAccountIcon .caret,
+.systemBar-item .caret {
+	color: #f2f2f2; /*aaS1:#f2f2f2 */
+	opacity: .8;
+}
+
+/*Change the system bar secondary text.*/
+.center-block>li>span.ebText {
+  color: #f2f2f2;  /*aaS1:#f2f2f2 */
+}
+
+/*systemBar optimizing across all display sizes and devices.*/
+.ebSystemBarCenterBlock>li>span.ebText{
+  font-size: .95rem;
+  max-width: 58%;
+  text-overflow: inherit;
+}
+
+/*Change the systemBar link here.*/
+/*systemBar link style: Normal.*/
+.ebText.systemBar-item {
+	color: #f2f2f2; /*aaS1:#f2f2f2 */
+	opacity: .8;
+}
+
+/*systemBar link style: Hover.*/
+.ebText.systemBar-item:hover {
+  color: #f2f2f2; /*aaS1:hover: #3ea6ff; */
+  opacity: 1;
+}
+
+/*systemBar icons*/
+.ebIcon_filter {
+    background-image: url("/static/default/branding/filter0082F0.svg"); /*aaS1: made blue icon - new url */
+}
+.systemBar-item .ebIcon_filter {
+    background-image: url("/static/default/branding/filterf2f2f2.svg"); /*aaS1: made grey icon - new url */
+}
+
+.ebIcon_user {
+    background-image: url("/static/default/branding/avatarf2f2f2.svg"); /*aaS1: made grey icon - new url */
+}
+
+.ebIcon_logout {
+    background-image: url("/static/default/branding/logoutf2f2f2.svg"); /*aaS1: made grey icon - new url */
+}
+
+.dropdown-menu.system-bar-dropdown {
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.v-separator {
+	border-right: 1px solid #767676; /*aaS1:#767676 */
+}
+
+/*General page content styles.*/
+
+/*Page layout*/
+.cardContainer {
+    margin-left: -15px; /*aaS1:moving the contents to the left and right to align with the header */
+    margin-right: -15px;/*aaS1:moving the contents to the left and right to align with the header */
+}
+
+/*General text color.*/
+.ebText, h3, h4 {
+  color: #242424; /*aaS1: #242424*/
+}
+
+/* label color */  /*aaS1: added whole section*/
+.ecb-labelText,
+.ecb-disabledButton.ebBtn:disabled {
+    color: #767676!important; /*aaS1:#767676 */
+}
+.widget>.content.account-information address label,
+.widget>.content .table.table-noborder>tbody>tr>td:first-child {
+  color: #767676; /*aaS1:#767676 */
+}
+
+/* menu droplists */
+.ebComponentList-group, .ebComponentList-item,
+.dropdown-menu,
+.ebComponentList {
+    background-color: #fafafa;
+}
+
+
+/* chart label color */ 
+text.xAxisLabel, text.yAxisLabel {
+    fill: #767676; /*aaS1:#767676 */
+}
+
+/*segment control */
+.ecbBtn {   /*BUG: naming hijacks the ebBtn - how is someone to know the difference */
+	color: #0082F0; /*aaS1:#0082F0 */
+	background-color: #f2f2f2;  /*aaS1:#f2f2f2 */
+}
+.ecbBtn:hover {
+	background-color: #0082F0; /*aaS1:#0082F0 */
+}
+
+
+/*Change the context bar (aka: ebHorizontalBar) background color here.*/
+.ebHorizontalBar {
+  background-color: #e0e0e0; /*aaS1:#e0e0e0 */
+}
+
+.ebBtn:hover.dropdown-toggle , .ebBtn:active.dropdown-toggle , .ebBtn_active.dropdown-toggle , .ebBtn_active:hover.dropdown-toggle  { /*bug: same control new name */
+    text-decoration: none;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.2);
+    background-image: linear-gradient(180deg,transparent 0,transparent 100%);
+    color: #242424;
+}
+
+/*This section is focused on the UI components (aka widgets) and displays of data.*/
+
+/*Change the droplist text color in the edit Account Info and Make Payment overlays.*/
+.selectDropdown {
+  color: #242424; /*aaS1: #242424*/
+}
+
+/*Specify min and max height to determine spacing between rows of UI components. */
+.widget {
+  min-height: 100%;
+  /*max-height: 290px;*/
+  overflow: hidden;
+}
+
+/*Change the UI component background color here.*/
+.widget > .header {
+  background-color: #f2f2f2;  /*aaS1:#f2f2f2 */
+  border-bottom-color: #f2f2f2;  /*aaS1:#f2f2f2 */
+  margin: 0 auto 0; /*aaS1: to show the line it was 0 auto 1px --> changed to remove line */
+}
+
+/*Change the UI component header text color here.*/
+.widget > .header,
+.widget > .header h2 {
+  color: #242424 !important; /*aaS1: #242424*/
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/*UI Component Header/Body link: Normal.*/
+a,
+.ebColor_textLinkBlue, /*aaS1: added link color*/ /*using the color name as the class is a BUG*/
+.widget>.header .ebBtn {
+  color: #0082F0; /*aaS1:#0082F0 */
+  font-size: 1.2rem;
+}
+
+/*UI Component Header link: Hover.*/
+a:hover,
+.ebColor_textLinkBlue:hover, /*aaS1: added link color*/ /*using the color name as the class is a BUG*/
+.widget>.header .ebBtn:hover,
+.widget>.footer .ebBtn:hover,
+.ebBtn.btn-link:hover {
+  color: #3ea6ff; /*aaS1:hover: #3ea6ff; */
+}
+
+/*UI Component body background: Normal.*/
+.widget > .content {
+  background-color: #f2f2f2 !important;  /*aaS1:#f2f2f2 */
+  padding-left: 17px; /*aaS1:added to fix padding */
+  padding-right: 17px; /*aaS1:added to fix padding */
+ 
+}
+
+
+/*UI component background color for the widgets with total boxes.*/
+.widget > .content .pay-adj-table {
+  background-color: #f2f2f2 !important;  /*aaS1:#f2f2f2 */
+}
+
+/*UI Component body text: Normal.*/
+.widget,
+.widget .content .ebText,
+.widget .content .ebTable,
+.widget .content .ebLabel {
+  color: #242424; /*aaS1: #242424*/
+}
+
+/*Total Box background.*/
+.widget>.content.payments .amount-tile {
+  background-color: #E0E0E0 !important;  /*aaS1:#E0E0E0 */
+}
+
+/*Total box text: Normal.*/
+.widget .amount-tile .ebText {
+  color: #242424 !important;  /*aaS1: #242424*/
+}
+
+/*Amount Due UI Component sizing. Needed so that amount due does not get cut off.*/
+.widget>.content.total-amount-due {
+  padding-bottom: 10px;
+}
+
+.ecb-amountDueLiveWidget,
+.ecb-chargesLiveWidget {
+	border-radius: 0; /*aaS1:remove border radius */
+}
+
+/*New Charges Dashboard.*/
+/*Link.*/
+.ecb-linkToBills .ebBtn.btn-link:hover { 
+	text-decoration: underline; /*aaS1: fixed hover*/
+	color: #fff; /*aaS1: fixed hover*/
+}
+
+
+/*Now Cast.*/
+ecb-now-cast .widget {
+	background-color: #f2f2f2;/*aaS1:#f2f2f2 */
+	/*height: 430px; aaS1: to force height */
+	width: 100% !important; /*BUG: style is on the element so requires forced override*/
+}
+/*Billing Activity*/
+ecb-billing-activity .widget {
+	/*height: 430px; aaS1: to force height */
+}
+
+/*Account Information - see .widget > .content*/
+.account-information {
+/*	height: 390px; aaS1: to force height */
+}
+/*Quotes & Transactions - ecb-since-last-bill*/
+ecb-since-last-bill .widget {
+	 /*height: 430px;aaS1: to force height */
+}
+
+/*Payment Methods*/
+.ecb-paymentMethodsExpandMain {
+	 /*height: 430px;aaS1: to force height */
+}
+
+/*Primary indicator text color on Payment Methods.*/
+.ebInput-statusOk {
+  color: #36B07F !important; /*aaS1:#36B07F */
+}
+
+/*My Subscriptions*/
+.ecb-subscriptionsExpandMain.card-collapsed {
+	/*height: 430px; aaS1: to force height */
+	margin-top: 0; /*aaS1: to force margin top */
+}
+
+.ecb-subscriptionName {
+  color: #242424; /*aaS1:#242424 */
+}
+
+.ecb-subscriptionEffectiveDates {  
+  color:#767676; /*aaS1:this is the label #767676 */
+}
+
+.ecb-subscriptionDates {  
+  color:#242424; /*aaS1:this is the date */
+}
+
+.ecb-subscriptionCancel { 
+  background-color: #ebebeb; /*aaS1: even row color in table */
+}
+
+.ecb-subscriptionCard {
+    background-color: #f2f2f2;  /*aaS1:#f2f2f2 */
+
+}
+
+.ecb-subscriptionImages {
+    background-color: transparent; /*aaS1: remove crazy teal contrast */
+}
+
+.ecb-subscriptionsExpandMain {
+  background-color: #f2f2f2;  /*aaS1:#f2f2f2 */
+  margin-top: 6px;
+}
+
+.ecb-subscriptionsExpandMain .footer {
+      margin-top: -6px; /*Bug: View All is not in a panel footer so it does not layout correctly */
+	  padding-right: 8px; /*Bug: View All is not in a panel footer so it does not layout correctly */
+}
+
+/*Activity log*/
+.ecb-activityLogDetail {
+	/*height: 430px; aaS1: to force height */
+}
+
+.success-ecbActivityBox {
+    border: 1px solid #36B07F; /*aaS1:#36B07F */
+    background: #f2f2f2; /*aaS1:#f2f2f2 */
+}
+
+.success-ecbActivityBox p {
+    color: #36B07F; /*aaS1:#36B07F */
+}
+
+/*Amount Due*/
+.ecb-paymentCreditsExpandMain {
+	height: 100%; /*aaS1: */
+}
+
+/*New Charges - hover over links*/
+.ecb-dialogBoxBillAdjustment {
+	background-color: #f2f2f2 !important;/*aaS1:#f2f2f2 */
+}
+
+/*Charges Summary*/
+.ecb-offerChargeCardExpanded.card-collapsed {
+	/*height: 430px; aaS1: to force height */
+	background-color: #f2f2f2 ; /*aaS1:#f2f2f2 */
+}
+
+/*Downloads*/
+ecb-invoice .ecb-invoiceExpandMain {
+	/*height: 430px; aaS1: to force height */
+	background-color: #f2f2f2; /*aaS1:#f2f2f2 */
+}
+
+
+/*UI Component footer background: Normal.*/
+.widget .footer {
+  background-color: #f2f2f2 !important; /*aaS1:#f2f2f2 */
+}
+
+/*widget content.*/
+.widget>.content.widget-content-list {
+  height: 100%; /*aaS1:trying to get everything the same height */
+}
+
+/*sets visual affordance: click-target color for Payment Methods and My Subscriptions.*/
+.content-table-wrapper .table.table-noborder.table-noborder>tbody>tr>td:first-child {
+  color: inherit; /*#0066b3 !important;*/
+}
+
+/*Line separator between cards for Payment Methods and My Subscriptions.*/
+.widget>.content.widget-content-list>.list-content {
+  border-bottom: 1px solid #adadad;
+}
+
+/*sets the delay on hover for Payment Methods and My Subscriptions.*/
+.widget>.content.widget-content-list>.list-content .hover-content {
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  -ms-opacity: 0;
+  -o-opacity: 0;
+  opacity: 0;
+  -webkit-transition: opacity .3s;
+  -moz-transition: opacity .3s;
+  -ms-transition: opacity .3s;
+  -o-transition: opacity .3s;
+  transition: opacity .3s;
+  -webkit-transition-delay: .3s;
+  -moz-transition-delay: .3s;
+  -ms-transition-delay: .3s;
+  -o-transition-delay: .3s;
+  transition-delay: .3s;
+}
+
+/*UI component background color: Hover. (Payment methods and My Subscriptions)*/
+.widget > .content .hover-content > .content-area {
+  background-color: rgba(13, 91, 164, 0.9);
+}
+
+/*UI component text: Hover.*/
+.widget > .content .hover-content > .content-area .ebText {
+  color: #fff !important;
+}
+
+/*Charge details table.*/
+/*Charge details table header border.*/
+table.miller-table>thead>tr {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+/*Charge details table body: Normal.*/
+.widget > .content .table.miller-table > tbody,
+.widget > .content .table.miller-table > tbody th,
+.widget > .content .table.miller-table > tbody tr,
+.widget > .content .invoiceBox.top {
+  background-color: inherit;
+  color: inherit;
+}
+
+.widget > .content .table.miller-table > tbody :hover,
+.widget > .content .table.miller-table > tbody th :hover,
+.widget > .content .table.miller-table > tbody tr :hover,
+.widget > .content .invoiceBox.top :hover {
+  color: #3ea6ff;
+}
+
+/*Change table header row.*/
+.widget>.content .table.table-noborder.miller-table>thead>tr {
+	background-color: #f2f2f2;/*aaS1:#f2f2f2 */
+  	border-bottom: 1px solid #b0b0b0; /*aaS1: */
+    font-weight: 500; /*aaS1: */
+}
+
+/*Change table <Back navigation row. */
+.widget>.content .table.table-noborder.miller-table .child-header {
+    background-color: #e0e0e0!important; /*aaS1: */
+}
+
+/*Change table body row. Hover*/
+.ebTable.ebTable:not(.ebTable_hoverActive_none) tbody tr:not(.ebTable-expandableRow):hover>* {
+    background-image: linear-gradient(0deg,#dcdcdc,#dcdcdc);
+}
+
+/*Change table body row. normal*/
+.ecbAccountOfferings {
+    background-color: #f2f2f2!important; /*aaS1:#f2f2f2 */
+}
+
+
+
+/*Change table footer row. */
+.widget>.content .table.table-noborder.miller-table>tfoot>tr {
+    background-color: #f2f2f2; /*aaS1: */
+	border-top: 1px solid #b0b0b0; /*aaS1: */
+}
+
+/*
+
+.light .table.striped tr:nth-child(2n) {
+    background-color: #ebebeb;
+}
+*/
+
+/*Table Header.*/
+.widget>.content .table.table-noborder.miller-table>thead>tr>th.ebColor_grey_40 { /*using the color name as the class is a BUG*/
+    color: #242424; /*aaS1: #242424*/
+
+}
+
+/*On the transaction page the selection control for charges is a dialog.*/
+.ecb-millerWidgetPopup, 
+.ecb-millerWidgetPopup .header {
+    background: #f2f2f2; /*aaS1: */
+}
+
+/*Amount due widget.*/
+/*Amount due widget labels.*/
+.total-amount-due .ebColor_grey_40 { /*using the color name as the class is a BUG*/
+  color: #767676; /*aaS1:#767676 */
+}
+
+/*Change the colors for the special date visual.*/
+.top, .widget>.content .top {
+  background: #e2e2e2;
+  color: #000;
+}
+
+.bottom, .widget>.content .bottom {
+  background: #666;
+}
+
+.bottom>.white-year {
+  color: #fff;
+}
+
+/*Invoice widget.*/
+/*Change the colors for the invoice control here.*/
+.widget > .content .invoiceBox.bottom {
+  background-color: #979c9d;
+  color: #fff;
+}
+
+/*Accounts widget.*/
+.ecb-userCardAccountList>p:first-child {
+    color: #242424; /*aaS1:#242424 */
+}
+.ecb-userCardAccountList p {
+    color: #767676; /*aaS1:#767676 */
+}
+.ecb-widgetUserList div:hover {
+    background-color: #dcdcdc;/*aaS1: table hover color  */
+}
+.ecb-listDivider {
+    background-color: #dcdcdc;/*aaS1:  */
+}
+
+/*Overlay/modal/dialog styles*/
+.ebInput {
+  color: #242424; /*aaS1:#242424 */
+  border-radius: 0; /*aaS1:  */
+}
+
+/*input control : Disabled*/
+.ebInput:disabled, .ebInput_disabled {
+  color: #767676; /*aaS1:#767676 */
+  border: 1px solid #c8c8c8; /*aaS1: border */
+  background-color: #ebebeb; /*aaS1:  */
+  box-shadow: inset 0 0 0 0 #ebebeb; /*aaS1: no boxshadow */
+}
+
+.payment-modal-currency { /*Bug: the input-group-addon from bootstrap was overridden instead of extended  */
+	border-radius: 0; /*aaS1: make addon squared corners */
+}
+
+/*Overlay/modal/dialog header line*/
+.ecb-aside-modal .modal-header {
+  border-bottom: 0 solid #333;
+}
+
+/*Overlay/modal/dialog Title*/
+.ecb-aside-modal .modal-header .modal-title {
+  color: #242424; /*aaS1:#242424 */
+}
+
+.ebBtn {
+  border-radius: 0; /*aaS1: no rounded corners */
+  background-image: linear-gradient(180deg,transparent 0,transparent 100%); /*aaS1:  */
+  background-color: transparent;
+}
+
+.ebBtn.ebBtn-default {
+    background-image: linear-gradient(180deg,#f2f2f2 0,#f2f2f2 100%);/*aaS1:link blue */
+}
+
+.ebBtn-default.ebBtn_color_darkBlue, /*BUG should just use ebBtn-primary  (see bootstrap) - not a color */
+.ebBtn_color_darkBlue { /*BUG should just use ebBtn-primary  (see bootstrap) - not a color */
+    background-color: #0082F0; /*aaS1:#0082F0 hover3ea6ff*/
+	background-image: linear-gradient(180deg,transparent 0, transparent 100%); /*aaS1:force transparent  */
+	color: #f0f0f0!important; /*aaS1:  */
+}
+
+.ebBtn:hover, .ebBtn:active, .ebBtn_active, .ebBtn_active:hover {
+    text-decoration: none; 
+    box-shadow: inset 0 0 0 0 rgba(0,0,0,.35), inset 0 0 0 0 rgba(0,0,0,.2); /*aaS1: force shadow removal  */
+    background-image: linear-gradient(180deg,#3a3a3a 0,#3a3a3a 100%); /*aaS1: background color  */
+	color: #e0e0e0; /*aaS1:  changes the X*/
+}
+
+.ebBtn:hover .ebColor_textLinkBlue, .ebBtn:active .ebColor_textLinkBlue, .ebBtn_active .ebColor_textLinkBlue, .ebBtn_active:hover .ebColor_textLinkBlue {
+	color: #e0e0e0; /*aaS1:  for the text*/
+}
+
+.ebBtn-default.ebBtn_color_darkBlue:hover, /*BUG should just use ebBtn-primary  (see bootstrap) - not a color */
+.ebBtn_color_darkBlue:hover { /*BUG should just use ebBtn-primary  (see bootstrap) - not a color */
+    background-color: #3ea6ff; /*aaS1:#0082F0 hover 3ea6ff*/
+	background-image: linear-gradient(180deg,transparent 0, transparent 100%); /*aaS1:force transparent  */
+	color: #f0f0f0!important; /*aaS1:  */
+}
+
+/*Overlay/modal/dialog body*/
+.modal-content {
+    background-color: #fafafa; /*aaS1: */
+    border-radius: 0;/*aaS1: */
+}
+
+
+.ecb-aside-modal .modal-content {
+  background-color: #f2f2f2; /*aaS1:#f2f2f2 */
+}
+
+.ecb-aside-modal .modal-body label {
+  color: #767676; /*aaS1:#767676 */
+}
+
+label {
+    font-weight: 400;
+}
+
+/*Required indicator color*/
+.blueLine, .blueLineSelect,
+body[dir=LTR] .blueLine, body[dir=RTL] .blueLine {
+  background-color: #242424; /*aaS1:#242424 */
+}
+
+/*Change the select box text color in the system bar view selection.*/
+.view-selector-dropdown {
+  color: #0063b3 !important;
+}
+
+/*Change the  onhover color of priceable items in charge details*/
+.widget .priceableItem-card:hover {
+  background-color:#E8E8E8;
+}
+.cardItemsList-handler {  
+  background-color: #d3d3d3;
+}
+
+/*Change the background color of payment methods warning message*/
+.ecb-warning {
+  border:1px solid #fcd666;
+  background-color: #fff8e6;
+}
+
+/*Change the  color of payment methods warning message*/
+.ecb-warning-message {
+  color: #f57700;
+}
+
+
+
+/*Change the color of Timezone in Account Settings*/
+.ecb-accountSettings {
+  .ecb-userSelectedTimeZone {
+    color: #ababab !important;    
+  }  
+}
+
+/*calendar picker*/
+._720kb-datepicker-calendar-body, 
+._720kb-datepicker-calendar-days-header, 
+._720kb-datepicker-calendar-header, 
+._720kb-datepicker-calendar-years-pagination-pages, 
+.datepicker, 
+[datepicker], 
+datepicker {
+	font-family: "Ericsson Hilda", "Source Han Sans", Arial, "Helvetica Neue", Helvetica,sans-serif; /*aaS1: did not inherit properly so had to set here*/
+}
+
+._720kb-datepicker-calendar {
+    background: #fafafa; /*aaS1: dialog background */
+    border: 1px solid #c8c8c8;/*aaS1: */
+}
+
+._720kb-datepicker-calendar-month,
+._720kb-datepicker-calendar-month span {
+    color: #242424;
+}
+
+._720kb-datepicker-calendar-days-header {
+	background: #fafafa; /*aaS1: dialog background */
+	color: #767676;
+	text-transform: uppercase;
+	border-bottom: 0;
+}
+
+._720kb-datepicker-calendar-header, ._720kb-datepicker-calendar-header:nth-child(2n+1) {
+    background-color: #fafafa!important;
+	color: #242424; /*aaS1: */
+}
+
+._720kb-datepicker-calendar-day {
+    -webkit-border-radius: 0; /*aaS1: */
+    -moz-border-radius: 0; /*aaS1: */
+    border-radius: 0; /*aaS1: */
+}
+
+._720kb-datepicker-calendar-day._720kb-datepicker-active, ._720kb-datepicker-calendar-day:hover {
+    background-color: #f2f2f2!important; /*aaS1: */
+    color: #242424; /*aaS1: */
+    border-radius: 0; /*aaS1: */
+    font-weight: 700; /*aaS1: */
+	-webkit-box-shadow: 0 2px 0 #0082f0; /*aaS1: bottom box-shadow because border changes the size */
+    -moz-box-shadow: 0 2px 0 #0082f0; /*aaS1: bottom box-shadow because border changes the size*/
+    box-shadow: 0 2px 0 #0082f0; /*aaS1: bottom box-shadow because border changes the size*/
+}
+
+._720kb-datepicker-calendar-day._720kb-datepicker-disabled:hover {
+	-webkit-box-shadow: 0 0 0 #0082f0; /*aaS1: bottom box-shadow because border changes the size dcdcdc */
+    -moz-box-shadow: 0 0 0 #0082f0; /*aaS1: bottom box-shadow because border changes the size*/
+    box-shadow: 0 0 0 #0082f0; /*aaS1: bottom box-shadow because border changes the size*/
+}
+
+
+/*offer store*/
+.ecb-subscriptionsExpandMain.store-expanded {
+  background-color: #e0e0e0;  /*aaS1:#e0e0e0 */
+  margin-top: 10px;
+}
+
+.ebQuickActionBar {
+    background-color: #e0e0e0;  /*aaS1:#e0e0e0 */
+	margin-top: 2px; /*aaS1: space below breadcrumb */
+}
+
+.ecb-eligibleOfferBrief {
+	background-color: #f2f2f2;  /*aaS1:#f2f2f2 */
+	
+}
+.ecb-eligibleOfferBrief:hover {
+	opacity:.8;
+}
+	
+.ecb-eligibleOfferHeader {
+	background: transparent;
+}
+
+@media screen and (max-width: 767px) {
+	.store-expanded {
+		left: 0;
+		width: 100%;
+	}
+	.ebQuickActionBar {
+		margin-right: 4px;
+		margin-left: 4px;
+	}
+}
+
+.ecb-eligibleOfferImage {
+    background-color: #fafafa; /*aaS1: remove crazy teal contrast */
+}
+
+.ecb-eligibleOfferDetails {
+    background: #fafafa; /*aaS1: store card flips over */
+    color: #242424;/*aaS1: store card flips over */
+    border-radius: 0;/*aaS1: store card flips over */
+}
+
+.ecb-eligibleOfferDetailsAvailability span {
+    color: #767676; /*aaS1: Label of store card flips over */
+}
+
+/*card expanded*/
+.card-expanded {
+	background-color: #e0e0e0;  /*aaS1:#e0e0e0 */
+}
+    /*Adjustment card expanded*/
+.ecb-cardLayoutBoxMain .ecb-cardLayoutBox {
+	background: #f2f2f2; /*aaS1: */
+}
+
+.ecb-cardLayoutBoxMain .ecb-cardLayoutBottomBox {
+	height: auto !important; /*aaS1: forcing the height so there are no scroll bars */
+	background: #fafafa; /*aaS1: */
+}
+
+/*Table expanded*/
+.ui-grid {
+    border: 1px solid #f2f2f2;  /*aaS1:#f2f2f2 */
+}
+
+
+.ui-grid-header {
+    border-bottom: 1px solid #b0b0b0; /*aaS1: */
+}
+
+.ui-grid-top-panel {
+    font-weight: 700; /*aaS1: */
+    background: #f2f2f2!important; /*aaS1: */
+}
+
+.ui-grid-header-cell {
+
+    background-color: #f2f2f2;  /*aaS1:#f2f2f2 */
+    border-right: 1px solid;
+    border-color: #f2f2f2; /*aaS1: */
+}	
+
+.ui-grid-row:nth-child(odd) .ui-grid-cell {
+    background-color: #f2f2f2; /*aaS1: */
+}
+
+.ui-grid-row:nth-child(even) .ui-grid-cell {
+    background-color: #f2f2f2; /*aaS1: */
+}
+
+.ui-grid-cell {
+    border-bottom: 1px solid #c8c8c8; /*aaS1: */
+}
+
+
+/*Table expandedL Settings*/
+.ecb-cardTabularSettings {
+    background: #f2f2f2; /*aaS1: */
+    padding: 15px; /*aaS1: */
+}
+
+/*Table expandedL Subscriptions*/
+.ui-grid-contents-wrapper .ui-grid-render-container-body .ui-grid-viewport {
+    /*height: 100% !important; BUG: height set and changed colors */
+    background-color:#f2f2f2; /*aaS1: */
+}
+.ui-grid-viewport, .ui-grid-scrollbar-placeholder {
+    /*height: 100% !important; BUG: height set and changed colors */
+    background-color:#f2f2f2; /*aaS1: */
+}
+.ecb-subscriptionsImage-tabularView {
+    opacity: .8;
+    padding: 10px 0;
+    background-color: inherit;
+    height: 100%;
+    width: auto;
+}
+
+/*Accounts impersonation.*/
+.ecb-horizontalBarRoute {
+    background-color: #0c0c0c;/*aaS1: */
+}
+.ecb-horizontalBarRoute a{
+    padding-left: 15px; /*BUG: added padding */
+}
+.ebBtn_color_red {
+	color: #242424 !important; /*aaS1: 10_2 - this is a bug remove bang important from code */
+}
+
+.ebBtn_color_red:hover, .ebBtn_color_red:active, .ebBtn_color_red:focus {
+	color: #e0e0e0 !important; /*aaS1: 10_2 - this is a bug remove bang important from code */
+}
+/*Dialog*/  
+.ebDialogBox { /*aaS1: 10_2 */
+	background-color: #fafafa;
+	border: 0 ;
+}
+.ebDialogBox-actionBlock { /*aaS1: 10_2 */
+	background-color: #fafafa;
+	box-shadow: 0 1px 3px #999;
+}
+
+.ecb-subscriptionsCancel-tabularDialogue { /*aaS1: 10_2 */
+    min-width: 320px;
+    width: 50%;
+    max-width: 450px;
+}
+
+.ecb-subscriptionsExpandMain.card-expanded .confirmation-content { /*aaS1: 10_2 */
+    height: auto;
+}
+
+/* Widget Layout Adjust */
+.ecb-amountDueLiveWidget, .ecb-chargesLiveWidget {
+    border-radius: 0;
+    min-height: 207px !important;
+}
+.widget-directive > .widget {
+    min-height: 430px;
+    background-color: #f2f2f2;
+}
+.widget-directive-group  {
+  min-height: 430px;
+  overflow: hidden;
+}
+.widget-directive-group  .widget{
+  background-color: #f2f2f2;
+  height: auto;
+  min-height: auto;
+}
+/* end */
+

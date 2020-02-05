@@ -1,0 +1,52 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Kontonummer",
+        "Name": "accountnumber"
+      },
+      {
+        "Value": "Belopp",
+        "Name": "amount"
+      },
+      {
+        "Value": "fakturor #",
+        "Name": "invoices"
+      },
+      {
+        "Value": "Fakturor Belopp",
+        "Name": "invoicesamount"
+      },
+      {
+        "Value": "Betalningsmetod",
+        "Name": "creditcardtype"
+      },
+      {
+        "Value": "Valuta",
+        "Name": "currency"
+      },
+      {
+        "Value": "Beskrivning",
+        "Name": "description"
+      },
+      {
+        "Value": "Betalningsinst ID",
+        "Name": "paymentinstid"
+      },
+      {
+        "Value": "Betalnings typ",
+        "Name": "paymenttype"
+      },
+      {
+        "Value": "Status",
+        "Name": "status"
+      },
+      {
+        "Value": "Betalningsdag",
+        "Name": "transactiondate"
+      },
+      {
+        "Value": "Överföringstyp",
+        "Name": "transactiontype"
+      }
+    ]}
+}

@@ -1,0 +1,94 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Session-ID",
+        "Name": "sessionId"
+      },
+      {
+        "Value": "Menge",
+        "Name": "amount"
+      },
+      {
+        "Value": "Währung",
+        "Name": "currency"
+      },
+      {
+        "Value": "Beschreibung",
+        "Name": "description"
+      },
+      {
+        "Value": "Zahlungsdatum",
+        "Name": "paymentDate"
+      },
+      {
+        "Value": "Zahlungsdatum String",
+        "Name": "paymentDateString"
+      },
+      {
+        "Value": "Grundcode",
+        "Name": "reasonCode"
+      },
+      {
+        "Value": "Grund Code Name",
+        "Name": "reasonCodeName"
+      },
+      {
+        "Value": "Bezahlverfahren",
+        "Name": "paymentMethod"
+      },
+      {
+        "Value": "Zahlungsmethodenname",
+        "Name": "paymentMethodName"
+      },
+      {
+        "Value": "Kreditkartentyp",
+        "Name": "creditCardType"
+      },
+      {
+        "Value": "Kreditkartenart Name",
+        "Name": "creditCardTypeName"
+      },
+      {
+        "Value": "Scheck oder Kartennummer",
+        "Name": "checkOrCardNumber"
+      },
+      {
+        "Value": "Zahlung Transaktions-ID",
+        "Name": "paymentTxnId"
+      },
+      {
+        "Value": "Referenz ID",
+        "Name": "referenceId"
+      },
+      {
+        "Value": "Accountnummer",
+        "Name": "accountnumber"
+      },
+      {
+        "Value": "Zahlung Inst Id",
+        "Name": "paymentinstid"
+      },
+      {
+        "Value": "Zahlungsart",
+        "Name": "paymenttype"
+      },
+      {
+        "Value": "Status",
+        "Name": "status"
+      },
+      {
+        "Value": "Transaktionsdatum",
+        "Name": "transactiondate"
+      }
+     ]}
+}
+
+
+
+
+
+
+
+
+
+

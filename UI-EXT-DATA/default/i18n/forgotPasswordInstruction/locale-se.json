@@ -1,0 +1,12 @@
+{  
+  "FORGOTPASSWORD_INSTRUCTION_WRONG_USERNAME_EMAIL": "Fel användarnamn eller vi kan inte hitta någon e-postadress associerad med användarnamnet. Försök igen eller kontakta kundtjänst för assistans.",
+  "FORGOTPASSWORD_INSTRUCTION_PROCESSING_ERROR": "Ett fel uppkom vid behandling av din begäran. Försök igen eller kontakta kundtjänst för assistans.",
+  "FORGOTPASSWORD_INSTRUCTION_SENDING_EMAIL_ERROR": "Fel vid skickande av e-post.",
+  "FORGOTPASSWORD_INSTRUCTION_USERNAME_TO_EMAIL_INSTRUCTION": "Ange användarnamnet för att få ett e-postmeddelande med anvisningar för återställning av lösenord.",
+  "FORGOTPASSWORD_INSTRUCTION_EMAIL_SENT_SUCCESSFULLY": "Ett e-postmeddelande har skickats till din registrerade e-postadress. Följ anvisningarna i e-postmeddelandet för att återställa lösenordet.",
+  "FORGOTPASSWORD_INSTRUCTION_INPUT_SEND": "Skicka",
+  "FORGOTPASSWORD_INSTRUCTION_BACKTO_LOGINFORM": "Tillbaka till inloggning",
+  "FORGOTPASSWORD_INSTRUCTION_INPUT_USERNAME": "Användarnamn",
+  "FORGOTPASSWORD_INSTRUCTION_VALIDATION_PATTERN_USERNAME": "Ogiltiga tecken är inte tillåtna.",
+  "FORGOTPASSWORD_INSTRUCTION_VALIDATION_REQUIRED_USERNAME": "Användarnamn måste anges."
+}

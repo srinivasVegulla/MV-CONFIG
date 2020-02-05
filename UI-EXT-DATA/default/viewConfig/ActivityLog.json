@@ -1,0 +1,106 @@
+{"columns" : {
+    "fields": [
+      {
+        "Key": "time",
+        "DisplayName": "Date",
+        "Sortable" : true,
+        "Filterable" : true
+      },      
+      {
+        "Key": "username",
+        "DisplayName": "User Name",
+        "Sortable" : true,
+        "Filterable" : true
+      },
+      {
+        "Key": "userid",
+        "DisplayName": "User Id",
+        "Sortable" : false,
+        "Filterable" : false
+      },
+      {
+        "Key": "eventid",
+        "DisplayName": "Event Id",
+        "Sortable" : false,
+        "Filterable" : false
+      },
+      {
+        "Key": "eventname",
+        "DisplayName": "Event",
+        "Sortable" : true,
+        "Filterable" : true
+      },
+      {
+        "Key": "entityname",
+        "DisplayName": "Entity Name",
+        "Sortable" : false,
+        "Filterable" : false
+      },
+      {
+        "Key": "entityid",
+        "DisplayName": "Entity Id",
+        "Sortable" : false,
+        "Filterable" : false
+      },
+      {
+        "Key": "entitytype",
+        "DisplayName": "Entity Type",
+        "Sortable" : false,
+        "Filterable" : false
+      },
+      {
+        "Key": "details",
+        "DisplayName": "Details",
+        "Sortable" : true,
+        "Filterable" : true
+      },
+      {
+        "Key": "loggedinas",
+        "DisplayName": "Logged In",
+        "Sortable" : true,
+        "Filterable" : true
+      },
+      {
+        "Key": "id_audit",
+        "DisplayName": "Audit ID",
+        "Sortable" : true,
+        "Filterable" : true
+      },
+      {
+        "Key": "id_event",
+        "DisplayName": "Event Id",
+        "Sortable" : false,
+        "Filterable" : false
+      },
+      {
+        "Key": "id_userid",
+        "DisplayName": "User Id",
+        "Sortable" : false,
+        "Filterable" : false
+      },
+      {
+        "Key": "id_entitytype",
+        "DisplayName": "Entity Type Id",
+        "Sortable" : false,
+        "Filterable" : false
+      },
+      {
+        "Key": "id_entity",
+        "DisplayName": "Entity Id",
+        "Sortable" : false,
+        "Filterable" : false
+      },
+      {
+        "Key": "tx_logged_in_as",
+        "DisplayName": "Logged in as tx",
+        "Sortable" : false,
+        "Filterable" : false
+      },
+      {
+        "Key": "dt_crt",
+        "DisplayName": "Created Date",
+        "Sortable" : false,
+        "Filterable" : false
+      }
+    ]}
+}

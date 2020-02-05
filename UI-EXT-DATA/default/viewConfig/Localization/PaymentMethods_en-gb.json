@@ -1,0 +1,108 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Account Type",
+        "Name": "accountType"
+      },
+      {
+        "Value": "Address 1",
+        "Name": "address1"
+      },
+      {
+        "Value": "Address 2",
+        "Name": "address2"
+      },
+      {
+        "Value": "Auto Pay",
+        "Name": "autoPay"
+      },
+      {
+        "Value": "Bank Name",
+        "Name": "bankname"
+      },
+      {
+        "Value": "City",
+        "Name": "city"
+      },
+      {
+        "Value": "Date Created",
+        "Name": "dtCreated"
+      },
+      {
+        "Value": "Expiry Date",
+        "Name": "expDate"
+      },
+      {
+        "Value": "Expiry Date Format",
+        "Name": "expDateFormat"
+      },
+      {
+        "Value": "First Name",
+        "Name": "firstName"
+      },
+      {
+        "Value": "Account Id",
+        "Name": "idAcct"
+      },
+      {
+        "Value": "Country Id",
+        "Name": "idCountry"
+      },
+      {
+        "Value": "Credit Card Type",
+        "Name": "idCreditcardType"
+      },
+      {
+        "Value": "Priority",
+        "Name": "idPriority"
+      },
+      {
+        "Value": "Last Name",
+        "Name": "lastName"
+      },
+      {
+        "Value": "Maximum Charge Per Cycle",
+        "Name": "maxChargePerCycle"
+      },
+      {
+        "Value": "Middle Name",
+        "Name": "middleName"
+      },
+      {
+        "Value": "Credit Card Type",
+        "Name": "nameCreditcardType"
+      },
+      {
+        "Value": "Payment Method Type Id",
+        "Name": "paymentMethodTypeId"
+      },
+       {
+        "Value": "Payment Method Type Name",
+        "Name": "paymentMethodTypeName"
+      },
+       {
+        "Value": "Routing Number",
+        "Name": "routingnumber"
+      },
+      {
+        "Value": "state",
+        "Name": "state"
+      },
+      {
+        "Value": "Truncated Account Number",
+        "Name": "truncdAcctNum"
+      },
+      {
+        "Value": "Zip",
+        "Name": "zip"
+      },
+      {
+        "Value": "Payment Id Instrument",
+        "Name": "idPaymentInstrument"
+      },
+       {
+        "Value": "Payment Scheduled",
+        "Name": "paymentScheduled"
+      }
+    ]}
+}

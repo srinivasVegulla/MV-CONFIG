@@ -1,0 +1,182 @@
+metranet-server-url: shiva-ecb-01.1ftoe2kk1que3fbsk5p4vfairc.bx.internal.cloudapp.net
+database-server-url: shiva-sql-1
+server:
+  port: 8082
+  ssl:
+    key-store: ecbapikeystore.jks
+    key-store-password: ecbapipwd
+    key-password: ecbapipwd
+    keyStoreType: JKS
+    keyAlias: ecb-server
+    trustStoreType: JKS
+  #session.cookie.http-only: true   
+security.basic.enabled: false
+Subscription_TruncateTimeValues: true
+#zuul.Servlet30WrapperFilter.pre.disable=true
+   
+metraview:
+    signUpEnable: 
+    nameSpaceAcctType: mt:CoreSubscriber
+    authserver:
+        crypto:
+            signingKey: 12345678ABC
+            #salt: beacbc12a3a69712
+            # encryptionStrength can be set to 128 or 256. Strong encryption requires JCE
+            encryptionStrength: 128
+    ecbar:
+        appStatusURL: https://${metranet-server-url}/RESTAPI/api/appstatus/GetStatus?appName=ecbar&sourceSystem=mview2.0
+        amountDueURL: https://${metranet-server-url}/RESTAPI/api/ecbARPayments/GetARDueAmt?id_acc=			
+    api:
+        account:
+            rest:
+                uri:
+                    createAccountRestURL: https://${metranet-server-url}/RESTAPI/API/MetranetAccounts/CreateAccount
+                    loginRestURL: https://${metranet-server-url}/RESTAPI/api/metranetaccountlogin/LoginMetraNet
+                    changePasswordRestURL: https://${metranet-server-url}/RESTAPI/api/metranetaccountlogin/ChangePassword
+                    updatePasswordRestURL: https://${metranet-server-url}/RESTAPI/api/metranetaccountlogin/UpdatePassword
+                    userName: admin
+                    nameSpace: system_user
+#                   password: '{cipher}0ce402280c174aba743f7a5fb52e4d819770240579b47285792a339257941c2f'
+                    password: 123
+                    accountType: CoreSubscriber
+                    headerName: X-MetraNet-Ticket
+       
+            passwordreset:
+                resetPasswordPageExpirationTime: 1200
+                secretKey: MetraTech1
+
+        #SQL SERVER Database properties
+        jdbc:
+            driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+            url: jdbc:sqlserver://${database-server-url};databaseName=NetMeter
+            username: nmdbo
+            password: MetraTech1
+
+        #Reporting server.xml properties
+        Report:
+            servername: Devjasper01.1ftoe2kk1que3fbsk5p4vfairc.bx.internal.cloudapp.net
+            databasename: NetMeter
+            username: Administrator
+            password: MetraTech1
+            portnumber: 8182
+            secure: 1
+            TruncateTimeValues: true
+       
+            #ReportConfig.xml properties            
+            Config:
+                dbName: NetMeter
+                generateDBEveryTime: false
+                failedReportsThreshold: 10
+                physicalPath: c:\Reports_ECB
+                virtualDirectory: Reports_ECB
+                reportGeneratorProgID: MetraTech.Reports.JasperReportManager.JSReportManager,MetraTech.Reports.JasperReportManager
+                quotesSubFolder: Quotes
+                creditNotesReportingServerFolder: CreditNotes
+
+        predicate:
+            dateRange: au.dt_session >= @dtBegin%%LEVEL%% and @dtEnd%%LEVEL%% >= au.dt_session
+            payerAndPayee: au.id_payee = @idPayee%%LEVEL%% and au.id_acc = @idPayer%%LEVEL%%			
+            usageInterval: au.id_usage_interval = @idInterval%%LEVEL%% and au.id_sess not in (select id_sess from t_acc_usage_on_dem_inv_map)
+            productView: au.id_pi_instance IS NULL AND au.id_pi_template IS NULL AND au.id_view = @idView%%LEVEL%%
+            payerAccount: au.id_acc = @idPayer%%LEVEL%%
+            piInstance: au.id_pi_instance = @idPiInstance%%LEVEL%% AND au.id_view = @idView%%LEVEL%%
+            invoiceUsageInterval: au.id_usage_interval = @idInterval%%LEVEL%% and au.id_sess %%IN_OR_NOT_IN%% (select id_sess from t_acc_usage_on_dem_inv_map i %%WHERE_INVOICE_NUM%%)
+            ancestorAccount: aa.id_ancestor = @idAncestor%%LEVEL%% and aa.num_generations >= 0 and @dtAccEnd%%LEVEL%% >= aa.vt_start and aa.vt_end >= @dtAccBegin%%LEVEL%% and (au.dt_session >= aa.vt_start and aa.vt_end >= au.dt_session)			
+            dateRangeOracle: au.dt_session >= to_date(@dtBegin%%LEVEL%%,'yyyy-mm-dd hh24:mi:ss') and to_date(@dtEnd%%LEVEL%%,'yyyy-mm-dd hh24:mi:ss') >= au.dt_session
+            ancestorAccountOracle: aa.id_ancestor = @idAncestor%%LEVEL%% and aa.num_generations >= 0 and to_date(@dtAccEnd%%LEVEL%%,'yyyy-mm-dd hh24:mi:ss')>= aa.vt_start and aa.vt_end >= to_date(@dtAccBegin%%LEVEL%%,'yyyy-mm-dd hh24:mi:ss') and (au.dt_session >= aa.vt_start and aa.vt_end >= au.dt_session)
+            piTempInstance: au.id_pi_instance IS NULL AND au.id_pi_template = @idTemplate%%LEVEL%% AND au.id_view = @idView%%LEVEL%%            
+            
+        #CyberSource Configurations
+        cybersource:
+            profiles:
+                - profileId: 842252FE-0C3C-4244-A68A-86CDD92A6E8B
+                  secretKey: 61ce55d62aae4d7a8ecb8e360b9d354be9c3a047b5034a55b77b18b434d5997e3c11aa434b81459f9883749981b3592abbde6391cc154bec8ba907cf0f7d70185a2c30e3d2634b6a887e2d151589b9a5a0d1421e734d433e9c18a2797a4d890fbd285ec1115f4fd399a12e3a13abd745fb5603bf6bc742b7b9db721abafae873
+                  accessKey: 5404b81ba9013b2eb4506b56d5c7efa2
+                  referenceCode: MetraNet
+                  createTokenURL: https://testsecureacceptance.cybersource.com/token/create
+                  updateTokenURL: https://testsecureacceptance.cybersource.com/token/update
+                  
+                - profileId: E51E7BA0-D007-4780-8253-163018570698
+                  secretKey: e2fbe4ca0c28473ba1416cd78b173d5c95bcc54171c74687ba83d0441a725548b8ff44ec90ee4db5b3c6f576a750b77ff1c822e6c94c465b9903fe2235eaf291e877eee6072344678d1895f43c537ff3925bc701eabf4f65aaadaa04c2943396f713d714c6fb44df946abd41401e25aa100c79de448f46418e675659b631598a         
+                  accessKey: 44848104fb173362985f2583228246e9
+                  referenceCode: MetraNet
+                  createTokenURL: https://testsecureacceptance.cybersource.com/token/create
+                  updateTokenURL: https://testsecureacceptance.cybersource.com/token/update  
+
+                - profileId: 2E94A408-FA14-4043-B2D5-FED7AB7EBEDC
+                  secretKey: 09ea4bd2a7d142008c4e82191af09de20cadbdf624334699a55a63b0f235a41d61303c61411041338f108dd2416e7771479f3d0f4a1f4b67bff00b12ff95822cf8b877134fa14eaf930a78cc4826a2452ea5e4c4b128413e91b38a93cbef8f741e1d08c6a5a84bbb90eacb9e8305dfa682777d3787404c10877fe447717975a5         
+                  accessKey: b7203de046e635bda5bc76496856cc21
+                  referenceCode: MetraNet
+                  createTokenURL: https://testsecureacceptance.cybersource.com/token/create
+                  updateTokenURL: https://testsecureacceptance.cybersource.com/token/update
+
+                - profileId: Dummy-profileId
+                  secretKey: 445683347d4544729c06837d4f16a9f3d82851d38c2f4940a8edc1cd9a26ed0835ba2020e6314ea5a2a5257d20146b74da3be5c6fc9b4a16a56d1f5e26cf92aec9607c94910c4076a357b6d8e213fa066bc30d5ec9ca4e5793db6f94a442f231c2e41826dfc145e7bcb41d97fd6497d
+                  accessKey: 1ebfd0593586359a89633f3b993e4thb
+                  referenceCode: MetraNet
+                  createTokenURL: https://testsecureacceptance.cybersource.com/token/create
+                  updateTokenURL: https://testsecureacceptance.cybersource.com/token/update
+
+        eps:
+            addPaymentMethodURL: https://${metranet-server-url}/RESTAPI/api/ecbpayments/AddPaymentMethod
+            getPaymentTokenURL: https://${metranet-server-url}/RESTAPI/api/ecbpayments/GetPaymentToken/
+            updatePaymentMethodURL: https://${metranet-server-url}/RESTAPI/api/ecbpayments/UpdatePaymentMethod/
+            makePaymentURL: https://${metranet-server-url}/RESTAPI/api/ecbpayments/MakePayment/
+            deletePaymentMethodURL: https://${metranet-server-url}/RESTAPI/api/ecbpayments/DeletePaymentMethod/
+            getOpenInvoicesURL: https://${metranet-server-url}/RESTAPI/api/ecbARPayments/GetOpenInvoices?id_acc=
+            makeARPaymentURL: https://${metranet-server-url}/RESTAPI/api/ecbARPayments/MakePaymentAR            
+            getARPaymentHistoryURL: https://${metranet-server-url}/RESTAPI/api/ecbARPayments/GetPaymentHistory
+            getARCreditDebitDetails: https://${metranet-server-url}/RESTAPI/api/ecbARPayments/GetCreditDebitDetails            
+        
+        #Businessrule PCConfig.xml
+        businessrule:
+            allowAccountPoCurrencyMismatch: false
+            allowMultiplePiSubscriptionRcNrc: false
+            pendingActiveApprovalSubscribe: true
+            activeSubscribe: true
+            suspendedSubscribe: true
+            pendingFinalBillSubscribe: true
+            closedSubscribe: true
+            archivedSubscribe: true	
+
+        mailconfig:
+            host: smtp.sendgrid.net
+            port: 25
+            from: mail@metratech.com
+            cc: mail@metratech.com
+            username: azure_5ba4e6d74350edb4a6e2d17e988f7dfe@azure.com
+            password: MetraTech$01
+
+        mybatis:
+            externalMapperDir: C:/ECB/METRAVIEW-CONFIG/UI-EXT-DATA/mappers
+            sqlDialect: mssql
+#            sqlDialect: oracle
+
+security:
+  filter:
+    authorized:
+      request:
+        env: true
+        swagger: true
+
+        mybatis:
+            externalMapperDir: C:/ECB/METRAVIEW-CONFIG/UI-EXT-DATA/mappers
+            sqlDialect: mssql
+#            sqlDialect: oracle  
+
+logging.level.com.ericsson: ERROR
+logging.level.com.ericsson.ecb.reports.ReportConfiguration: ERROR
+logging.level.com.ericsson.ecb.config.Application: ERROR
+
+# logging configuration 
+logging:
+  file: MetraViewAPI.log
+  level:
+    com.ibatis.common.jdbc.SimpleDataSource: DEBUG
+    com.ibatis.common.jdbc.ScriptRunner: DEBUG
+    com.ibatis.sqlmap.engine.impl.SqlMapClientDelegate: DEBUG
+    java.sql.Connection: DEBUG
+    java.sql.Statement: DEBUG
+    java.sql.PreparedStatement: DEBUG
+    java.sql.ResultSet: DEBUG
+    io.swagger.models.parameters.AbstractSerializableParameter: ERROR

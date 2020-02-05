@@ -1,0 +1,140 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "מזהה פעילות באתר",
+        "Name": "id_sess"
+      },
+      {
+        "Value": "מַטְבֵּעַ",
+        "Name": "currency"
+      },
+      {
+        "Value": "סכום לא מותאם",
+        "Name": "unadjustedamount"
+      },
+      {
+        "Value": "סכום לא מותאם עם מס",
+        "Name": "unadjustedamountwithtax"
+      },
+      {
+        "Value": "סה\"כ מס פדרלי",
+        "Name": "totalfederaltax"
+      },
+      {
+        "Value": "סך מס המדינה",
+        "Name": "totalstatetax"
+      },
+      {
+        "Value": "סה\"כ מס ארצי",
+        "Name": "totalcountytax"
+      },
+      {
+        "Value": "סה\"כ מס מקומי",
+        "Name": "totallocaltax"
+      },
+      {
+        "Value": "סך הכל מס אחר",
+        "Name": "totalothertax"
+      },
+      {
+        "Value": "פירעון מס פדרלי",
+        "Name": "postbillfedtaxadjamt"
+      },
+      {
+        "Value": "פירעון מס פדרלי",
+        "Name": "postbillstatetaxadjamt"
+      },
+      {
+        "Value": "מס במדינה הבאה",
+        "Name": "postbillcntytaxadjamt"
+      },
+      {
+        "Value": "Postbill מקומי מס התאמת הסכום",
+        "Name": "postbilllocaltaxadjamt"
+      },
+      {
+        "Value": "פוסט מס אחר",
+        "Name": "postbillothertaxadjamt"
+      },
+      {
+        "Value": "Prebill הפדרלי מס התאמת הסכום",
+        "Name": "prebillfedtaxadjamt"
+      },
+      {
+        "Value": "Prebill המדינה מס התאמת הסכום",
+        "Name": "prebillstatetaxadjamt"
+      },
+      {
+        "Value": "Prebillcntytaxadjamt",
+        "Name": "prebillcntytaxadjamt"
+      },
+      {
+        "Value": "Prebill מקומי מס התאמת הסכום",
+        "Name": "prebilllocaltaxadjamt"
+      },
+      {
+        "Value": "Prebill אחר סכום כוונון מס",
+        "Name": "prebillothertaxadjamt"
+      },
+       {
+        "Value": "סכום התאמה",
+        "Name": "adjustmentamount"
+      },
+       {
+        "Value": "סכום מותאם",
+        "Name": "adjustedamount"
+      },
+      {
+        "Value": "סכום התאמה עם מס",
+        "Name": "adjustmentamountwithtax"
+      },
+      {
+        "Value": "סכום מותאם עם מס",
+        "Name": "adjustedamountwithtax"
+      },
+      {
+        "Value": "שם תצוגת תבנית ההתאמה",
+        "Name": "adjustmenttemplatedisplayname"
+      },
+      {
+        "Value": "שם תצוגת שם ההתאמה",
+        "Name": "adjustmentinstancedisplayname"
+      },
+       {
+        "Value": "תאור",
+        "Name": "description"
+      },
+       {
+        "Value": "קוד סיבה",
+        "Name": "reasoncode"
+      },
+       {
+        "Value": "שם קוד סיבה",
+        "Name": "reasoncodename"
+      },
+       {
+        "Value": "תיאור קוד סיבה",
+        "Name": "reasoncodedescription"
+      },
+       {
+        "Value": "שם תצוגה של קוד סיבה",
+        "Name": "reasoncodedisplayname"
+      },
+      {
+        "Value": "מזהה מרווח שימוש",
+        "Name": "id_usage_interval"
+      },
+      {
+        "Value": "מזהה חשבון",
+        "Name": "id_acc"
+      },
+      {
+        "Value": "סוג התאמה",
+        "Name": "n_adjustmenttype"
+      },
+      {
+        "Value": "תאריך הפעלה",
+        "Name": "dt_session"
+      }
+    ]}
+}

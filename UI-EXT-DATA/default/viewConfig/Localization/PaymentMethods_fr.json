@@ -1,0 +1,108 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Type de compte",
+        "Name": "accountType"
+      },
+      {
+        "Value": "Adresse 1",
+        "Name": "address1"
+      },
+      {
+        "Value": "Adresse 2",
+        "Name": "address2"
+      },
+      {
+        "Value": "Pay automatique",
+        "Name": "autoPay"
+      },
+      {
+        "Value": "Nom de banque",
+        "Name": "bankname"
+      },
+      {
+        "Value": "Ville",
+        "Name": "city"
+      },
+      {
+        "Value": "date créée",
+        "Name": "dtCreated"
+      },
+      {
+        "Value": "Date d'expiration",
+        "Name": "expDate"
+      },
+      {
+        "Value": "Format de date d'expiration",
+        "Name": "expDateFormat"
+      },
+      {
+        "Value": "Prénom",
+        "Name": "firstName"
+      },
+      {
+        "Value": "Identifiant de compte",
+        "Name": "idAcct"
+      },
+      {
+        "Value": "ID de pays",
+        "Name": "idCountry"
+      },
+      {
+        "Value": "type de carte de crédit",
+        "Name": "idCreditcardType"
+      },
+      {
+        "Value": "Priorité",
+        "Name": "idPriority"
+      },
+      {
+        "Value": "Nom de famille",
+        "Name": "lastName"
+      },
+      {
+        "Value": "Charge maximale par cycle",
+        "Name": "maxChargePerCycle"
+      },
+      {
+        "Value": "Deuxième nom",
+        "Name": "middleName"
+      },
+      {
+        "Value": "type de carte de crédit",
+        "Name": "nameCreditcardType"
+      },
+      {
+        "Value": "Type de paiement Type Id",
+        "Name": "paymentMethodTypeId"
+      },
+       {
+        "Value": "Type de paiement Type Nom",
+        "Name": "paymentMethodTypeName"
+      },
+       {
+        "Value": "Numéro de routage",
+        "Name": "routingnumber"
+      },
+      {
+        "Value": "Etat",
+        "Name": "state"
+      },
+      {
+        "Value": "Numéro de compte tronqué",
+        "Name": "truncdAcctNum"
+      },
+      {
+        "Value": "Zip *: français",
+        "Name": "zip"
+      },
+      {
+        "Value": "Instrument d'identification de paiement",
+        "Name": "idPaymentInstrument"
+      },
+       {
+        "Value": "Paiement prévu",
+        "Name": "paymentScheduled"
+      }
+    ]}
+}

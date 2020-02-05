@@ -1,0 +1,124 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Typ av justering",
+        "Name": "adjtype"
+      },
+      {
+        "Value": "Dokument ID",
+        "Name": "id_sess"
+      },
+      {
+        "Value": "Tidsstämpel",
+        "Name": "dt_session"
+      },
+      {
+        "Value": "Användintervall",
+        "Name": "id_usage_interval"
+      },
+      {
+        "Value": "Datum för justering",
+        "Name": "c_credittime"
+      },
+      {
+        "Value": "Status",
+        "Name": "c_status"
+      },
+      {
+        "Value": "Begär id",
+        "Name": "c_requestid"
+      },
+      {
+        "Value": "Innehålls-session ID",
+        "Name": "c_contentionsessionid"
+      },
+      {
+        "Value": "E-postmeddelande",
+        "Name": "c_emailnotification"
+      },
+      {
+        "Value": "E-postadress",
+        "Name": "c_emailaddress"
+      },
+      {
+        "Value": "E-posttext",
+        "Name": "c_emailtext"
+      },
+      {
+        "Value": "Emittent",
+        "Name": "c_issuer"
+      },
+      {
+        "Value": "Orsakskod",
+        "Name": "c_reason"
+      },
+      {
+        "Value": "Andra",
+        "Name": "c_other"
+      },
+      {
+        "Value": "Beskrivning",
+        "Name": "c_invoicecomment"
+      },
+      {
+        "Value": "Intern kommentar",
+        "Name": "c_internalcomment"
+      },
+      {
+        "Value": "Begär belopp",
+        "Name": "c_requestamount"
+      },
+      {
+        "Value": "Kreditbeloppet",
+        "Name": "c_creditamount"
+      },
+      {
+        "Value": "Guide Interval Id",
+        "Name": "c_guideintervalid"
+      },
+      {
+        "Value": "Abonnentkonto-id",
+        "Name": "c_subscriberaccountid"
+      },
+      {
+        "Value": "Utgåva Kreditnot",
+        "Name": "c_issuecreditnote"
+      },
+      {
+        "Value": "Kreditnamnskod ID",
+        "Name": "c_creditnotetemplateid"
+      },
+      {
+        "Value": "Kreditnot Kommentar",
+        "Name": "c_creditnotecomment"
+      },
+      {
+        "Value": "Diverse justerings-ID",
+        "Name": "c_miscadjustmentid"
+      },
+      {
+        "Value": "Rating Valuta",
+        "Name": "c_ratingcurrency"
+      },
+      {
+        "Value": "Faktureringsvaluta",
+        "Name": "c_billingcurrency"
+      },
+      {
+        "Value": "Valuta",
+        "Name": "currency"
+      },
+      {
+        "Value": "Mängd",
+        "Name": "amount"
+      },
+      {
+        "Value": "Tidsstämpel",
+        "Name": "timeestamp"
+      },
+      {
+        "Value": "Anledning",
+        "Name": "reasoncode"
+      }
+    ]}
+}

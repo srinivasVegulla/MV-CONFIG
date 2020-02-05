@@ -1,0 +1,94 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "معرف جلسة العمل",
+        "Name": "sessionId"
+      },
+      {
+        "Value": "كمية",
+        "Name": "amount"
+      },
+      {
+        "Value": "دقة",
+        "Name": "currency"
+      },
+      {
+        "Value": "وصف",
+        "Name": "description"
+      },
+      {
+        "Value": "تاريخ الدفع",
+        "Name": "paymentDate"
+      },
+      {
+        "Value": "تاريخ الدفع سلسلة",
+        "Name": "paymentDateString"
+      },
+      {
+        "Value": "رمز السبب",
+        "Name": "reasonCode"
+      },
+      {
+        "Value": "السبب",
+        "Name": "reasonCodeName"
+      },
+      {
+        "Value": "طريقة الدفع او السداد",
+        "Name": "paymentMethod"
+      },
+      {
+        "Value": "نوع الدفع",
+        "Name": "paymentMethodName"
+      },
+      {
+        "Value": "نوع بطاقة الائتمان",
+        "Name": "creditCardType"
+      },
+      {
+        "Value": "طريقة الدفع او السداد",
+        "Name": "creditCardTypeName"
+      },
+      {
+        "Value": "تحقق أو رقم البطاقة",
+        "Name": "checkOrCardNumber"
+      },
+      {
+        "Value": "معرف معاملة الدفع",
+        "Name": "paymentTxnId"
+      },
+      {
+        "Value": "מזהה עיון",
+        "Name": "referenceId"
+      },
+      {
+        "Value": "رقم حساب",
+        "Name": "accountnumber"
+      },
+      {
+        "Value": "معرف Inst الدفع",
+        "Name": "paymentinstid"
+      },
+      {
+        "Value": "نوع الدفع",
+        "Name": "paymenttype"
+      },
+      {
+        "Value": "الحالة",
+        "Name": "status"
+      },
+      {
+        "Value": "تاريخ الدفع",
+        "Name": "transactiondate"
+      }
+     ]}
+}
+
+
+
+
+
+
+
+
+
+

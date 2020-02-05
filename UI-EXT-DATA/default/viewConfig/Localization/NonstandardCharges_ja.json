@@ -1,0 +1,80 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "発行時間",
+        "Name": "issueTime"
+      },
+      {
+        "Value": "量",
+        "Name": "chargeAmount"
+      },
+      {
+        "Value": "量",
+        "Name": "chargeAmountAsString"
+      },
+      {
+        "Value": "説明",
+        "Name": "description"
+      },
+      {
+        "Value": "説明",
+        "Name": "status"
+      },
+      {
+        "Value": "料金の通貨",
+        "Name": "chargeCurrency"
+      },
+      {
+        "Value": "GLコード",
+        "Name": "glCode"
+      },
+      {
+        "Value": "発行者アカウントID",
+        "Name": "issuerAccountId"
+      },
+      {
+        "Value": "追加コード",
+        "Name": "additionalCode"
+      },
+      {
+        "Value": "課税額",
+        "Name": "chargeTaxAmount"
+      },
+      {
+        "Value": "外部料金ID",
+        "Name": "externalChargeId"
+      },
+      {
+        "Value": "内部料金ID",
+        "Name": "internalChargeId"
+      },
+      {
+        "Value": "数単位",
+        "Name": "numUnits"
+      },
+      {
+        "Value": "レート",
+        "Name": "rate"
+      },
+      {
+        "Value": "追加料金",
+        "Name": "additionalRate"
+      },
+      {
+        "Value": "サスペンダーアカウントID",
+        "Name": "subscriberAccountId"
+      },
+      {
+        "Value": "ガイド間隔ID",
+        "Name": "guideIntervalId"
+      },
+      {
+        "Value": "課税される税金",
+        "Name": "taxImplied"
+      },
+      {
+        "Value": "税務情報",
+        "Name": "taxInformational"
+      }
+    ]}
+}

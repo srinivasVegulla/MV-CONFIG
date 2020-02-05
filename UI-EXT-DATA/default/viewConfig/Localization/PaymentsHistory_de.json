@@ -1,0 +1,56 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Accountnummer",
+        "Name": "accountnumber"
+      },
+      {
+        "Value": "Menge",
+        "Name": "amount"
+      },
+      {
+        "Value": "Rechnungen",
+        "Name": "invoices"
+      },
+      {
+        "Value": "Rechnungen#",
+        "Name": "invoiceString"
+      },
+      {
+        "Value": "Rechnungsbetrag",
+        "Name": "invoiceAmount"
+      },
+      {
+        "Value": "Bezahlverfahren",
+        "Name": "creditcardtype"
+      },
+      {
+        "Value": "Währung",
+        "Name": "currency"
+      },
+      {
+        "Value": "Beschreibung",
+        "Name": "description"
+      },
+      {
+        "Value": "Zahlung Inst Id",
+        "Name": "paymentinstid"
+      },
+      {
+        "Value": "Zahlungsart",
+        "Name": "paymenttype"
+      },
+      {
+        "Value": "Status",
+        "Name": "status"
+      },
+      {
+        "Value": "Transaktionsdatum",
+        "Name": "transactiondate"
+      },
+      {
+        "Value": "Art der Transaktion",
+        "Name": "transactiontype"
+      }
+    ]}
+}

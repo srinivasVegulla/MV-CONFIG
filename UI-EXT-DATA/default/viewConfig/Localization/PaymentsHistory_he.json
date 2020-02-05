@@ -1,0 +1,60 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "מספר חשבון",
+        "Name": "accountnumber"
+      },
+      {
+        "Value": "כמות",
+        "Name": "amount"
+      },
+      {
+        "Value": "חשבוניות",
+        "Name": "invoices"
+      },
+      {
+        "Value": "חשבוניות#",
+        "Name": "invoiceString"
+      },
+      {
+        "Value": "חשבוניות סכום",
+        "Name": "invoiceAmount"
+      },
+      {
+        "Value": "אמצעי תשלום",
+        "Name": "creditcardtype"
+      },
+      {
+        "Value": "סוג כרטיס אשראי",
+        "Name": "creditcardtype"
+      },
+      {
+        "Value": "מַטְבֵּעַ",
+        "Name": "currency"
+      },
+      {
+        "Value": "תאור",
+        "Name": "description"
+      },
+      {
+        "Value": "מזהה מזהה תשלום",
+        "Name": "paymentinstid"
+      },
+      {
+        "Value": "סוג תשלום",
+        "Name": "paymenttype"
+      },
+      {
+        "Value": "סטָטוּס",
+        "Name": "status"
+      },
+      {
+        "Value": "תאריך עסקה",
+        "Name": "transactiondate"
+      },
+      {
+        "Value": "סוג עסקה",
+        "Name": "transactiontype"
+      }
+    ]}
+}

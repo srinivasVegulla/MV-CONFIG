@@ -1,0 +1,45 @@
+debug: true
+metranet-server-url: zvorole-01-ECB.ls1gaugmr0germrns0etczhgea.bx.internal.cloudapp.net
+database-server-url: ecb-sql-42-tst2
+server:
+  port: 8083
+  contextPath: /uaa
+  ssl:
+    key-store: ecbapikeystore.jks
+    key-store-password: ecbapipwd
+    key-password: ecbapipwd
+    keyStoreType: JKS
+    keyAlias: ecb-server
+    trustStoreType: JKS
+  #session.cookie.http-only: true 
+
+logging:
+  file: EcbOAuth.log
+  level:
+    org.springframework.security: INFO
+    com.ericsson.ecb: DEBUG
+
+metraview:
+  authserver:
+    crypto:
+        signingKey: 12345678ABC
+        #salt: beacbc12a3a69712
+        # encryptionStrength can be set to 128 or 256. Strong encryption requires JCE
+        encryptionStrength: 128
+    provider:
+      rest:
+        userNameSpace: mt
+        uri: https://${metranet-server-url}/RESTAPI/api/metranetaccountlogin/LoginMetraNet
+        ticket:
+          userNameSpace: mt
+          uri:  https://${metranet-server-url}/RESTAPI/api/MetranetAccountTicket/validate
+      combo:
+        defaultVerifier: restUserVerifier
+        verifiers:
+          normal: restUserVerifier
+          ticket: restTicketUserVerifier
+    jdbc:
+      driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+      url: jdbc:sqlserver://${database-server-url};databaseName=NetMeter
+      username: developer
+      password: MetraTech1

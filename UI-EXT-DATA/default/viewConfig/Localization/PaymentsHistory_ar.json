@@ -1,0 +1,44 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "رقم حساب",
+        "Name": "accountnumber"
+      },
+      {
+        "Value": "كمية",
+        "Name": "amount"
+      },
+      {
+        "Value": "طريقة الدفع او السداد",
+        "Name": "creditcardtype"
+      },
+      {
+        "Value": "دقة",
+        "Name": "currency"
+      },
+      {
+        "Value": "وصف",
+        "Name": "description"
+      },
+      {
+        "Value": "معرف Inst الدفع",
+        "Name": "paymentinstid"
+      },
+      {
+        "Value": "نوع الدفع",
+        "Name": "paymenttype"
+      },
+      {
+        "Value": "الحالة",
+        "Name": "status"
+      },
+      {
+        "Value": "تاريخ الدفع",
+        "Name": "transactiondate"
+      },
+      {
+        "Value": "نوع المعاملة",
+        "Name": "transactiontype"
+      }
+    ]}
+}

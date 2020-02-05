@@ -1,0 +1,21 @@
+{
+  "CHANGE_PASSWORD_TITLE": "החלף סיסמה",
+  "CHANGE_PASSWORD_TEXT_CURRENT_PASSWORD": "סיסמה נוכחית",
+  "CHANGE_PASSWORD_TEXT_NEW_PASSWORD": "אישור סיסמה",
+  "CHANGE_PASSWORD_TEXT_VERIFY_PASSWORD": "אישור סיסמה",
+  "CHANGE_PASSWORD_STRENGTH_CONDITION1": ".חייב להיות בין 7 ל 1024 תווים",
+  "CHANGE_PASSWORD_STRENGTH_CONDITION2": ".חייב להכיל לפחות אות, סימן וסיפרה",
+  "CHANGE_PASSWORD_STRENGTH_CONDITION3": ".סימנים מיוחדים הינם אופציונליים",
+  "CHANGE_PASSWORD_REQUIRED_ERROR_MSG": ".נדרשת סיסמה",
+  "CHANGE_PASSWORD_VERIFY_PASSWORD_REQUIRED_ERROR_MSG": ".נדרש אישור סיסמה",
+  "CHANGE_PASSWORD_INCORRECT_PATTERN": ".הסיסמה אינה עומדת בדרישת האבטחה",
+  "CHANGE_PASSWORD_VERIFY_PASSWORD": ".הסיסמאות אינן תואמות",
+  "CHANGE_PASSWORD_INVALID_OLD_PASSWORD": ".סיסמה ישנה שגויה",
+  "CHANGE_PASSWORD_INVALID_NEW_PASSWORD": ".הסיסמה החדשה אינה תואמת את דרישות האבטחה",
+  "CHANGE_PASSWORD_ACCOUNT_LOCKED": ".החשבון שלך ננעל מסיבת אבטחה. אנא פנה לתמיכה",
+  "CHANGE_PASSWORD_STRENGTH": ".הסיסמה אינה מורכבת מספיק",
+  "CHANGE_PASSWORD_USED_BEFORE": ".הסיסמה כבר שומשה בעבר",
+  "CHANGE_PASSWORD_FAILED_UPDATE": ".שינוי סיסמה נכשל. אנא פנה לשירות לקוחות",
+  "CHANGE_PASSWORD_TEXT_REQUIRED_FIELD": "שדה חובה",
+  "CHANGE_CURRENT_PASSWORD_REQUIRED_ERROR_MSG": ".נדרשת סיסמה נוכחית"
+}

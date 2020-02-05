@@ -1,0 +1,140 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Sessions-ID",
+        "Name": "id_sess"
+      },
+      {
+        "Value": "Valuta",
+        "Name": "currency"
+      },
+      {
+        "Value": "Ojusterad belopp",
+        "Name": "unadjustedamount"
+      },
+      {
+        "Value": "Ojusterad belopp med skatt",
+        "Name": "unadjustedamountwithtax"
+      },
+      {
+        "Value": "Totalt Federal Tax",
+        "Name": "totalfederaltax"
+      },
+      {
+        "Value": "Total statlig skatt",
+        "Name": "totalstatetax"
+      },
+      {
+        "Value": "Total landskatt",
+        "Name": "totalcountytax"
+      },
+      {
+        "Value": "Total lokal skatt",
+        "Name": "totallocaltax"
+      },
+      {
+        "Value": "Summa annan skatt",
+        "Name": "totalothertax"
+      },
+      {
+        "Value": "Postbill Fed Tax Justera belopp",
+        "Name": "postbillfedtaxadjamt"
+      },
+      {
+        "Value": "Postbill Federal Tax Adjust Amount",
+        "Name": "postbillstatetaxadjamt"
+      },
+      {
+        "Value": "Postbill Country Tax Justera beloppet",
+        "Name": "postbillcntytaxadjamt"
+      },
+      {
+        "Value": "Postbill Local Tax Adjust Amount",
+        "Name": "postbilllocaltaxadjamt"
+      },
+      {
+        "Value": "Postbill annan skatt justera belopp",
+        "Name": "postbillothertaxadjamt"
+      },
+      {
+        "Value": "Prebill Federal Tax Adjust Amount",
+        "Name": "prebillfedtaxadjamt"
+      },
+      {
+        "Value": "Prebill State Tax Justera belopp",
+        "Name": "prebillstatetaxadjamt"
+      },
+      {
+        "Value": "Prebill Country Tax Justera belopp",
+        "Name": "prebillcntytaxadjamt"
+      },
+      {
+        "Value": "Prebill Lokal skatt Justera belopp",
+        "Name": "prebilllocaltaxadjamt"
+      },
+      {
+        "Value": "Prebill Andra skatt Justera belopp",
+        "Name": "prebillothertaxadjamt"
+      },
+       {
+        "Value": "Justeringsbelopp",
+        "Name": "adjustmentamount"
+      },
+       {
+        "Value": "Justerat belopp",
+        "Name": "adjustedamount"
+      },
+      {
+        "Value": "Justeringsbelopp med skatt",
+        "Name": "adjustmentamountwithtax"
+      },
+      {
+        "Value": "Justerat belopp med skatt",
+        "Name": "adjustedamountwithtax"
+      },
+      {
+        "Value": "Justeringsmallens visningsnamn",
+        "Name": "adjustmenttemplatedisplayname"
+      },
+      {
+        "Value": "Justering Inställt visningsnamn",
+        "Name": "adjustmentinstancedisplayname"
+      },
+       {
+        "Value": "Beskrivning",
+        "Name": "description"
+      },
+       {
+        "Value": "Orsakskod",
+        "Name": "reasoncode"
+      },
+       {
+        "Value": "Orsakskodens namn",
+        "Name": "reasoncodename"
+      },
+       {
+        "Value": "Orsakskod Beskrivning",
+        "Name": "reasoncodedescription"
+      },
+       {
+        "Value": "Orsakskod Displaynamn",
+        "Name": "reasoncodedisplayname"
+      },
+      {
+        "Value": "Användintervall Id",
+        "Name": "id_usage_interval"
+      },
+      {
+        "Value": "Konto-ID",
+        "Name": "id_acc"
+      },
+      {
+        "Value": "Justeringstyp",
+        "Name": "n_adjustmenttype"
+      },
+      {
+        "Value": "Session Date",
+        "Name": "dt_session"
+      }
+    ]}
+}

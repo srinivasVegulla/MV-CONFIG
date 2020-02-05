@@ -1,0 +1,140 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "معرف جلسة العمل",
+        "Name": "id_sess"
+      },
+      {
+        "Value": "دقة",
+        "Name": "currency"
+      },
+      {
+        "Value": "المبلغ غير المعدل",
+        "Name": "unadjustedamount"
+      },
+      {
+        "Value": "المبلغ غير المعدل مع الضريبة",
+        "Name": "unadjustedamountwithtax"
+      },
+      {
+        "Value": "مجموع الضرائب الاتحادية",
+        "Name": "totalfederaltax"
+      },
+      {
+        "Value": "إجمالي ضريبة الدولة",
+        "Name": "totalstatetax"
+      },
+      {
+        "Value": "إجمالي ضريبة البلد",
+        "Name": "totalcountytax"
+      },
+      {
+        "Value": "إجمالي الضريبة المحلية",
+        "Name": "totallocaltax"
+      },
+      {
+        "Value": "إجمالي الضريبة الأخرى",
+        "Name": "totalothertax"
+      },
+      {
+        "Value": "ضريبة بوستبيل المالية تعديل المبلغ",
+        "Name": "postbillfedtaxadjamt"
+      },
+      {
+        "Value": "مبلغ تعديل الضريبة الفيدرالية في بوستبيل",
+        "Name": "postbillstatetaxadjamt"
+      },
+      {
+        "Value": "مبلغ تعديل ضريبة البلد المؤجلة",
+        "Name": "postbillcntytaxadjamt"
+      },
+      {
+        "Value": "بوستبيل المحلية ضبط الضرائب المبلغ",
+        "Name": "postbilllocaltaxadjamt"
+      },
+      {
+        "Value": "مبلغ آخر للمبلغ الضريبي",
+        "Name": "postbillothertaxadjamt"
+      },
+      {
+        "Value": "بوستبيل المحلية ضبط الضرائب المبلغ",
+        "Name": "prebillfedtaxadjamt"
+      },
+      {
+        "Value": "بريبيل الدولة الضريبي ضبط المبلغ",
+        "Name": "prebillstatetaxadjamt"
+      },
+      {
+        "Value": "بريبيل البلد الضريبي ضبط المبلغ",
+        "Name": "prebillcntytaxadjamt"
+      },
+      {
+        "Value": "بريبيل ضبط الضرائب المحلية المبلغ",
+        "Name": "prebilllocaltaxadjamt"
+      },
+      {
+        "Value": "بريبيل ضبط الضرائب الأخرى المبلغ",
+        "Name": "prebillothertaxadjamt"
+      },
+       {
+        "Value": "مبلغ التعديل",
+        "Name": "adjustmentamount"
+      },
+       {
+        "Value": "المبلغ المعدل",
+        "Name": "adjustedamount"
+      },
+      {
+        "Value": "مبلغ التعديل مع الضرائب",
+        "Name": "adjustmentamountwithtax"
+      },
+      {
+        "Value": "المبلغ المعدل مع الضرائب",
+        "Name": "adjustedamountwithtax"
+      },
+      {
+        "Value": "تعديل قالب عرض الاسم",
+        "Name": "adjustmenttemplatedisplayname"
+      },
+      {
+        "Value": "تعديل عرض اسم العرض",
+        "Name": "adjustmentinstancedisplayname"
+      },
+       {
+        "Value": "وصف",
+        "Name": "description"
+      },
+       {
+        "Value": "رمز السبب",
+        "Name": "reasoncode"
+      },
+       {
+        "Value": "اسم رمز السبب",
+        "Name": "reasoncodename"
+      },
+       {
+        "Value": "رمز الوصف الوصف",
+        "Name": "reasoncodedescription"
+      },
+       {
+        "Value": "رمز عرض الاسم الاسم",
+        "Name": "reasoncodedisplayname"
+      },
+      {
+        "Value": "معرف فترة الاستخدام",
+        "Name": "id_usage_interval"
+      },
+      {
+        "Value": "رقم الحساب",
+        "Name": "id_acc"
+      },
+      {
+        "Value": "نوع التعديل",
+        "Name": "n_adjustmenttype"
+      },
+      {
+        "Value": "تاريخ الجلسة",
+        "Name": "dt_session"
+      }
+    ]}
+}

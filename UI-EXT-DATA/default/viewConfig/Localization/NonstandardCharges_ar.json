@@ -1,0 +1,80 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "وقت الإصدار",
+        "Name": "issueTime"
+      },
+      {
+        "Value": "كمية",
+        "Name": "chargeAmount"
+      },
+      {
+        "Value": "كمية",
+        "Name": "chargeAmountAsString"
+      },
+      {
+        "Value": "وصف",
+        "Name": "description"
+      },
+      {
+        "Value": "الحالة",
+        "Name": "status"
+      },
+      {
+        "Value": "رسوم العملة",
+        "Name": "chargeCurrency"
+      },
+      {
+        "Value": "GLCode",
+        "Name": "glCode"
+      },
+      {
+        "Value": "معرف حساب المصدر",
+        "Name": "issuerAccountId"
+      },
+      {
+        "Value": "رمز إضافي",
+        "Name": "additionalCode"
+      },
+      {
+        "Value": "رسوم ضريبة المبلغ",
+        "Name": "chargeTaxAmount"
+      },
+      {
+        "Value": "معرف الخصم الخارجي",
+        "Name": "externalChargeId"
+      },
+      {
+        "Value": "رقم تعريف المسؤول الداخلي",
+        "Name": "internalChargeId"
+      },
+      {
+        "Value": "عدد الوحدات",
+        "Name": "numUnits"
+      },
+      {
+        "Value": "معدل",
+        "Name": "rate"
+      },
+      {
+        "Value": "معدل إضافي",
+        "Name": "additionalRate"
+      },
+      {
+        "Value": "معرف حساب المشترك",
+        "Name": "subscriberAccountId"
+      },
+      {
+        "Value": "دليل الفاصل الزمني إد",
+        "Name": "guideIntervalId"
+      },
+      {
+        "Value": "الضريبة ضمنية",
+        "Name": "taxImplied"
+      },
+      {
+        "Value": "المعلومات الضريبية",
+        "Name": "taxInformational"
+      }
+    ]}
+}

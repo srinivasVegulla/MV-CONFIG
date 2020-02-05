@@ -1,0 +1,124 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Type Of Adjustment",
+        "Name": "adjtype"
+      },
+      {
+        "Value": "Document ID",
+        "Name": "id_sess"
+      },
+      {
+        "Value": "Timestamp",
+        "Name": "dt_session"
+      },
+      {
+        "Value": "Usage Interval",
+        "Name": "id_usage_interval"
+      },
+      {
+        "Value": "Date of Adjustment",
+        "Name": "c_credittime"
+      },
+      {
+        "Value": "Status",
+        "Name": "c_status"
+      },
+      {
+        "Value": "Request Id",
+        "Name": "c_requestid"
+      },
+      {
+        "Value": "Content Session Id",
+        "Name": "c_contentionsessionid"
+      },
+      {
+        "Value": "Email Notification",
+        "Name": "c_emailnotification"
+      },
+      {
+        "Value": "Email Address",
+        "Name": "c_emailaddress"
+      },
+      {
+        "Value": "Email Text",
+        "Name": "c_emailtext"
+      },
+      {
+        "Value": "Issuer",
+        "Name": "c_issuer"
+      },
+      {
+        "Value": "Reason Code",
+        "Name": "c_reason"
+      },
+      {
+        "Value": "Other",
+        "Name": "c_other"
+      },
+      {
+        "Value": "Description",
+        "Name": "c_invoicecomment"
+      },
+      {
+        "Value": "Internal Comment",
+        "Name": "c_internalcomment"
+      },
+      {
+        "Value": "Request Amount",
+        "Name": "c_requestamount"
+      },
+      {
+        "Value": "Credit Amount",
+        "Name": "c_creditamount"
+      },
+      {
+        "Value": "Guide Interval Id",
+        "Name": "c_guideintervalid"
+      },
+      {
+        "Value": "Subscriber Account Id",
+        "Name": "c_subscriberaccountid"
+      },
+      {
+        "Value": "Issue Credit Note",
+        "Name": "c_issuecreditnote"
+      },
+      {
+        "Value": "Credit Note Template Id",
+        "Name": "c_creditnotetemplateid"
+      },
+      {
+        "Value": "Credit Note Comment",
+        "Name": "c_creditnotecomment"
+      },
+      {
+        "Value": "Miscellaneous Adjustment Id",
+        "Name": "c_miscadjustmentid"
+      },
+      {
+        "Value": "Rating Currency",
+        "Name": "c_ratingcurrency"
+      },
+      {
+        "Value": "Billing Currency",
+        "Name": "c_billingcurrency"
+      },
+      {
+        "Value": "Currency",
+        "Name": "currency"
+      },
+      {
+        "Value": "Amount",
+        "Name": "amount"
+      },
+      {
+        "Value": "Timestamp",
+        "Name": "timeestamp"
+      },
+      {
+        "Value": "Reason",
+        "Name": "reasoncode"
+      }
+    ]}
+}

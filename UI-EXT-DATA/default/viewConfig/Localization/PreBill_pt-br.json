@@ -1,0 +1,140 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Identificação de sessão",
+        "Name": "id_sess"
+      },
+      {
+        "Value": "Moeda",
+        "Name": "currency"
+      },
+      {
+        "Value": "Montante não ajustado",
+        "Name": "unadjustedamount"
+      },
+      {
+        "Value": "Montante não ajustado com imposto",
+        "Name": "unadjustedamountwithtax"
+      },
+      {
+        "Value": "Imposto federal total",
+        "Name": "totalfederaltax"
+      },
+      {
+        "Value": "Imposto total do estado",
+        "Name": "totalstatetax"
+      },
+      {
+        "Value": "Imposto total do país",
+        "Name": "totalcountytax"
+      },
+      {
+        "Value": "Imposto local total",
+        "Name": "totallocaltax"
+      },
+      {
+        "Value": "Total de outros impostos",
+        "Name": "totalothertax"
+      },
+      {
+        "Value": "Montante do Ajuste do imposto do Fed do Postbill",
+        "Name": "postbillfedtaxadjamt"
+      },
+      {
+        "Value": "Montante do Ajuste Federal da Taxa de Correio",
+        "Name": "postbillstatetaxadjamt"
+      },
+      {
+        "Value": "Montante do Ajuste do Imposto do País de Correio",
+        "Name": "postbillcntytaxadjamt"
+      },
+      {
+        "Value": "Montante do Ajuste Local do Imposto sobre o Postbill",
+        "Name": "postbilllocaltaxadjamt"
+      },
+      {
+        "Value": "Montante do Ajuste do Imposto do Postbill Other",
+        "Name": "postbillothertaxadjamt"
+      },
+      {
+        "Value": "Preçário Taxa Federal Ajustar Montante",
+        "Name": "prebillfedtaxadjamt"
+      },
+      {
+        "Value": "Montante do Ajuste do Imposto Estadual de Preenchimento",
+        "Name": "prebillstatetaxadjamt"
+      },
+      {
+        "Value": "Prebillcntytaxadjamt",
+        "Name": "prebillcntytaxadjamt"
+      },
+      {
+        "Value": "Montante do Ajuste da Taxa Local de Preenchimento",
+        "Name": "prebilllocaltaxadjamt"
+      },
+      {
+        "Value": "Pré-pagamento de outros impostos Ajustar o valor",
+        "Name": "prebillothertaxadjamt"
+      },
+       {
+        "Value": "Montante de Ajuste",
+        "Name": "adjustmentamount"
+      },
+       {
+        "Value": "Montante ajustado",
+        "Name": "adjustedamount"
+      },
+      {
+        "Value": "Montante de Ajuste com Imposto",
+        "Name": "adjustmentamountwithtax"
+      },
+      {
+        "Value": "Montante ajustado com imposto",
+        "Name": "adjustedamountwithtax"
+      },
+      {
+        "Value": "Nome de exibição do modelo de ajuste",
+        "Name": "adjustmenttemplatedisplayname"
+      },
+      {
+        "Value": "Nome de exibição de instância de ajuste",
+        "Name": "adjustmentinstancedisplayname"
+      },
+       {
+        "Value": "Descrição",
+        "Name": "description"
+      },
+       {
+        "Value": "Código de razão",
+        "Name": "reasoncode"
+      },
+       {
+        "Value": "Nome do Código de Razão",
+        "Name": "reasoncodename"
+      },
+       {
+        "Value": "Descrição do Código de Razão",
+        "Name": "reasoncodedescription"
+      },
+       {
+        "Value": "Nome de exibição do código de razão",
+        "Name": "reasoncodedisplayname"
+      },
+       {
+        "Value": "ID de Intervalo de Uso",
+        "Name": "id_usage_interval"
+      },
+       {
+        "Value": "ID da conta",
+        "Name": "id_acc"
+      },
+      {
+        "Value": "Tipo de Ajuste",
+        "Name": "n_adjustmenttype"
+      },
+      {
+        "Value": "Data da sessão",
+        "Name": "dt_session"
+      }
+    ]}
+}

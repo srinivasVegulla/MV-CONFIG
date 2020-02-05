@@ -1,0 +1,18 @@
+{
+  "LOGIN_TITLE": "Ericsson Enterprise والفوترة السحابية - MetraView",
+  "LOGIN_INVALID_CREDENTIALS": "اسم المستخدم أو كلمة المرور غير صالحين",
+  "LOGIN_INPUT_USERNAME": "اسم المستخدم",
+  "LOGIN_INPUT_PASSWORD": "كلمة المرور",
+  "LOGIN_INPUT_SUBMIT": "تسجيل الدخول",
+  "LOGIN_FORGOT_PASSWORD": "هل نسيت كلمة المرور؟",
+  "LOGIN_VALIDATION_PATTERN_USERNAME": ".غير مسموح بأحرف غير صالحة",
+  "LOGIN_VALIDATION_REQUIRED_USERNAME": ".اسم المستخدم مطلوب",
+  "LOGIN_VALIDATION_REQUIRED_PASSWORD": ".كلمة المرور مطلوبة",
+  "LOGIN_ACCOUNT_LOCKED": ".تم قفل حسابك. اتصل بخدمة العملاء لإلغاء قفل حسابك",
+  "LOGIN_XSS_SQL_INJECTION": ".غير مسموح لك بتنفيذ هذه العملية",
+  "LOGIN_NO_LOGON": "ليس لدى حسابك أذونات لهذا التطبيق",
+  "LOGIN_INVALID_TICKET": "تسجيل الدخول غير صالح",
+  "LOGIN_UNABLE_TO_CONNECT_TO_SERVER": "يتعذر الاتصال بالخادم",
+  "LOGIN_SIGN_UP": "اشتراك",
+  "LOGIN_COPYRIGHT": "كل الحقوق محفوظة Ⓒ Ericsson AB, 2015-2018"
+}

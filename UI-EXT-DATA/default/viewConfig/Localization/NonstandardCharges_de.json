@@ -1,0 +1,80 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Ausgabedauer",
+        "Name": "issueTime"
+      },
+      {
+        "Value": "Menge",
+        "Name": "chargeAmount"
+      },
+      {
+        "Value": "Menge",
+        "Name": "chargeAmountAsString"
+      },
+      {
+        "Value": "Beschreibung",
+        "Name": "description"
+      },
+      {
+        "Value": "Status",
+        "Name": "status"
+      },
+      {
+        "Value": "Gebührenwährung",
+        "Name": "chargeCurrency"
+      },
+      {
+        "Value": "GLCode",
+        "Name": "glCode"
+      },
+      {
+        "Value": "Emittenten-Konto-ID",
+        "Name": "issuerAccountId"
+      },
+      {
+        "Value": "Zusätzlicher Code",
+        "Name": "additionalCode"
+      },
+      {
+        "Value": "Gebührensteuerbetrag",
+        "Name": "chargeTaxAmount"
+      },
+      {
+        "Value": "Externe Gebühren-ID",
+        "Name": "externalChargeId"
+      },
+      {
+        "Value": "Interne Gebühren-ID",
+        "Name": "internalChargeId"
+      },
+      {
+        "Value": "Num Einheiten",
+        "Name": "numUnits"
+      },
+      {
+        "Value": "Preis",
+        "Name": "rate"
+      },
+      {
+        "Value": "Zuschlag",
+        "Name": "additionalRate"
+      },
+      {
+        "Value": "Suscriber Account ID",
+        "Name": "subscriberAccountId"
+      },
+      {
+        "Value": "Leitfaden-Intervall-ID",
+        "Name": "guideIntervalId"
+      },
+      {
+        "Value": "Steuer impliziert",
+        "Name": "taxImplied"
+      },
+      {
+        "Value": "Steuerinformation",
+        "Name": "taxInformational"
+      }
+    ]}
+}

@@ -1,0 +1,64 @@
+oauth-server-url: zvorole-01-MV.ls1gaugmr0germrns0etczhgea.bx.internal.cloudapp.net
+api-server-url: zvorole-01-MV.ls1gaugmr0germrns0etczhgea.bx.internal.cloudapp.net
+ui-server-url: zvorole-01-MV.ls1gaugmr0germrns0etczhgea.bx.internal.cloudapp.net
+
+# UI trust config
+http:
+  client:
+    ssl:
+      trust-store: C:\MetraTech\RMP\Install\Scripts\Setup-VM\Java\Metraview\ecbapikeystore.jks
+      trust-store-password: ecbapipwd
+      
+server:
+    port: 8080
+    use-forward-headers: true
+    ssl:
+      key-store: ecbapikeystore.jks
+      key-store-password: ecbapipwd
+      key-password: ecbapipwd
+      keyStoreType: JKS
+      keyAlias: ecb-server
+      trustStoreType: JKS
+
+session.cookie.http-only: true 
+security.basic.enabled: false
+server.session.cookie.http-only: true
+spring.mvc.favicon.enabled: false
+spring.cache.type: NONE
+server.server-header: HIDDEN
+server.session.cookie.secure: true
+
+zuul:
+    #Servlet30WrapperFilter.pre.disable: true
+    host:
+        connect-timeout-millis: 80000
+        socket-timeout-millis: 80000
+    debug.request: true
+    routes:
+        oauth:
+          path: /oauth/**
+          url: https://${oauth-server-url}:8083/uaa/oauth
+        api:
+          path: /api/**
+          url: https://${api-server-url}:8082
+security:
+    oauth2:
+        resource:
+            userInfoUri: https://${oauth-server-url}:8083/uaa/user
+
+ecb.static.resource:
+    location: file:C:/ECB/METRAVIEW-CONFIG/UI-EXT-DATA/
+    handler: /static/**
+
+metraview.ui.path:
+    domainLink: https://${ui-server-url}:8080
+    apiPath: https://${api-server-url}:8082
+    #Accepted values are : SAMEORIGIN for Production; Leave blank for DEV/QA environments
+    xFrameHeader: SAMEORIGIN 
+    
+logging:
+  file: MetraViewUI.log
+  level:
+    com.ericsson.ecb.ui: INFO
+
+

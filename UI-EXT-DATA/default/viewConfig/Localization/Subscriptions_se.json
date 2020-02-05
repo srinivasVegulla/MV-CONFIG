@@ -1,0 +1,80 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Prenumerations-ID",
+        "Name": "subscriptionId"
+      },
+      {
+        "Value": "Produktleverans-ID",
+        "Name": "productOfferingId"
+      },
+      {
+        "Value": "Status",
+        "Name": "status"
+      },
+      {
+        "Value": "Prenumerationsnamn",
+        "Name": "subscriptionName"
+      },
+      {
+        "Value": "Användare Avsluta prenumerationen",
+        "Name": "userUnsubscribe"
+      },
+      {
+        "Value": "Start datum",
+        "Name": "startDate"
+      },
+      {
+        "Value": "Start datum",
+        "Name": "startDateAsString"
+      },
+      {
+        "Value": "Slutdatum",
+        "Name": "endDate"
+      },
+      {
+        "Value": "Slutdatum",
+        "Name": "endDateAsString"
+      },
+      {
+        "Value": "Beskrivning",
+        "Name": "description"
+      },
+      {
+        "Value": "Skapat Datum",
+        "Name": "createDate"
+      },
+      {
+        "Value": "konto-ID",
+        "Name": "accountId"
+      },
+      {
+        "Value": "Språk",
+        "Name": "lang"
+      },
+      {
+        "Value": "Språk-ID",
+        "Name": "languageId"
+      },
+      {
+        "Value": "Utgånget",
+        "Name": "expired"
+      },
+      {
+        "Value": "Citat Batch ID",
+        "Name": "quoteBatchId"
+      },
+      {
+        "Value": "Karakteristiska värden",
+        "Name": "characteristicValues"
+      },
+      {
+        "Value": "Referens ID",
+        "Name": "udrcValues"
+      },
+      {
+        "Value": "Är Bundle",
+        "Name": "isBundle"
+      }
+    ]}
+}

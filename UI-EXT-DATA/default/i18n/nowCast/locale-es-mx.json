@@ -1,0 +1,5 @@
+{
+	"STORAGEDISCOUNT.Title": "Descuento almacenamiento",
+	"STORAGEDISCOUNT.Subtitle": "Almacenamiento de descuento de cubo único con asignación de espalda",
+	"SMARTCONCIERGECHARGEDECISION.RangeTickFormat": "Número de eventos:{calificadoTotal} Importe:{totalGeneradoImporte:c}"
+}

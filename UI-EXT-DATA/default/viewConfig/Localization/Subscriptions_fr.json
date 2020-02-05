@@ -1,0 +1,80 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "ID de souscription",
+        "Name": "subscriptionId"
+      },
+      {
+        "Value": "ID d'offre de produit",
+        "Name": "productOfferingId"
+      },
+      {
+        "Value": "Statut",
+        "Name": "status"
+      },
+      {
+        "Value": "Nom de l'abonnement",
+        "Name": "subscriptionName"
+      },
+      {
+        "Value": "Se désabonner de l'utilisateur",
+        "Name": "userUnsubscribe"
+      },
+      {
+        "Value": "Date de début",
+        "Name": "startDate"
+      },
+      {
+        "Value": "Date de début",
+        "Name": "startDateAsString"
+      },
+      {
+        "Value": "Date de fin",
+        "Name": "endDate"
+      },
+      {
+        "Value": "Date de fin",
+        "Name": "endDateAsString"
+      },
+      {
+        "Value": "La description",
+        "Name": "description"
+      },
+      {
+        "Value": "Date de création",
+        "Name": "createDate"
+      },
+      {
+        "Value": "identifiant de compte",
+        "Name": "accountId"
+      },
+      {
+        "Value": "La langue",
+        "Name": "lang"
+      },
+      {
+        "Value": "Identification de la langue",
+        "Name": "languageId"
+      },
+      {
+        "Value": "Expiré",
+        "Name": "expired"
+      },
+      {
+        "Value": "Quote ID du lot",
+        "Name": "quoteBatchId"
+      },
+      {
+        "Value": "Valeurs caractéristiques",
+        "Name": "characteristicValues"
+      },
+      {
+        "Value": "Pièce d'identité",
+        "Name": "udrcValues"
+      },
+      {
+        "Value": "Est paquet",
+        "Name": "isBundle"
+      }
+    ]}
+}

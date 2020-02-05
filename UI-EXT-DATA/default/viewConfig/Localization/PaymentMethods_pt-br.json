@@ -1,0 +1,108 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "tipo de conta",
+        "Name": "accountType"
+      },
+      {
+        "Value": "Endereço 1",
+        "Name": "address1"
+      },
+      {
+        "Value": "Endereço 2",
+        "Name": "address2"
+      },
+      {
+        "Value": "Pagamento Automático",
+        "Name": "autoPay"
+      },
+      {
+        "Value": "Nome do banco",
+        "Name": "bankname"
+      },
+      {
+        "Value": "Cidade",
+        "Name": "city"
+      },
+      {
+        "Value": "Data Criada",
+        "Name": "dtCreated"
+      },
+      {
+        "Value": "Data de validade",
+        "Name": "expDate"
+      },
+      {
+        "Value": "Formato da data de validade",
+        "Name": "expDateFormat"
+      },
+      {
+        "Value": "Primeiro nome",
+        "Name": "firstName"
+      },
+      {
+        "Value": "ID da conta",
+        "Name": "idAcct"
+      },
+      {
+        "Value": "ID do país",
+        "Name": "idCountry"
+      },
+      {
+        "Value": "tipo de cartão de crédito",
+        "Name": "idCreditcardType"
+      },
+      {
+        "Value": "Prioridade",
+        "Name": "idPriority"
+      },
+      {
+        "Value": "Último nome",
+        "Name": "lastName"
+      },
+      {
+        "Value": "Carga Máxima por Ciclo",
+        "Name": "maxChargePerCycle"
+      },
+      {
+        "Value": "Nome do meio",
+        "Name": "middleName"
+      },
+      {
+        "Value": "tipo de cartão de crédito",
+        "Name": "nameCreditcardType"
+      },
+      {
+        "Value": "ID do tipo do método de pagamento",
+        "Name": "paymentMethodTypeId"
+      },
+       {
+        "Value": "Tipo de pagamento Tipo Nome",
+        "Name": "paymentMethodTypeName"
+      },
+       {
+        "Value": "Número de roteamento",
+        "Name": "routingnumber"
+      },
+      {
+        "Value": "Estado",
+        "Name": "state"
+      },
+      {
+        "Value": "Número de conta truncada",
+        "Name": "truncdAcctNum"
+      },
+      {
+        "Value": "Fecho eclair",
+        "Name": "zip"
+      },
+      {
+        "Value": "Instrumento de identificação de pagamento",
+        "Name": "idPaymentInstrument"
+      },
+       {
+        "Value": "Pagamento agendado",
+        "Name": "paymentScheduled"
+      }
+    ]}
+}

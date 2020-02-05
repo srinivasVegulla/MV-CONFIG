@@ -1,0 +1,84 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Session Id",
+        "Name": "sessionId"
+      },
+      {
+        "Value": "Amount",
+        "Name": "amount"
+      },
+      {
+        "Value": "Currency",
+        "Name": "currency"
+      },
+      {
+        "Value": "Description",
+        "Name": "description"
+      },
+      {
+        "Value": "Payment Date",
+        "Name": "paymentDate"
+      },
+      {
+        "Value": "Payment Date String",
+        "Name": "paymentDateString"
+      },
+      {
+        "Value": "Reason Code",
+        "Name": "reasonCode"
+      },
+      {
+        "Value": "Reason",
+        "Name": "reasonCodeName"
+      },
+      {
+        "Value": "Payment Method",
+        "Name": "paymentMethod"
+      },
+      {
+        "Value": "Payment Type",
+        "Name": "paymentMethodName"
+      },
+      {
+        "Value": "Credit Card Type",
+        "Name": "creditCardType"
+      },
+      {
+        "Value": "Payment Method",
+        "Name": "creditCardTypeName"
+      },
+      {
+        "Value": "Check Or Card Number",
+        "Name": "checkOrCardNumber"
+      },
+      {
+        "Value": "Payment Transaction Id",
+        "Name": "paymentTxnId"
+      },
+      {
+        "Value": "Reference Id",
+        "Name": "referenceId"
+      },
+      {
+        "Value": "Account Number",
+        "Name": "accountnumber"
+      },
+      {
+        "Value": "Payment Inst Id",
+        "Name": "paymentinstid"
+      },
+      {
+        "Value": "Payment Type",
+        "Name": "paymenttype"
+      },
+      {
+        "Value": "Status",
+        "Name": "status"
+      },
+      {
+        "Value": "Payment Date",
+        "Name": "transactiondate"
+      }
+     ]}
+}

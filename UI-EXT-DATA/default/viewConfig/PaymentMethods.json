@@ -1,0 +1,301 @@
+{"columns" : {
+    "fields": [
+      {
+        "Key": "accountType",
+        "DisplayName": "Account Type",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      },      
+      {
+        "Key": "address1",
+        "DisplayName": "Address 1",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "address2",
+        "DisplayName": "Address 2",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "autoPay",
+        "DisplayName": "Auto Pay",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "bankname",
+        "DisplayName": "Bank Name",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "city",
+        "DisplayName": "City",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "dtCreated",
+        "DisplayName": "Date Created",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "Date",
+        "IsCurrency": false
+      },
+      {
+        "Key": "expDate",
+        "DisplayName": "Expiry Date",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "Date",
+        "IsCurrency": false
+      },
+      {
+        "Key": "expDateFormat",
+        "DisplayName": "Expiry Date Format",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": true,
+        "DataType": "Numeric",
+        "IsCurrency": false
+      },
+      {
+        "Key": "firstName",
+        "DisplayName": "First Name",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "idAcct",
+        "DisplayName": "Account Id",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "idCountry",
+        "DisplayName": "Country Id",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "Numeric",
+        "IsCurrency": false
+      },
+      {
+        "Key": "idCreditcardType",
+        "DisplayName": "Credit Card Type",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+       {
+        "Key": "idPriority",
+        "DisplayName": "Priority",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+       {
+        "Key": "lastName",
+        "DisplayName": "Last Name",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+       {
+        "Key": "maxChargePerCycle",
+        "DisplayName": "Maximum Charge Per Cycle",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+       {
+        "Key": "middleName",
+        "DisplayName": "Middle Name",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "nameCreditcardType",
+        "DisplayName": "Payment Method",
+        "IsColumn": true,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "paymentMethodTypeId",
+        "DisplayName": "Payment Method Type Id",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "Numeric",
+        "IsCurrency": false
+      },
+      {
+        "Key": "paymentMethodTypeName",
+        "DisplayName": "Payment Type",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": true,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "routingnumber",
+        "DisplayName": "Routing Number",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+       {
+        "Key": "state",
+        "DisplayName": "state",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+       {
+        "Key": "truncdAcctNum",
+        "DisplayName": "Account Number",
+        "IsColumn": true,
+        "Sortable" : true,
+        "Filterable" : true,
+        "Exportable" : true,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+       {
+        "Key": "zip",
+        "DisplayName": "Zip",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      },
+      {
+        "Key": "idPaymentInstrument",
+        "DisplayName": "Payment Id Instrument",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "Numeric",
+        "IsCurrency": false
+      },
+      {
+        "Key": "paymentScheduled",
+        "DisplayName": "Payment Scheduled",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "Boolean",
+        "IsCurrency": false
+      },
+      {
+        "Key": "paymentMethodTypeEnumName",
+        "DisplayName": "Payment Type ENUM Value",
+        "IsColumn": false,
+        "Sortable" : false,
+        "Filterable" : false,
+        "Exportable" : false,
+        "DefaultColumn": false,
+        "DataType": "String",
+        "IsCurrency": false
+      }
+    ]}
+}

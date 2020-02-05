@@ -1,0 +1,72 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Datum",
+        "Name": "time"
+      },
+      {
+        "Value": "Användarnamn",
+        "Name": "username"
+      },
+      {
+        "Value": "Användar ID",
+        "Name": "userid"
+      },
+      {
+        "Value": "Händelse-id",
+        "Name": "eventid"
+      },
+      {
+        "Value": "Händelse",
+        "Name": "eventname"
+      },
+      {
+        "Value": "Enhetsnamn",
+        "Name": "entityname"
+      },
+      {
+        "Value": "Enhets-ID",
+        "Name": "entityid"
+      },
+      {
+        "Value": "Entity Type",
+        "Name": "entitytype"
+      },
+      {
+        "Value": "Detaljer",
+        "Name": "details"
+      },
+      {
+        "Value": "Inloggad",
+        "Name": "loggedinas"
+      },
+      {
+        "Value": "Audit ID",
+        "Name": "id_audit"
+      },
+      {
+        "Value": "Händelse-id",
+        "Name": "id_event"
+      },
+      {
+        "Value": "Användar ID",
+        "Name": "id_userid"
+      },
+      {
+        "Value": "Entity Type Id",
+        "Name": "id_entitytype"
+      },
+      {
+        "Value": "Enhets-ID",
+        "Name": "id_entity"
+      },
+      {
+        "Value": "Logga in som tx",
+        "Name": "tx_logged_in_as"
+      },
+      {
+        "Value": "Skapat Datum",
+        "Name": "dt_crt"
+      }
+    ]}
+}

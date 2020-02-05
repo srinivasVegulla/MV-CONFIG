@@ -1,0 +1,80 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "ID de Inscrição",
+        "Name": "subscriptionId"
+      },
+      {
+        "Value": "ID da oferta de produtos",
+        "Name": "productOfferingId"
+      },
+      {
+        "Value": "Status",
+        "Name": "status"
+      },
+      {
+        "Value": "Nome da Assinatura",
+        "Name": "subscriptionName"
+      },
+      {
+        "Value": "Usuário cancelar inscrição",
+        "Name": "userUnsubscribe"
+      },
+      {
+        "Value": "Data de início",
+        "Name": "startDate"
+      },
+      {
+        "Value": "Data de início",
+        "Name": "startDateAsString"
+      },
+      {
+        "Value": "Data final",
+        "Name": "endDate"
+      },
+      {
+        "Value": "Data final",
+        "Name": "endDateAsString"
+      },
+      {
+        "Value": "Descrição",
+        "Name": "description"
+      },
+      {
+        "Value": "data criada",
+        "Name": "createDate"
+      },
+      {
+        "Value": "ID da conta",
+        "Name": "accountId"
+      },
+      {
+        "Value": "Língua",
+        "Name": "lang"
+      },
+      {
+        "Value": "ID da linguagem",
+        "Name": "languageId"
+      },
+      {
+        "Value": "Expirado",
+        "Name": "expired"
+      },
+      {
+        "Value": "Cite o ID do lote",
+        "Name": "quoteBatchId"
+      },
+      {
+        "Value": "Valores característicos",
+        "Name": "characteristicValues"
+      },
+      {
+        "Value": "referência ID",
+        "Name": "udrcValues"
+      },
+      {
+        "Value": "É pacote",
+        "Name": "isBundle"
+      }
+    ]}
+}

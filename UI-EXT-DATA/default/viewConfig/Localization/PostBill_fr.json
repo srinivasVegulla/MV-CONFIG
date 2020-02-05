@@ -1,0 +1,140 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "ID de session",
+        "Name": "id_sess"
+      },
+      {
+        "Value": "Devise",
+        "Name": "currency"
+      },
+      {
+        "Value": "Montant non ajusté",
+        "Name": "unadjustedamount"
+      },
+      {
+        "Value": "Montant non ajusté avec impôt",
+        "Name": "unadjustedamountwithtax"
+      },
+      {
+        "Value": "Total de la taxe fédérale",
+        "Name": "totalfederaltax"
+      },
+      {
+        "Value": "Total de l'impôt de l'Etat",
+        "Name": "totalstatetax"
+      },
+      {
+        "Value": "Taxe totale sur le pays",
+        "Name": "totalcountytax"
+      },
+      {
+        "Value": "Taxe locale totale",
+        "Name": "totallocaltax"
+      },
+      {
+        "Value": "Total d'autres taxes",
+        "Name": "totalothertax"
+      },
+      {
+        "Value": "Montant ajusté de l'impôt sur les envois postaux",
+        "Name": "postbillfedtaxadjamt"
+      },
+      {
+        "Value": "Montant de la taxe fédérale après facturation",
+        "Name": "postbillstatetaxadjamt"
+      },
+      {
+        "Value": "Montant de l'ajustement de la taxe nationale de poste de poste",
+        "Name": "postbillcntytaxadjamt"
+      },
+      {
+        "Value": "Montant de l'ajustement de la taxe locale de poste de poste",
+        "Name": "postbilllocaltaxadjamt"
+      },
+      {
+        "Value": "Montant de l'ajustement des autres taxes de poste de poste",
+        "Name": "postbillothertaxadjamt"
+      },
+      {
+        "Value": "Montant de la taxe fédérale pré-facturé",
+        "Name": "prebillfedtaxadjamt"
+      },
+      {
+        "Value": "Prebill State Tax Adjust Montant",
+        "Name": "prebillstatetaxadjamt"
+      },
+      {
+        "Value": "Prebillcntytaxadjamt",
+        "Name": "prebillcntytaxadjamt"
+      },
+      {
+        "Value": "Montant de la taxe locale pré-facturation",
+        "Name": "prebilllocaltaxadjamt"
+      },
+      {
+        "Value": "Prebill Other Tax Adjust Montant",
+        "Name": "prebillothertaxadjamt"
+      },
+       {
+        "Value": "Montant de l'ajustement",
+        "Name": "adjustmentamount"
+      },
+       {
+        "Value": "Montant ajusté",
+        "Name": "adjustedamount"
+      },
+      {
+        "Value": "Montant ajusté avec taxe",
+        "Name": "adjustmentamountwithtax"
+      },
+      {
+        "Value": "Montant ajusté avec taxe",
+        "Name": "adjustedamountwithtax"
+      },
+      {
+        "Value": "Nom d'affichage du modèle de réglage",
+        "Name": "adjustmenttemplatedisplayname"
+      },
+      {
+        "Value": "Nom d'affichage Instance d'ajustement",
+        "Name": "adjustmentinstancedisplayname"
+      },
+       {
+        "Value": "La description",
+        "Name": "description"
+      },
+       {
+        "Value": "Code de raison",
+        "Name": "reasoncode"
+      },
+       {
+        "Value": "Nom du code de raison",
+        "Name": "reasoncodename"
+      },
+       {
+        "Value": "Description du motif",
+        "Name": "reasoncodedescription"
+      },
+       {
+        "Value": "Code de motif Nom d'affichage",
+        "Name": "reasoncodedisplayname"
+      },
+      {
+        "Value": "ID d'intervalle d'utilisation",
+        "Name": "id_usage_interval"
+      },
+      {
+        "Value": "Identifiant de compte",
+        "Name": "id_acc"
+      },
+      {
+        "Value": "Type d'ajustement",
+        "Name": "n_adjustmenttype"
+      },
+      {
+        "Value": "Date de la session",
+        "Name": "dt_session"
+      }
+    ]}
+}

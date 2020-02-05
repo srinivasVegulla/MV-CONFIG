@@ -1,0 +1,94 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "מזהה פעילות באתר",
+        "Name": "sessionId"
+      },
+      {
+        "Value": "כמות",
+        "Name": "amount"
+      },
+      {
+        "Value": "מַטְבֵּעַ",
+        "Name": "currency"
+      },
+      {
+        "Value": "תאור",
+        "Name": "description"
+      },
+      {
+        "Value": "תאריך תשלום",
+        "Name": "paymentDate"
+      },
+      {
+        "Value": "מחרוזת תאריך תשלום",
+        "Name": "paymentDateString"
+      },
+      {
+        "Value": "קוד סיבה",
+        "Name": "reasonCode"
+      },
+      {
+        "Value": "שם קוד סיבה",
+        "Name": "reasonCodeName"
+      },
+      {
+        "Value": "אמצעי תשלום",
+        "Name": "paymentMethod"
+      },
+      {
+        "Value": "שם שיטת התשלום",
+        "Name": "paymentMethodName"
+      },
+      {
+        "Value": "סוג כרטיס אשראי",
+        "Name": "creditCardType"
+      },
+      {
+        "Value": "שם סוג כרטיס האשראי",
+        "Name": "creditCardTypeName"
+      },
+      {
+        "Value": "בדוק את מספר הכרטיס",
+        "Name": "checkOrCardNumber"
+      },
+      {
+        "Value": "מזהה עסקה",
+        "Name": "paymentTxnId"
+      },
+      {
+        "Value": "מזהה עיון",
+        "Name": "referenceId"
+      },
+      {
+        "Value": "מספר חשבון",
+        "Name": "accountnumber"
+      },
+      {
+        "Value": "מזהה מזהה תשלום",
+        "Name": "paymentinstid"
+      },
+      {
+        "Value": "סוג תשלום",
+        "Name": "paymenttype"
+      },
+      {
+        "Value": "סטָטוּס",
+        "Name": "status"
+      },
+      {
+        "Value": "תאריך עסקה",
+        "Name": "transactiondate"
+      }
+     ]}
+}
+
+
+
+
+
+
+
+
+
+

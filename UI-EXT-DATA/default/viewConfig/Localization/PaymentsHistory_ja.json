@@ -1,0 +1,60 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "口座番号",
+        "Name": "accountnumber"
+      },
+      {
+        "Value": "量",
+        "Name": "amount"
+      },
+      {
+        "Value": "請求書",
+        "Name": "invoices"
+      },
+      {
+        "Value": "請求書#",
+        "Name": "invoiceString"
+      },
+      {
+        "Value": "請求書の金額",
+        "Name": "invoiceAmount"
+      },
+      {
+        "Value": "支払い方法",
+        "Name": "creditcardtype"
+      },
+      {
+        "Value": "クレジットカードの種類",
+        "Name": "creditcardtype"
+      },
+      {
+        "Value": "通貨",
+        "Name": "currency"
+      },
+      {
+        "Value": "説明",
+        "Name": "description"
+      },
+      {
+        "Value": "支払いInst Id",
+        "Name": "paymentinstid"
+      },
+      {
+        "Value": "払いの種類",
+        "Name": "paymenttype"
+      },
+      {
+        "Value": "状態",
+        "Name": "status"
+      },
+      {
+        "Value": "取引日",
+        "Name": "transactiondate"
+      },
+      {
+        "Value": "取引タイプ",
+        "Name": "transactiontype"
+      }
+    ]}
+}

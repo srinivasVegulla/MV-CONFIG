@@ -1,0 +1,21 @@
+﻿{
+	"CHANGE_PASSWORD_TITLE": "Alterar senha",
+	"CHANGE_PASSWORD_TEXT_CURRENT_PASSWORD": "Senha atual",
+	"CHANGE_PASSWORD_TEXT_NEW_PASSWORD": "Nova senha",
+	"CHANGE_PASSWORD_TEXT_VERIFY_PASSWORD": "Verificar senha",
+	"CHANGE_PASSWORD_STRENGTH_CONDITION1": "Precisa ficar entre 7 e 1024 caracteres.",
+	"CHANGE_PASSWORD_STRENGTH_CONDITION2": "Precisa conter pelo menos uma letra minúscula, uma letra maiúscula e um dígito.",
+	"CHANGE_PASSWORD_STRENGTH_CONDITION3": "Caracteres especiais são opcionais.",
+	"CHANGE_PASSWORD_REQUIRED_ERROR_MSG": "A senha é obrigatória.",
+	"CHANGE_PASSWORD_VERIFY_PASSWORD_REQUIRED_ERROR_MSG": "A verificação da senha é obrigatória.",
+	"CHANGE_PASSWORD_INCORRECT_PATTERN": "A senha não atende as exigências de segurança.",
+	"CHANGE_PASSWORD_VERIFY_PASSWORD": "As senhas não conferem.",
+	"CHANGE_PASSWORD_INVALID_OLD_PASSWORD": "Senha antiga inválida.",
+	"CHANGE_PASSWORD_INVALID_NEW_PASSWORD": "A nova senha não atende as exigências de segurança.",
+	"CHANGE_PASSWORD_ACCOUNT_LOCKED": "A sua conta foi bloqueada por razões de segurança. Favor entrar em contato com o suporte para solucionar o problema.",
+	"CHANGE_PASSWORD_STRENGTH": "A senha não é segura o suficiente.",
+	"CHANGE_PASSWORD_USED_BEFORE": "A senha foi usada antes.",
+	"CHANGE_PASSWORD_FAILED_UPDATE": "A alteração de senha falhou. Favor entrar em contato com o suporte ao cliente.",
+	"CHANGE_PASSWORD_TEXT_REQUIRED_FIELD": "Campo obrigatório",
+	"CHANGE_CURRENT_PASSWORD_REQUIRED_ERROR_MSG": "A senha atual é obrigatória."
+}

@@ -1,0 +1,12 @@
+{
+	"FORGOTPASSWORD_INSTRUCTION_WRONG_USERNAME_EMAIL": "Bien el nombre de usuario es incorrecto, o bien no hemos podido encontrar un correcto electrónico asociado con el nombre de usuario. Inténtelo de nuevo o llame al servicio de asistencia al cliente para recibir ayuda.",
+	"FORGOTPASSWORD_INSTRUCTION_PROCESSING_ERROR": "Se produjo un error al procesar su solicitud. Inténtelo de nuevo o llame al servicio de asistencia al cliente para recibir ayuda.",
+	"FORGOTPASSWORD_INSTRUCTION_SENDING_EMAIL_ERROR": "Error al enviar el correo electrónico.",
+	"FORGOTPASSWORD_INSTRUCTION_USERNAME_TO_EMAIL_INSTRUCTION": "Introducir el nombre de usuario para que le enviemos por correo electrónico las instrucciones de restablecimiento de contraseña.",
+	"FORGOTPASSWORD_INSTRUCTION_EMAIL_SENT_SUCCESSFULLY": "Hemos enviado un correo electrónico a su dirección de correo electrónico registrado. Seguir las instrucciones del correo electrónico sobre cómo restablecer la contraseña.",
+	"FORGOTPASSWORD_INSTRUCTION_INPUT_SEND": "Enviar",
+	"FORGOTPASSWORD_INSTRUCTION_BACKTO_LOGINFORM": "Volver a Iniciar sesión",
+	"FORGOTPASSWORD_INSTRUCTION_INPUT_USERNAME": "Nombre de usuario",
+	"FORGOTPASSWORD_INSTRUCTION_VALIDATION_PATTERN_USERNAME": "Los caracteres inválidos no están permitidos.",
+	"FORGOTPASSWORD_INSTRUCTION_VALIDATION_REQUIRED_USERNAME": "El nombre de usuario es obligatorio."
+}

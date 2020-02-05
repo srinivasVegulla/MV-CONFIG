@@ -1,0 +1,108 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Användartyp",
+        "Name": "accountType"
+      },
+      {
+        "Value": "Adress 1",
+        "Name": "address1"
+      },
+      {
+        "Value": "Adress 2",
+        "Name": "address2"
+      },
+      {
+        "Value": "Auto Pay",
+        "Name": "autoPay"
+      },
+      {
+        "Value": "Bank namn",
+        "Name": "bankname"
+      },
+      {
+        "Value": "Stad",
+        "Name": "city"
+      },
+      {
+        "Value": "Skapat datum",
+        "Name": "dtCreated"
+      },
+      {
+        "Value": "Utgångsdatum",
+        "Name": "expDate"
+      },
+      {
+        "Value": "Förfallodatumformat",
+        "Name": "expDateFormat"
+      },
+      {
+        "Value": "Förnamn",
+        "Name": "firstName"
+      },
+      {
+        "Value": "Konto-ID",
+        "Name": "idAcct"
+      },
+      {
+        "Value": "Land Id",
+        "Name": "idCountry"
+      },
+      {
+        "Value": "Typ av kreditkort",
+        "Name": "idCreditcardType"
+      },
+      {
+        "Value": "Prioritet",
+        "Name": "idPriority"
+      },
+      {
+        "Value": "Efternamn",
+        "Name": "lastName"
+      },
+      {
+        "Value": "Maximal laddning per cykel",
+        "Name": "maxChargePerCycle"
+      },
+      {
+        "Value": "Mellannamn",
+        "Name": "middleName"
+      },
+      {
+        "Value": "typ av kreditkort",
+        "Name": "nameCreditcardType"
+      },
+      {
+        "Value": "Betalningsmetod Typ Id",
+        "Name": "paymentMethodTypeId"
+      },
+       {
+        "Value": "Betalningsmetod Typ Namn",
+        "Name": "paymentMethodTypeName"
+      },
+       {
+        "Value": "Clearingnummer",
+        "Name": "routingnumber"
+      },
+      {
+        "Value": "stat",
+        "Name": "state"
+      },
+      {
+        "Value": "Avkortat kontonummer",
+        "Name": "truncdAcctNum"
+      },
+      {
+        "Value": "Blixtlås",
+        "Name": "zip"
+      },
+      {
+        "Value": "Betalnings-id-instrument",
+        "Name": "idPaymentInstrument"
+      },
+       {
+        "Value": "Betalning Schemalagd",
+        "Name": "paymentScheduled"
+      }
+    ]}
+}

@@ -1,0 +1,21 @@
+﻿{
+  "CHANGE_PASSWORD_TITLE": "Cambiar contraseña",
+  "CHANGE_PASSWORD_TEXT_CURRENT_PASSWORD": "Contraseña actual",
+  "CHANGE_PASSWORD_TEXT_NEW_PASSWORD": "Nueva contraseña",
+  "CHANGE_PASSWORD_TEXT_VERIFY_PASSWORD": "Verifique contraseña",
+  "CHANGE_PASSWORD_STRENGTH_CONDITION1": "Deben ser entre 7 y 1024 caracteres.",
+  "CHANGE_PASSWORD_STRENGTH_CONDITION2": "Debe contener al menos una letra minúscula, una letra mayúscula y un dígito.",
+  "CHANGE_PASSWORD_STRENGTH_CONDITION3": "Los caracteres especiales son opcionales.",     
+  "CHANGE_PASSWORD_REQUIRED_ERROR_MSG": "Se requiere la contraseña.",
+  "CHANGE_PASSWORD_VERIFY_PASSWORD_REQUIRED_ERROR_MSG": "Se requiere verificar la contraseña.",
+  "CHANGE_PASSWORD_INCORRECT_PATTERN": "La contraseña no cumple los requerimientos de seguridad.",
+  "CHANGE_PASSWORD_VERIFY_PASSWORD": "Las contraseñas no coinciden.",
+  "CHANGE_PASSWORD_INVALID_OLD_PASSWORD": "Contraseña antigua inválida.",
+  "CHANGE_PASSWORD_INVALID_NEW_PASSWORD": "La nueva contraseña no cumple con los requerimientos de seguridad.",
+  "CHANGE_PASSWORD_ACCOUNT_LOCKED": "Su cuenta ha sido bloqueada por razones de seguridad. Por favor contacte a soporte para resolver el asunto.",
+  "CHANGE_PASSWORD_STRENGTH": "La contraseña no es suficientemente sólida.",
+  "CHANGE_PASSWORD_USED_BEFORE": "La contraseña ha sido usada antes.",
+  "CHANGE_PASSWORD_FAILED_UPDATE": "El cambio de contraseña falló. Por favor contacte a atención al cliente.",
+  "CHANGE_PASSWORD_TEXT_REQUIRED_FIELD": "Campo requerido",
+  "CHANGE_CURRENT_PASSWORD_REQUIRED_ERROR_MSG": "Se requiere la contraseña actual."
+}

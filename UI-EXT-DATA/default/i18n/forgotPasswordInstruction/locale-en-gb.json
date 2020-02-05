@@ -1,0 +1,12 @@
+﻿{  
+  "FORGOTPASSWORD_INSTRUCTION_WRONG_USERNAME_EMAIL": "Either username is wrong or we couldn't find an email associated with the username. Try again or call customer service for assistance.",
+  "FORGOTPASSWORD_INSTRUCTION_PROCESSING_ERROR": "There was an error while processing your request. Try again or call customer service for assistance.",
+  "FORGOTPASSWORD_INSTRUCTION_SENDING_EMAIL_ERROR": "Error sending email.",
+  "FORGOTPASSWORD_INSTRUCTION_USERNAME_TO_EMAIL_INSTRUCTION": "Enter the username to email you the instructions on how to reset password.",
+  "FORGOTPASSWORD_INSTRUCTION_EMAIL_SENT_SUCCESSFULLY": "An email was sent to your registered email address. Follow the instructions in email on how to reset the password.",
+  "FORGOTPASSWORD_INSTRUCTION_INPUT_SEND": "Send",
+  "FORGOTPASSWORD_INSTRUCTION_BACKTO_LOGINFORM": "Back to Login",
+  "FORGOTPASSWORD_INSTRUCTION_INPUT_USERNAME": "User Name",
+  "FORGOTPASSWORD_INSTRUCTION_VALIDATION_PATTERN_USERNAME": "Invalid characters are not allowed.",
+  "FORGOTPASSWORD_INSTRUCTION_VALIDATION_REQUIRED_USERNAME": "User Name is required."
+}

@@ -1,0 +1,261 @@
+{
+	"views": [{
+		"name": "dashboard",
+		"localeResourceKey": "MV_VIEW_DASHBOARD",
+		"defaultView": true,
+		"widgets": [{
+			"widgetName": [
+				"ecb-total-amount-due",
+				"ecb-charges"
+			],
+			"visible": true,
+			"state": "minimal",
+			"userType": ["payer", "individual"],
+			"dependency" :[{
+				"widgetName": "ecb-subscriptions",
+				"userType": ["payer", "individual", "subscriber"]
+			}]
+		}, {
+			"widgetName": "ecb-charges",
+			"visible": true,
+			"state": "minimal",
+			"userType": ["subscriber"]
+		}, {
+			"widgetName": "ecb-now-cast",
+			"visible": true,
+			"userType": ["payer", "individual", "subscriber"]
+		}, {
+			"widgetName": "ecb-billing-activity",
+			"visible": true,
+			"userType": ["payer", "individual"]
+		}, {
+			"widgetName": "ecb-account-info",
+			"visible": true,
+			"state": "detail",
+			"userType": ["payer", "individual", "subscriber"]
+		}, {
+			"widgetName": "ecb-since-last-bill",
+			"visible": true,
+			"state": "detail",
+			"userType": ["payer", "individual", "subscriber"],
+			"dependency" :[{
+				"widgetName": "ecb-invoice",
+				"userType": ["payer", "individual", "subscriber"]
+			},
+      {
+        "widgetName": "ecb-offer-charge-summary",
+        "userType": ["payer", "individual", "subscriber"],
+        "dependency": [{
+          "widgetName": "ecb-charges",
+          "state": "detail",
+          "userType": ["subscriber"]
+        }]
+      }]
+		}, {
+			"widgetName": "ecb-payment-methods",
+			"visible": true,
+			"userType": ["payer", "individual"]
+		}, {
+			"widgetName": "ecb-payer-subscriptions",
+			"visible": true,
+			"userType": ["payer"]
+		}, {
+			"widgetName": "ecb-subscriptions",
+			"visible": true,
+			"state": "detail",
+			"userType": ["payer", "individual", "subscriber"]
+		}, {
+			"widgetName": "ecb-activity-log",
+			"visible": true,
+			"userType": ["payer", "individual", "subscriber"]
+		}, {
+			"widgetName": "ecb-accounts-manager",
+			"visible": true,
+			"state": "detail",
+			"userType": ["payer"]
+		}]
+	}, {
+		"name": "bills",
+		"localeResourceKey": "MV_VIEW_BILLS",
+		"widgets": [{
+			"widgetName": "ecb-total-amount-due",
+			"visible": true,
+			"state": "detail",
+			"userType": ["payer", "individual"],
+			"dependency" :[{
+				"widgetName": "ecb-subscriptions",
+				"userType": ["payer", "individual", "subscriber"]
+			}]
+		}, {
+			"widgetName": [
+				"ecb-payments-credits-adjustments",
+				"ecb-charges",
+				"ecb-total-bill-amount"
+			],
+			"visible": true,
+			"state": "detail",
+			"userType": ["payer", "individual"]
+		}, {
+			"widgetName": "ecb-charges",
+			"visible": true,
+			"state": "detail",
+			"userType": ["subscriber"]
+		}, {
+			"widgetName": "ecb-offer-charge-summary",
+			"visible": true,
+			"userType": ["payer", "individual", "subscriber"],
+      "dependency": [{
+        "widgetName": "ecb-charges",
+        "state": "detail",
+        "userType": ["subscriber"]
+      }]
+		}, {
+			"widgetName": "ecb-usage-activity",
+			"visible": true,
+			"userType": ["subscriber"]
+		}, {
+			"widgetName": "ecb-billing-activity",
+			"visible": true,
+			"userType": ["payer", "individual"]
+		}, {
+			"widgetName": "ecb-invoice",
+			"visible": true,
+			"userType": ["payer", "individual", "subscriber"]
+		}, {
+			"widgetName": "ecb-payer-subscriptions",
+			"visible": true,
+			"userType": ["payer"]
+		}, {
+			"widgetName": "ecb-subscriptions",
+			"visible": true,
+			"state": "detail",
+			"userType": ["individual", "subscriber"]
+		}, {
+			"widgetName": "ecb-now-cast",
+			"visible": true,
+			"userType": ["payer", "individual", "subscriber"]
+		}]
+	}, {
+		"name": "offerStore",
+		"localeResourceKey": "MV_VIEW_OFFER_STORE",
+		"widgets": [{
+			"widgetName": "ecb-total-amount-due",
+			"visible": true,
+			"state": "minimal",
+			"userType": ["payer", "individual"]
+		}, {
+			"widgetName": "ecb-invoice",
+			"visible": true,
+			"userType": ["payer", "individual", "subscriber"]
+		}, {
+			"widgetName": "ecb-payment-methods",
+			"visible": true,
+			"userType": ["payer", "individual"]
+		}, {
+			"widgetName": [
+				"ecb-payments-credits-adjustments",
+				"ecb-charges",
+				"ecb-total-bill-amount"
+			],
+			"visible": true,
+			"userType": ["payer", "individual", "subscriber"]
+		}, {
+			"widgetName": "ecb-offer-charge-summary",
+			"visible": false,
+			"userType": ["payer"],
+      "dependency": [{
+        "widgetName": "ecb-charges",
+        "state": "detail",
+        "userType": ["subscriber"]
+      }]
+		}, {
+			"widgetName": "ecb-billing-activity",
+			"visible": true,
+			"userType": ["payer", "individual"]
+		}, {
+			"widgetName": "ecb-usage-activity",
+			"visible": true,
+			"userType": ["subscriber"]
+		}, {
+			"widgetName": "ecb-activity-log",
+			"visible": false,
+			"userType": ["payer"]
+		}, {
+			"widgetName": "ecb-now-cast",
+			"visible": false
+		}, {
+			"widgetName": "ecb-subscriptions",
+			"visible": true,
+			"state": "detail",
+			"userType": ["individual", "subscriber"]
+		}, {
+			"widgetName": "ecb-payer-subscriptions",
+			"visible": true,
+			"userType": ["payer"]
+		}, {
+			"widgetName": "ecb-account-info",
+			"visible": false,
+			"state": "detail",
+			"userType": ["payer", "individual", "subscriber"]
+		}, {
+			"widgetName": "ecb-account-settings",
+			"visible": true,
+			"state": "detail",
+			"userType": ["payer", "individual", "subscriber"]
+		}, {
+			"widgetName": "ecb-since-last-bill",
+			"visible": true,
+			"state": "detail",
+			"userType": ["individual"],
+			"dependency" :[{
+				"widgetName": "ecb-invoice",
+				"userType": ["payer", "individual", "subscriber"]
+			},
+      {
+        "widgetName": "ecb-offer-charge-summary",
+        "userType": ["payer", "individual", "subscriber"],
+        "dependency": [{
+          "widgetName": "ecb-charges",
+          "state": "detail",
+          "userType": ["subscriber"]
+        }]
+      }]
+		}]
+	}, {
+		"name": "myAccount",
+		"localeResourceKey": "MV_VIEW_MY_ACCOUNT",
+		"widgets": [{
+			"widgetName": "ecb-account-info",
+			"visible": true,
+			"state": "detail",
+			"userType": ["payer", "individual", "subscriber"],
+      "dependency" :[{
+				"widgetName": "ecb-subscriptions",
+				"userType": ["payer", "individual", "subscriber"]
+			}]
+		}, {
+			"widgetName": "ecb-account-settings",
+			"visible": true,
+			"state": "detail",
+			"userType": ["payer", "individual", "subscriber"]
+		}, {
+			"widgetName": "ecb-payment-methods",
+			"visible": true,
+			"userType": ["payer", "individual"]
+		}, {
+			"widgetName": "ecb-subscriptions",
+			"visible": true,
+			"state": "detail",
+			"userType": ["payer", "individual", "subscriber"]
+		}, {
+			"widgetName": "ecb-activity-log",
+			"visible": true,
+			"userType": ["payer", "individual", "subscriber"]
+		}, {
+			"widgetName": "ecb-accounts-manager",
+			"visible": true,
+			"state": "detail",
+			"userType": ["payer"]
+		}]
+	}]
+}

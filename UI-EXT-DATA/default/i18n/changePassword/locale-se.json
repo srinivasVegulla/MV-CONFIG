@@ -1,0 +1,21 @@
+﻿{
+  "CHANGE_PASSWORD_TITLE": "Ändra lösenord",   
+  "CHANGE_PASSWORD_TEXT_CURRENT_PASSWORD": "Aktuellt lösenord",
+  "CHANGE_PASSWORD_TEXT_NEW_PASSWORD": "Nytt lösenord",
+  "CHANGE_PASSWORD_TEXT_VERIFY_PASSWORD": "Bekräfta lösenord",        
+  "CHANGE_PASSWORD_STRENGTH_CONDITION1": "Måste vara mellan 7 och 1 024 tecken.",
+  "CHANGE_PASSWORD_STRENGTH_CONDITION2": "Måste innehålla minst en gemen, en versal och en siffra.",
+  "CHANGE_PASSWORD_STRENGTH_CONDITION3": "Specialtecken är inte obligatoriska.",     
+  "CHANGE_PASSWORD_REQUIRED_ERROR_MSG": "Lösenord måste anges.",
+  "CHANGE_PASSWORD_VERIFY_PASSWORD_REQUIRED_ERROR_MSG": "Bekräftelse av lösenord måste anges.",
+  "CHANGE_PASSWORD_INCORRECT_PATTERN": "Lösenordet uppfyller inte säkerhetskraven.",
+  "CHANGE_PASSWORD_VERIFY_PASSWORD": "Lösenorden matchar inte.",      
+  "CHANGE_PASSWORD_INVALID_OLD_PASSWORD": "Ogiltigt gammalt lösenord.",
+  "CHANGE_PASSWORD_INVALID_NEW_PASSWORD": "Det nya lösenordet uppfyller inte säkerhetskraven.",
+  "CHANGE_PASSWORD_ACCOUNT_LOCKED": "Ditt konto har låsts av säkerhetsskäl. Kontakta support för att lösa problemet.",
+  "CHANGE_PASSWORD_STRENGTH": "Lösenordet är inte tillräckligt säkert.",
+  "CHANGE_PASSWORD_USED_BEFORE": "Lösenordet har använts tidigare.",
+  "CHANGE_PASSWORD_FAILED_UPDATE": "Lösenordsändring misslyckades. Kontakta kundtjänst.",
+  "CHANGE_PASSWORD_TEXT_REQUIRED_FIELD": "Obligatoriskt fält",
+  "CHANGE_CURRENT_PASSWORD_REQUIRED_ERROR_MSG": "Aktuellt lösenord måste anges."
+}

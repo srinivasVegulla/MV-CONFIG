@@ -1,0 +1,72 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "تاريخ",
+        "Name": "time"
+      },
+      {
+        "Value": "اسم المستخدم",
+        "Name": "username"
+      },
+      {
+        "Value": "معرف المستخدم",
+        "Name": "userid"
+      },
+      {
+        "Value": "معرف الحدث",
+        "Name": "eventid"
+      },
+      {
+        "Value": "هدف",
+        "Name": "eventname"
+      },
+      {
+        "Value": "اسم الكيان",
+        "Name": "entityname"
+      },
+      {
+        "Value": "معرف الكيان",
+        "Name": "entityid"
+      },
+      {
+        "Value": "نوع الكيان",
+        "Name": "entitytype"
+      },
+      {
+        "Value": "تفاصيل",
+        "Name": "details"
+      },
+      {
+        "Value": "تسجيل الدخول",
+        "Name": "loggedinas"
+      },
+      {
+        "Value": "معرف التدقيق",
+        "Name": "id_audit"
+      },
+      {
+        "Value": "معرف الحدث",
+        "Name": "id_event"
+      },
+      {
+        "Value": "معرف المستخدم",
+        "Name": "id_userid"
+      },
+      {
+        "Value": "معرف نوع الكيان",
+        "Name": "id_entitytype"
+      },
+      {
+        "Value": "معرف الكيان",
+        "Name": "id_entity"
+      },
+      {
+        "Value": "تم تسجيل الدخول باسم تكس",
+        "Name": "tx_logged_in_as"
+      },
+      {
+        "Value": "تاريخ الإنشاء",
+        "Name": "dt_crt"
+      }
+    ]}
+}

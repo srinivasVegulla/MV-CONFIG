@@ -1,0 +1,80 @@
+{"columns" : {
+    "fields": [
+      {
+        "displayName": "ID de suscripción",
+        "key": "subscriptionId"
+      },
+      {
+        "displayName": "ID de oferta del producto",
+        "key": "productOfferingId"
+      },
+      {
+        "displayName": "Estado",
+        "key": "status"
+      },
+      {
+        "Value": "Nombre de suscripción",
+        "Name": "subscriptionName"
+      },
+      {
+        "Value": "Usuario darse de baja",
+        "Name": "userUnsubscribe"
+      },
+      {
+        "Value": "Fecha de inicio",
+        "Name": "startDate"
+      },
+      {
+        "Value": "Fecha de inicio",
+        "Name": "startDateAsString"
+      },
+      {
+        "Value": "Fecha final",
+        "Name": "endDate"
+      },
+      {
+        "Value": "Fecha final",
+        "Name": "endDateAsString"
+      },
+      {
+        "Value": "Descripción",
+        "Name": "description"
+      },
+      {
+        "Value": "Fecha de creación",
+        "Name": "createDate"
+      },
+      {
+        "Value": "ID de la cuenta",
+        "Name": "accountId"
+      },
+      {
+        "Value": "Idioma",
+        "Name": "lang"
+      },
+      {
+        "Value": "ID de idioma",
+        "Name": "languageId"
+      },
+      {
+        "Value": "Muerto",
+        "Name": "expired"
+      },
+      {
+        "Value": "Citar ID de lote",
+        "Name": "quoteBatchId"
+      },
+      {
+        "Value": "Valores Personales",
+        "Name": "characteristicValues"
+      },
+      {
+        "Value": "Identificación de referencia",
+        "Name": "udrcValues"
+      },
+      {
+        "Value": "Es paquete",
+        "Name": "isBundle"
+      }
+    ]}
+}

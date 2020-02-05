@@ -1,0 +1,20 @@
+{
+	"RESETPASSWORD_HEADING": "Esqueceu a senha",
+	"RESETPASSWORD_NEW_PASSWORD": "Nova senha",
+	"RESETPASSWORD_TEXT_PASSWORD": "Senha",
+	"RESETPASSWORD_STRENGTH_CONDITION1": "Precisa ficar entre 7 e 1024 caracteres.",
+	"RESETPASSWORD_STRENGTH_CONDITION2": "Deve conter pelo menos uma letra minúscula, uma letra maiúscula e um dígito.",
+	"RESETPASSWORD_STRENGTH_CONDITION3": "Caracteres especiais são opcionais.",
+	"RESETPASSWORD_REQUIRED_ERROR_MSG": "Senha requerida.",
+	"RESETPASSWORD_INCORRECT_PATTERN": "A senha não atende aos requisitos de segurança.",
+	"RESETPASSWORD_CONFIRM_PASSWORD": "Confirmar senha",
+	"RESETPASSWORD_TEXT_VERIFY_PASSWORD": "Verificar senha",
+	"RESETPASSWORD_VERIFY_PASSWORD_REQUIRED_ERROR_MSG": "Verificar senha é necessária.",
+	"RESETPASSWORD_VERIFY_PASSWORD": "As senhas não coincidem.",
+	"RESETPASSWORD_TEXT_REQUIRED_FIELD": "Campo obrigatório",
+	"RESETPASSWORD_INPUT_CANCEL": "Cancelar",
+	"RESETPASSWORD_SAVE_AND_LOGIN": "Salvar alterações e login",
+	"RESETPASSWORD_USED_BEFORE": "A senha foi usada antes.",
+	"LOGIN_RESETPASSWORD_ERROR": "Ocorreu um erro ao processar sua solicitação. Tente novamente ou ligue para o atendimento ao cliente para obter assistência.",
+	"LOGIN_RESETPASSWORD_LINK_EXPIRED": "Esse link expirou. Solicite novo link ou ligue para o atendimento ao cliente para ajuda."
+}

@@ -1,0 +1,80 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Heure d'émission",
+        "Name": "issueTime"
+      },
+      {
+        "Value": "Montant",
+        "Name": "chargeAmount"
+      },
+      {
+        "Value": "Montant",
+        "Name": "chargeAmountAsString"
+      },
+      {
+        "Value": "La description",
+        "Name": "description"
+      },
+      {
+        "Value": "Statut",
+        "Name": "status"
+      },
+      {
+        "Value": "Monnaie de charge",
+        "Name": "chargeCurrency"
+      },
+      {
+        "Value": "Code GL",
+        "Name": "glCode"
+      },
+      {
+        "Value": "Identifiant du compte de l'émetteur",
+        "Name": "issuerAccountId"
+      },
+      {
+        "Value": "Code additionnel",
+        "Name": "additionalCode"
+      },
+      {
+        "Value": "Montant de la taxe sur les charges",
+        "Name": "chargeTaxAmount"
+      },
+      {
+        "Value": "ID de charge externe",
+        "Name": "externalChargeId"
+      },
+      {
+        "Value": "ID de charge interne",
+        "Name": "internalChargeId"
+      },
+      {
+        "Value": "Num Units",
+        "Name": "numUnits"
+      },
+      {
+        "Value": "Taux",
+        "Name": "rate"
+      },
+      {
+        "Value": "Tarif additionnel",
+        "Name": "additionalRate"
+      },
+      {
+        "Value": "Identifiant du compte de soumissionnaire",
+        "Name": "subscriberAccountId"
+      },
+      {
+        "Value": "Indication d'intervalle de guide",
+        "Name": "guideIntervalId"
+      },
+      {
+        "Value": "Imposition implicite",
+        "Name": "taxImplied"
+      },
+      {
+        "Value": "Informations fiscales",
+        "Name": "taxInformational"
+      }
+    ]}
+}

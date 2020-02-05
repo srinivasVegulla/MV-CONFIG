@@ -1,0 +1,21 @@
+﻿{
+  "CHANGE_PASSWORD_TITLE": "Kennwort ändern",
+  "CHANGE_PASSWORD_TEXT_CURRENT_PASSWORD": "Aktuelles Kennwort",
+  "CHANGE_PASSWORD_TEXT_NEW_PASSWORD": "Neues Kennwort",
+  "CHANGE_PASSWORD_TEXT_VERIFY_PASSWORD": "Kennwort bestätigen",
+  "CHANGE_PASSWORD_STRENGTH_CONDITION1": "Muss zwischen 7 und 1024 Zeichen lang sein.",
+  "CHANGE_PASSWORD_STRENGTH_CONDITION2": "Muss mindestens einen Kleinbuchstaben, einen Großbuchstaben und eine Ziffer enthalten.",
+  "CHANGE_PASSWORD_STRENGTH_CONDITION3": "Sonderzeichen sind optional.",     
+  "CHANGE_PASSWORD_REQUIRED_ERROR_MSG": "'Kennwort' ist ein Pflichtfeld.",
+  "CHANGE_PASSWORD_VERIFY_PASSWORD_REQUIRED_ERROR_MSG": "'Kennwort bestätigen' ist ein Pflichtfeld.",
+  "CHANGE_PASSWORD_INCORRECT_PATTERN": "Das Kennwort entspricht nicht den Sicherheitsanforderungen.",
+  "CHANGE_PASSWORD_VERIFY_PASSWORD": "Kennwörter stimmen nicht überein.",
+  "CHANGE_PASSWORD_INVALID_OLD_PASSWORD": "Ungültiges altes Kennwort.",
+  "CHANGE_PASSWORD_INVALID_NEW_PASSWORD": "Das neue Kennwort entspricht nicht den Sicherheitsanforderungen.",
+  "CHANGE_PASSWORD_ACCOUNT_LOCKED": "Ihr Konto wurde aus Sicherheitsgründen gesperrt. Wenden Sie sich zur Behebung des Problems an den Support.",
+  "CHANGE_PASSWORD_STRENGTH": "Kennwortstärke zu niedrig.",
+  "CHANGE_PASSWORD_USED_BEFORE": "Kennwort wurde bereits verwendet.",
+  "CHANGE_PASSWORD_FAILED_UPDATE": "Kennwort konnte nicht geändert werden. Bitte wenden Sie sich an die Kundenbetreuung.",
+  "CHANGE_PASSWORD_TEXT_REQUIRED_FIELD": "Pflichtfeld",
+  "CHANGE_CURRENT_PASSWORD_REQUIRED_ERROR_MSG": "'Aktuelles Kennwort' ist ein Pflichtfeld."
+}

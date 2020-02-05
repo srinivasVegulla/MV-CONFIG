@@ -1,0 +1,72 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Fecha",
+        "Name": "time"
+      },
+      {
+        "Value": "Nombre de usuario",
+        "Name": "username"
+      },
+      {
+        "Value": "Identidad de usuario",
+        "Name": "userid"
+      },
+      {
+        "Value": "ID del evento",
+        "Name": "eventid"
+      },
+      {
+        "Value": "Evento",
+        "Name": "eventname"
+      },
+      {
+        "Value": "Nombre de la entidad",
+        "Name": "entityname"
+      },
+      {
+        "Value": "ID de entidad",
+        "Name": "entityid"
+      },
+      {
+        "Value": "Tipo de entidad",
+        "Name": "entitytype"
+      },
+      {
+        "Value": "Detalles",
+        "Name": "details"
+      },
+      {
+        "Value": "Conectado",
+        "Name": "loggedinas"
+      },
+      {
+        "Value": "ID de auditoría",
+        "Name": "id_audit"
+      },
+      {
+        "Value": "ID del evento",
+        "Name": "id_event"
+      },
+      {
+        "Value": "Identidad de usuario",
+        "Name": "id_userid"
+      },
+      {
+        "Value": "Identidad de usuario",
+        "Name": "id_entitytype"
+      },
+      {
+        "Value": "ID de entidad",
+        "Name": "id_entity"
+      },
+      {
+        "Value": "Conectado como tx",
+        "Name": "tx_logged_in_as"
+      },
+      {
+        "Value": "Fecha de creación",
+        "Name": "dt_crt"
+      }
+    ]}
+}

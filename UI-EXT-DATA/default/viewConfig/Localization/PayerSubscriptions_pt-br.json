@@ -1,0 +1,24 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "ID da oferta de produtos",
+        "Name": "productofferid"
+      },
+      {
+        "Value": "Nome da Assinatura",
+        "Name": "name"
+      },
+      {
+        "Value": "Nome da Assinatura",
+        "Name": "displayname"
+      },
+      {
+        "Value": "Descrição",
+        "Name": "subscriptiondesc"
+      },
+      {
+        "Value": "Não. De Assinantes",
+        "Name": "nosubscribers"
+      }
+     ]}
+}

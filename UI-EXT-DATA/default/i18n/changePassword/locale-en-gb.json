@@ -1,0 +1,21 @@
+﻿{
+  "CHANGE_PASSWORD_TITLE": "Change Password",   
+  "CHANGE_PASSWORD_TEXT_CURRENT_PASSWORD": "Current Password",
+  "CHANGE_PASSWORD_TEXT_NEW_PASSWORD": "New Password",
+  "CHANGE_PASSWORD_TEXT_VERIFY_PASSWORD": "Verify Password",        
+  "CHANGE_PASSWORD_STRENGTH_CONDITION1": "Must be between 7 and 1024 characters.",
+  "CHANGE_PASSWORD_STRENGTH_CONDITION2": "Must contain at least one lowercase letter, one uppercase letter and one digit.",
+  "CHANGE_PASSWORD_STRENGTH_CONDITION3": "Special characters are optional.",     
+  "CHANGE_PASSWORD_REQUIRED_ERROR_MSG": "Password is required.",
+  "CHANGE_PASSWORD_VERIFY_PASSWORD_REQUIRED_ERROR_MSG": "Verify Password is required.",
+  "CHANGE_PASSWORD_INCORRECT_PATTERN": "The Password does not meet the security requirements.",
+  "CHANGE_PASSWORD_VERIFY_PASSWORD": "Passwords do not match.",      
+  "CHANGE_PASSWORD_INVALID_OLD_PASSWORD": "Invalid old Password.",
+  "CHANGE_PASSWORD_INVALID_NEW_PASSWORD": "The new password does not meet security requirements.",
+  "CHANGE_PASSWORD_ACCOUNT_LOCKED": "Your account has been locked for security reasons. Please contact support to resolve the issue.",
+  "CHANGE_PASSWORD_STRENGTH": "Password is not strong enough.",
+  "CHANGE_PASSWORD_USED_BEFORE": "Password has been used before.",
+  "CHANGE_PASSWORD_FAILED_UPDATE": "Password change failed. Please contact customer care.",
+  "CHANGE_PASSWORD_TEXT_REQUIRED_FIELD": "Required Field",
+  "CHANGE_CURRENT_PASSWORD_REQUIRED_ERROR_MSG": "Current Password is required."
+}

@@ -1,0 +1,140 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "ID de sesión",
+        "Name": "id_sess"
+      },
+      {
+        "Value": "Moneda",
+        "Name": "currency"
+      },
+      {
+        "Value": "Importe no ajustado",
+        "Name": "unadjustedamount"
+      },
+      {
+        "Value": "Importe no ajustado con impuestos",
+        "Name": "unadjustedamountwithtax"
+      },
+      {
+        "Value": "Impuestos federales totales",
+        "Name": "totalfederaltax"
+      },
+      {
+        "Value": "Impuesto estatal total",
+        "Name": "totalstatetax"
+      },
+      {
+        "Value": "Impuesto Total del País",
+        "Name": "totalcountytax"
+      },
+      {
+        "Value": "Impuestos locales totales",
+        "Name": "totallocaltax"
+      },
+      {
+        "Value": "Total de otros impuestos",
+        "Name": "totalothertax"
+      },
+      {
+        "Value": "Monto de ajuste de impuestos de la Fed de Postbill",
+        "Name": "postbillfedtaxadjamt"
+      },
+      {
+        "Value": "Importe de Impuestos Federales",
+        "Name": "postbillstatetaxadjamt"
+      },
+      {
+        "Value": "Monto de ajuste de impuesto de país posterior",
+        "Name": "postbillcntytaxadjamt"
+      },
+      {
+        "Value": "Monto de Ajuste de Impuesto Local Postbill",
+        "Name": "postbilllocaltaxadjamt"
+      },
+      {
+        "Value": "Importe de Impuestos",
+        "Name": "postbillothertaxadjamt"
+      },
+      {
+        "Value": "Importe de Impuestos Federales por Impuestos Prebill",
+        "Name": "prebillfedtaxadjamt"
+      },
+      {
+        "Value": "Importe del impuesto estatal de prebilla Cantidad",
+        "Name": "prebillstatetaxadjamt"
+      },
+      {
+        "Value": "Prebillcntytaxadjamt",
+        "Name": "prebillcntytaxadjamt"
+      },
+      {
+        "Value": "Importe de Impuestos Locales Prebill",
+        "Name": "prebilllocaltaxadjamt"
+      },
+      {
+        "Value": "Prebill Otros Impuestos Ajustar Cantidad",
+        "Name": "prebillothertaxadjamt"
+      },
+       {
+        "Value": "Importe del ajuste",
+        "Name": "adjustmentamount"
+      },
+       {
+        "Value": "Cantidad ajustada",
+        "Name": "adjustedamount"
+      },
+      {
+        "Value": "Importe del Ajuste con Impuestos",
+        "Name": "adjustmentamountwithtax"
+      },
+      {
+        "Value": "Importe ajustado con impuestos",
+        "Name": "adjustedamountwithtax"
+      },
+      {
+        "Value": "Nombre de visualización de la plantilla de ajuste",
+        "Name": "adjustmenttemplatedisplayname"
+      },
+      {
+        "Value": "Nombre de visualización de ajuste",
+        "Name": "adjustmentinstancedisplayname"
+      },
+       {
+        "Value": "Descripción",
+        "Name": "description"
+      },
+       {
+        "Value": "Código de razón",
+        "Name": "reasoncode"
+      },
+       {
+        "Value": "Nombre del código de razón",
+        "Name": "reasoncodename"
+      },
+       {
+        "Value": "Código de razón Descripción",
+        "Name": "reasoncodedescription"
+      },
+       {
+        "Value": "Nombre de visualización del código de razón",
+        "Name": "reasoncodedisplayname"
+      },
+       {
+        "Value": "ID de intervalo de uso",
+        "Name": "id_usage_interval"
+      },
+       {
+        "Value": "ID de la cuenta",
+        "Name": "id_acc"
+      },
+      {
+        "Value": "Tipo de ajuste",
+        "Name": "n_adjustmenttype"
+      },
+      {
+        "Value": "Fecha de la sesión",
+        "Name": "dt_session"
+      }
+    ]}
+}

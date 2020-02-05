@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ericsson.ecb.mapper.CyberSourceProfileMapper">
+
+    <select id="getCsProfileFromAccountId" resultType="HashMap">
+        -- This is a query that can be customized to map accounts to different profile ids. 
+        -- If only one profile is supported, specify the profile and merchant ids here in the placeholders
+        -- If multiple profiles need to be supported, map the passed account id to a profile that needs to be loaded. t_account_csprofile_mapping table can be used.
+        -- Input parameter: ACCOUNTID
+        -- Output: PROFILEID, MERCHANTID
+        SELECT 
+        -- cybersource profileid goes here
+        '' AS PROFILEID,
+        -- the merchantid for the selected profile goes here
+        '' AS MERCHANTID
+        <if test="_databaseId == 'oracle'"> FROM DUAL </if>
+    </select>
+
+</mapper>

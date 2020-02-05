@@ -1,0 +1,108 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "口座の種類",
+        "Name": "accountType"
+      },
+      {
+        "Value": "住所（1",
+        "Name": "address1"
+      },
+      {
+        "Value": "アドレス2",
+        "Name": "address2"
+      },
+      {
+        "Value": "自動支払",
+        "Name": "autoPay"
+      },
+      {
+        "Value": "銀行名",
+        "Name": "bankname"
+      },
+      {
+        "Value": "シティ",
+        "Name": "city"
+      },
+      {
+        "Value": "作成日",
+        "Name": "dtCreated"
+      },
+      {
+        "Value": "有効期限",
+        "Name": "expDate"
+      },
+      {
+        "Value": "有効期限の日付形式",
+        "Name": "expDateFormat"
+      },
+      {
+        "Value": "ファーストネーム",
+        "Name": "firstName"
+      },
+      {
+        "Value": "アカウントID",
+        "Name": "idAcct"
+      },
+      {
+        "Value": "国ID",
+        "Name": "idCountry"
+      },
+      {
+        "Value": "クレジットカードの種類",
+        "Name": "idCreditcardType"
+      },
+      {
+        "Value": "優先",
+        "Name": "idPriority"
+      },
+      {
+        "Value": "苗字",
+        "Name": "lastName"
+      },
+      {
+        "Value": "サイクルあたりの最大充電量",
+        "Name": "maxChargePerCycle"
+      },
+      {
+        "Value": "ミドルネーム",
+        "Name": "middleName"
+      },
+      {
+        "Value": "クレジットカードの種類",
+        "Name": "nameCreditcardType"
+      },
+      {
+        "Value": "支払い方法タイプID",
+        "Name": "paymentMethodTypeId"
+      },
+       {
+        "Value": "支払方法タイプ名",
+        "Name": "paymentMethodTypeName"
+      },
+       {
+        "Value": "ルーティング番号",
+        "Name": "routingnumber"
+      },
+      {
+        "Value": "状態",
+        "Name": "state"
+      },
+      {
+        "Value": "切り捨てられたアカウント番号",
+        "Name": "truncdAcctNum"
+      },
+      {
+        "Value": "ジップ",
+        "Name": "zip"
+      },
+      {
+        "Value": "支払いIdの楽器",
+        "Name": "idPaymentInstrument"
+      },
+       {
+        "Value": "支払予定",
+        "Name": "paymentScheduled"
+      }
+    ]}
+}

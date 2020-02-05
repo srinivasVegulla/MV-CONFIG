@@ -1,0 +1,80 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Issue Time",
+        "Name": "issueTime"
+      },
+      {
+        "Value": "Amount",
+        "Name": "chargeAmount"
+      },
+      {
+        "Value": "Amount",
+        "Name": "chargeAmountAsString"
+      },
+      {
+        "Value": "Description",
+        "Name": "description"
+      },
+      {
+        "Value": "Status",
+        "Name": "status"
+      },
+      {
+        "Value": "Charge Currency",
+        "Name": "chargeCurrency"
+      },
+      {
+        "Value": "GL Code",
+        "Name": "glCode"
+      },
+      {
+        "Value": "Issuer Account ID",
+        "Name": "issuerAccountId"
+      },
+      {
+        "Value": "Additional Code",
+        "Name": "additionalCode"
+      },
+      {
+        "Value": "Charge Tax Amount",
+        "Name": "chargeTaxAmount"
+      },
+      {
+        "Value": "External Charge ID",
+        "Name": "externalChargeId"
+      },
+      {
+        "Value": "Internal Charge ID",
+        "Name": "internalChargeId"
+      },
+      {
+        "Value": "Num Units",
+        "Name": "numUnits"
+      },
+      {
+        "Value": "Rate",
+        "Name": "rate"
+      },
+      {
+        "Value": "Additional Rate",
+        "Name": "additionalRate"
+      },
+      {
+        "Value": "Subscriber Account ID",
+        "Name": "subscriberAccountId"
+      },
+      {
+        "Value": "Guide Interval ID",
+        "Name": "guideIntervalId"
+      },
+      {
+        "Value": "Tax Implied",
+        "Name": "taxImplied"
+      },
+      {
+        "Value": "Tax Informational",
+        "Name": "taxInformational"
+      }
+    ]}
+}

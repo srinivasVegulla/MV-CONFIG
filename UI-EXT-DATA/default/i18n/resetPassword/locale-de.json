@@ -1,0 +1,20 @@
+{  
+  "RESETPASSWORD_HEADING": "Kennwort vergessen",
+  "RESETPASSWORD_NEW_PASSWORD": "Neues Kennwort",
+  "RESETPASSWORD_TEXT_PASSWORD": "Kennwort",
+  "RESETPASSWORD_STRENGTH_CONDITION1": "Muss zwischen 7 und 1024 Zeichen lang sein.",
+  "RESETPASSWORD_STRENGTH_CONDITION2": "Muss mindestens einen Kleinbuchstaben, einen Gro�buchstaben und eine Ziffer enthalten.",
+  "RESETPASSWORD_STRENGTH_CONDITION3": "Sonderzeichen sind optional.",
+  "RESETPASSWORD_REQUIRED_ERROR_MSG": "'Kennwort' ist ein Pflichtfeld.",
+  "RESETPASSWORD_INCORRECT_PATTERN": "Das Kennwort entspricht nicht den Sicherheitsanforderungen.",
+  "RESETPASSWORD_CONFIRM_PASSWORD": "Passwort bestätigen",
+  "RESETPASSWORD_TEXT_VERIFY_PASSWORD": "Passwort bestätigen",
+  "RESETPASSWORD_VERIFY_PASSWORD_REQUIRED_ERROR_MSG": "'Überprüfen Sie, ob das Passwort erforderlich ist.",
+  "RESETPASSWORD_VERIFY_PASSWORD": "Passwörter stimmen nicht überein.",
+  "RESETPASSWORD_TEXT_REQUIRED_FIELD": "Pflichtfeld",
+  "RESETPASSWORD_INPUT_CANCEL": "Abbrechen",
+  "RESETPASSWORD_SAVE_AND_LOGIN": "Änderungen speichern und anmelden",
+  "RESETPASSWORD_USED_BEFORE": "Kennwort wurde bereits verwendet.",
+  "LOGIN_RESETPASSWORD_ERROR": "Bei der Verarbeitung Ihrer Anforderung ist ein Fehler aufgetreten. Versuchen Sie es erneut oder rufen Sie den Kundendienst an.",
+  "LOGIN_RESETPASSWORD_LINK_EXPIRED": "Dieser Link ist abgelaufen. Fordern Sie einen neuen Link an oder wenden Sie sich an den Kundendienst."
+}

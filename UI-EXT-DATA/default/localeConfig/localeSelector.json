@@ -1,0 +1,90 @@
+{
+    "English(US)": {
+        "tabindex": 4,
+        "locale": "en",
+        "loginDisplay": 1,
+        "alternateName": "English (US)",
+        "title": "English (US)",
+        "direction": "LTR"
+    },
+    "English(UK)": {
+        "tabindex": 5,
+        "locale": "en-gb",
+        "loginDisplay": 1,
+        "alternateName": "English (GB)",
+        "title": "English (GB)",
+        "direction": "LTR"
+    },
+    "French": {
+        "tabindex": 6,
+        "locale": "fr",
+        "loginDisplay": 1,
+        "alternateName": "Français (FR)",
+        "title": "Français (FR)",
+        "direction": "LTR"
+    },
+    "German": {
+        "tabindex": 7,
+        "locale": "de",
+        "loginDisplay": 1,
+        "alternateName": "Deutsch (DE)",
+        "title": "Deutsch (DE)",
+        "direction": "LTR"
+    },
+    "Spanish": {
+        "tabindex": 8,
+        "locale": "es",
+        "loginDisplay": 1,
+        "alternateName": "Español (ES)",
+        "title": "Español (ES)",
+        "direction": "LTR"
+    },
+    "Japanese": {
+        "tabindex": 9,
+        "locale": "ja",
+        "loginDisplay": 1,
+        "alternateName": "日本語 (JP)",
+        "title": "日本語 (JP)",
+        "direction": "LTR"
+    },
+    "Portugeese": {
+        "tabindex": 10,
+        "locale": "pt-br",
+        "loginDisplay": 1,
+        "alternateName": "Português (BR)",
+        "title": "Português (BR)",
+        "direction": "LTR"
+    },
+    "Sweden": {
+        "tabindex": 11,
+        "locale": "se",
+        "loginDisplay": 1,
+        "alternateName": "Svenska (SE)",
+        "title": "Svenska (SE)",
+        "direction": "LTR"
+    },
+    "Spanish(Mexican)": {
+        "tabindex": 12,
+        "locale": "es-MX",
+        "loginDisplay": 1,
+        "alternateName": "Español (MX)",
+        "title": "Español (MX)",
+        "direction": "LTR"
+    },
+    "Arabic": {
+        "tabindex": 13,
+        "locale": "ar",
+        "loginDisplay": 1,
+        "alternateName": "(EG) العربية",
+        "title": "(EG) العربية",
+        "direction": "RTL"
+    },
+    "Hebrew": {
+        "tabindex": 14,
+        "locale": "he",
+        "loginDisplay": 1,
+        "alternateName": "(IL) עִברִית",
+        "title": "(IL) עִברִית",
+        "direction": "RTL"
+    }
+}

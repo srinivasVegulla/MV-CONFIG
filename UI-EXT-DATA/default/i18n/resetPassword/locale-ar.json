@@ -1,0 +1,20 @@
+{
+	"RESETPASSWORD_HEADING": "نسيت كلمة المرور",
+	"RESETPASSWORD_NEW_PASSWORD": "كلمة المرور الجديدة",
+	"RESETPASSWORD_TEXT_PASSWORD": "كلمة المرور",
+	"RESETPASSWORD_STRENGTH_CONDITION1": ".يجب أن يتراوح طولها بين 7 و1024 حرفًا",
+	"RESETPASSWORD_STRENGTH_CONDITION2": ".يجب أن تحتوي على الأقل على حرف كبير واحد وحرف صغير واحد ورقم واحد",
+	"RESETPASSWORD_STRENGTH_CONDITION3": ".الأحرف الخاصة اختيارية",
+	"RESETPASSWORD_REQUIRED_ERROR_MSG": ".كلمة المرور مطلوبة",
+	"RESETPASSWORD_INCORRECT_PATTERN": ".لا تستوفي كلمة المرور متطلبات الأمان",
+	"RESETPASSWORD_CONFIRM_PASSWORD": "تأكيد كلمة المرور",
+	"RESETPASSWORD_TEXT_VERIFY_PASSWORD": "التحقق من كلمة المرور",
+	"RESETPASSWORD_VERIFY_PASSWORD_REQUIRED_ERROR_MSG": ".التحقق من كلمة المرور مطلوب",
+	"RESETPASSWORD_VERIFY_PASSWORD": ".كلمتا المرور غير متطابقتين",
+	"RESETPASSWORD_TEXT_REQUIRED_FIELD": "حقل مطلوب",
+	"RESETPASSWORD_INPUT_CANCEL": "إلغاء",
+	"RESETPASSWORD_SAVE_AND_LOGIN": "حفظ التغييرات وتسجيل الدخول",
+	"RESETPASSWORD_USED_BEFORE": ".تم استخدام كلمة المرور من قبل",
+	"LOGIN_RESETPASSWORD_ERROR": ".حدث خطأ أثناء معالجة طلبك. حاول مرة أخرى أو اتصل بخدمة العملاء للمساعدة",
+	"LOGIN_RESETPASSWORD_LINK_EXPIRED": "انتهت صلاحية هذا الارتباط. اطلب ارتباطًا جديدًا أو اتصل بخدمة العملاء للمساعدة"
+}

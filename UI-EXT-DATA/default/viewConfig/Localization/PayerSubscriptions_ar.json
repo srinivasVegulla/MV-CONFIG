@@ -1,0 +1,24 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "معرف عرض المنتج",
+        "Name": "productofferid"
+      },
+      {
+        "Value": "اسم الاشتراك",
+        "Name": "name"
+      },
+      {
+        "Value": "اسم الاشتراك",
+        "Name": "displayname"
+      },
+      {
+        "Value": "وصف",
+        "Name": "subscriptiondesc"
+      },
+      {
+        "Value": "عدد المشتركين",
+        "Name": "nosubscribers"
+      }
+     ]}
+}

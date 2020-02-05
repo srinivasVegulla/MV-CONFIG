@@ -1,0 +1,140 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Session Id",
+        "Name": "id_sess"
+      },
+      {
+        "Value": "Currency",
+        "Name": "currency"
+      },
+      {
+        "Value": "Unadjusted Amount",
+        "Name": "unadjustedamount"
+      },
+      {
+        "Value": "Unadjusted Amount with Tax",
+        "Name": "unadjustedamountwithtax"
+      },
+      {
+        "Value": "Total Federal Tax",
+        "Name": "totalfederaltax"
+      },
+      {
+        "Value": "Total State Tax",
+        "Name": "totalstatetax"
+      },
+      {
+        "Value": "Total Country Tax",
+        "Name": "totalcountytax"
+      },
+      {
+        "Value": "Total Local Tax",
+        "Name": "totallocaltax"
+      },
+      {
+        "Value": "Total Other Tax",
+        "Name": "totalothertax"
+      },
+      {
+        "Value": "Postbill Fed Tax Adjust Amount",
+        "Name": "postbillfedtaxadjamt"
+      },
+      {
+        "Value": "Postbill Federal Tax Adjust Amount",
+        "Name": "postbillstatetaxadjamt"
+      },
+      {
+        "Value": "Postbill Country Tax Adjust Amount",
+        "Name": "postbillcntytaxadjamt"
+      },
+      {
+        "Value": "Postbill Local Tax Adjust Amount",
+        "Name": "postbilllocaltaxadjamt"
+      },
+      {
+        "Value": "Postbill Other Tax Adjust Amount",
+        "Name": "postbillothertaxadjamt"
+      },
+      {
+        "Value": "Prebill Federal Tax Adjust Amount",
+        "Name": "prebillfedtaxadjamt"
+      },
+      {
+        "Value": "Prebill State Tax Adjust Amount",
+        "Name": "prebillstatetaxadjamt"
+      },
+      {
+        "Value": "Prebill Country Tax Adjust Amount",
+        "Name": "prebillcntytaxadjamt"
+      },
+      {
+        "Value": "Prebill Local Tax Adjust Amount",
+        "Name": "prebilllocaltaxadjamt"
+      },
+      {
+        "Value": "Prebill Other Tax Adjust Amount",
+        "Name": "prebillothertaxadjamt"
+      },
+       {
+        "Value": "Adjustment Amount",
+        "Name": "adjustmentamount"
+      },
+       {
+        "Value": "Adjusted Amount",
+        "Name": "adjustedamount"
+      },
+      {
+        "Value": "Adjustment Amount With Tax",
+        "Name": "adjustmentamountwithtax"
+      },
+      {
+        "Value": "Adjusted Amount With Tax",
+        "Name": "adjustedamountwithtax"
+      },
+      {
+        "Value": "Adjustment Template Display Name",
+        "Name": "adjustmenttemplatedisplayname"
+      },
+      {
+        "Value": "Adjustment Instanced Display Name",
+        "Name": "adjustmentinstancedisplayname"
+      },
+       {
+        "Value": "Description",
+        "Name": "description"
+      },
+       {
+        "Value": "Reason Code",
+        "Name": "reasoncode"
+      },
+       {
+        "Value": "Reason Code Name",
+        "Name": "reasoncodename"
+      },
+       {
+        "Value": "Reason Code Description",
+        "Name": "reasoncodedescription"
+      },
+       {
+        "Value": "Reason Code Display Name",
+        "Name": "reasoncodedisplayname"
+      },
+      {
+        "Value": "Usage Interval Id",
+        "Name": "id_usage_interval"
+      },
+      {
+        "Value": "Account Id",
+        "Name": "id_acc"
+      },
+      {
+        "Value": "Adjustment Type",
+        "Name": "n_adjustmenttype"
+      },
+      {
+        "Value": "Session Date",
+        "Name": "dt_session"
+      }
+    ]}
+}

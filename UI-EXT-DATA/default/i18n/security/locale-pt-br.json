@@ -1,0 +1,18 @@
+{
+	"LOGIN_TITLE": "Ericsson Enterprise and Cloud Billing - MetraView",
+	"LOGIN_INVALID_CREDENTIALS": "Nome de usuário ou senha inválidos",
+	"LOGIN_INPUT_USERNAME": "Nome do usuário",
+	"LOGIN_INPUT_PASSWORD": "Senha",
+	"LOGIN_INPUT_SUBMIT": "Fazer login",
+	"LOGIN_FORGOT_PASSWORD": "Esqueceu a senha?",
+	"LOGIN_VALIDATION_PATTERN_USERNAME": "Caracteres inválidos não são permitidos.",
+	"LOGIN_VALIDATION_REQUIRED_USERNAME": "Nome de usuário é obrigatório.",
+	"LOGIN_VALIDATION_REQUIRED_PASSWORD": "A senha é obrigatória.",
+	"LOGIN_ACCOUNT_LOCKED": "A sua senha está bloqueada. Ligue para o Serviço de atendimento ao cliente para desbloquear a sua conta.",
+  "LOGIN_XSS_SQL_INJECTION": "Du har inte rätt att utföra denna operation.",
+	"LOGIN_NO_LOGON": "A sua conta não tem permissões para esse aplicativo",
+	"LOGIN_INVALID_TICKET": "Login inválido",
+	"LOGIN_UNABLE_TO_CONNECT_TO_SERVER": "Não foi possível se conectar ao servidor",
+	"LOGIN_SIGN_UP": "Inscrever-se",
+	"LOGIN_COPYRIGHT": "Ⓒ Ericsson AB, 2015-2018 Todos os direitos reservados"
+}

@@ -1,0 +1,10 @@
+# ECB-OAUTH configuration file for DEV environment
+metraview:
+  authserver:
+    provider:
+      rest:
+        uri: http://10.200.20.218/RESTAPI/api/metranetaccountlogin/LoginMetraNet
+        ticket:
+          uri:  http://10.200.20.218/RESTAPI/api/MetranetAccountTicket/validate
+    jdbc:
+      url: jdbc:sqlserver://10.200.20.218;databaseName=NetMeter

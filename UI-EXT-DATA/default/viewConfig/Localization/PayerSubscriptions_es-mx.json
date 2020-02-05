@@ -1,0 +1,24 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "ID de oferta del producto",
+        "Name": "productofferid"
+      },
+      {
+        "Value": "Nombre de suscripción",
+        "Name": "name"
+      },
+      {
+        "Value": "Nombre de suscripción",
+        "Name": "displayname"
+      },
+      {
+        "Value": "Descripción",
+        "Name": "subscriptiondesc"
+      },
+      {
+        "Value": "No. De Suscriptores",
+        "Name": "nosubscribers"
+      }
+     ]}
+}

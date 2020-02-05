@@ -1,0 +1,80 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Hora da edição",
+        "Name": "issueTime"
+      },
+      {
+        "Value": "Montante",
+        "Name": "chargeAmount"
+      },
+      {
+        "Value": "Montante",
+        "Name": "chargeAmountAsString"
+      },
+      {
+        "Value": "Descrição",
+        "Name": "description"
+      },
+      {
+        "Value": "Status",
+        "Name": "status"
+      },
+      {
+        "Value": "Moeda de carga",
+        "Name": "chargeCurrency"
+      },
+      {
+        "Value": "Código GL",
+        "Name": "glCode"
+      },
+      {
+        "Value": "ID da Conta do Emissor",
+        "Name": "issuerAccountId"
+      },
+      {
+        "Value": "Código Adicional",
+        "Name": "additionalCode"
+      },
+      {
+        "Value": "Montante do Imposto de Carga",
+        "Name": "chargeTaxAmount"
+      },
+      {
+        "Value": "ID de cobrança externa",
+        "Name": "externalChargeId"
+      },
+      {
+        "Value": "ID de carga interna",
+        "Name": "internalChargeId"
+      },
+      {
+        "Value": "Num Units",
+        "Name": "numUnits"
+      },
+      {
+        "Value": "Taxa",
+        "Name": "rate"
+      },
+      {
+        "Value": "Taxa adicional",
+        "Name": "additionalRate"
+      },
+      {
+        "Value": "ID da conta do responsável",
+        "Name": "subscriberAccountId"
+      },
+      {
+        "Value": "Id. De Intervalo de Guia",
+        "Name": "guideIntervalId"
+      },
+      {
+        "Value": "Imposto Imposto",
+        "Name": "taxImplied"
+      },
+      {
+        "Value": "Informativo Tributário",
+        "Name": "taxInformational"
+      }
+    ]}
+}

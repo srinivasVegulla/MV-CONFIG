@@ -1,0 +1,18 @@
+{
+  "LOGIN_TITLE": "ECB - פורטל",
+  "LOGIN_INVALID_CREDENTIALS": "שם משתמש או סיסמה שגויים",
+  "LOGIN_INPUT_USERNAME": "שם משתמש",
+  "LOGIN_INPUT_PASSWORD": "סיסמה",
+  "LOGIN_INPUT_SUBMIT": "כניסה",
+  "LOGIN_FORGOT_PASSWORD": "?שכחת סיסמה",
+  "LOGIN_VALIDATION_PATTERN_USERNAME": ".תווים לא חוקיים",
+  "LOGIN_VALIDATION_REQUIRED_USERNAME": ".נדרש שם משתמש",
+  "LOGIN_VALIDATION_REQUIRED_PASSWORD": ".נדרשת סיסמה",
+  "LOGIN_ACCOUNT_LOCKED": ".החשבון שלך נעול. אנא פנה לשירות לקוחות",
+  "LOGIN_XSS_SQL_INJECTION": "אינך מורשה לבצע פעולה זו.",
+  "LOGIN_NO_LOGON": "אין לך הרשאה לביצוע פעולה זו",
+  "LOGIN_INVALID_TICKET": "כניסה שגויה",
+  "LOGIN_UNABLE_TO_CONNECT_TO_SERVER": "לא ניתן להתחבר לשרת",
+  "LOGIN_SIGN_UP": "הירשם",
+  "LOGIN_COPYRIGHT": "כל הזכויות שמורות Ⓒ Ericsson AB, 2015-2018"
+}

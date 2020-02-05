@@ -1,0 +1,72 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "Rendez-vous amoureux",
+        "Name": "time"
+      },
+      {
+        "Value": "Nom d'utilisateur",
+        "Name": "username"
+      },
+      {
+        "Value": "Identifiant d'utilisateur",
+        "Name": "userid"
+      },
+      {
+        "Value": "Identifiant de l'événement",
+        "Name": "eventid"
+      },
+      {
+        "Value": "un événement",
+        "Name": "eventname"
+      },
+      {
+        "Value": "Nom de l'entité",
+        "Name": "entityname"
+      },
+      {
+        "Value": "ID d'entité",
+        "Name": "entityid"
+      },
+      {
+        "Value": "Type d'entité",
+        "Name": "entitytype"
+      },
+      {
+        "Value": "Détails",
+        "Name": "details"
+      },
+      {
+        "Value": "Connecté",
+        "Name": "loggedinas"
+      },
+      {
+        "Value": "ID d'audit",
+        "Name": "id_audit"
+      },
+      {
+        "Value": "Identifiant de l'événement",
+        "Name": "id_event"
+      },
+      {
+        "Value": "Identifiant d'utilisateur",
+        "Name": "id_userid"
+      },
+      {
+        "Value": "Identifiant du type d'entité",
+        "Name": "id_entitytype"
+      },
+      {
+        "Value": "ID d'entité",
+        "Name": "id_entity"
+      },
+      {
+        "Value": "Connecté en tant que tx",
+        "Name": "tx_logged_in_as"
+      },
+      {
+        "Value": "Date de création",
+        "Name": "dt_crt"
+      }
+    ]}
+}

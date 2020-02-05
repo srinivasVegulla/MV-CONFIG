@@ -1,0 +1,72 @@
+{"columns" : {
+    "fields": [
+      {
+        "Value": "日付",
+        "Name": "time"
+      },
+      {
+        "Value": "ユーザー名",
+        "Name": "username"
+      },
+      {
+        "Value": "ユーザーID",
+        "Name": "userid"
+      },
+      {
+        "Value": "イベント ID",
+        "Name": "eventid"
+      },
+      {
+        "Value": "イベント",
+        "Name": "eventname"
+      },
+      {
+        "Value": "エンティティ名",
+        "Name": "entityname"
+      },
+      {
+        "Value": "エンティティID",
+        "Name": "entityid"
+      },
+      {
+        "Value": "エンティティタイプ",
+        "Name": "entitytype"
+      },
+      {
+        "Value": "詳細",
+        "Name": "details"
+      },
+      {
+        "Value": "ログインしました",
+        "Name": "loggedinas"
+      },
+      {
+        "Value": "監査ID",
+        "Name": "id_audit"
+      },
+      {
+        "Value": "イベントID",
+        "Name": "id_event"
+      },
+      {
+        "Value": "ユーザーID",
+        "Name": "id_userid"
+      },
+      {
+        "Value": "エンティティタイプID",
+        "Name": "id_entitytype"
+      },
+      {
+        "Value": "エンティティID",
+        "Name": "id_entity"
+      },
+      {
+        "Value": "txとしてログイン",
+        "Name": "tx_logged_in_as"
+      },
+      {
+        "Value": "作成日",
+        "Name": "dt_crt"
+      }
+    ]}
+}

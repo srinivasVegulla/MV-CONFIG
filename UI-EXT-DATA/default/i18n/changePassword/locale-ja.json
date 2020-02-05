@@ -1,0 +1,21 @@
+{
+  "CHANGE_PASSWORD_TITLE": "「パスワードの変更",   
+  "CHANGE_PASSWORD_TEXT_CURRENT_PASSWORD": "「現在のパスワード",
+  "CHANGE_PASSWORD_TEXT_NEW_PASSWORD": "「新しいパスワード",
+  "CHANGE_PASSWORD_TEXT_VERIFY_PASSWORD": "「パスワードの確認",        
+  "CHANGE_PASSWORD_STRENGTH_CONDITION1": "「7 ～ 1024 文字で入力してください。",
+  "CHANGE_PASSWORD_STRENGTH_CONDITION2": "「必ず1つの以上の小文字、1つ以上の大文字、1つ以上の数字を入れてください。",
+  "CHANGE_PASSWORD_STRENGTH_CONDITION3": "「特殊文字は任意です。",     
+  "CHANGE_PASSWORD_REQUIRED_ERROR_MSG": "「パスワードが必要です。",
+  "CHANGE_PASSWORD_VERIFY_PASSWORD_REQUIRED_ERROR_MSG": "「確認用のパスワードが必要です。",
+  "CHANGE_PASSWORD_INCORRECT_PATTERN": "「パスワードがセキュリティ要件を満たしていません。",
+  "CHANGE_PASSWORD_VERIFY_PASSWORD": "「パスワードが一致しません。",      
+  "CHANGE_PASSWORD_INVALID_OLD_PASSWORD": "「無効な古いパスワード。",
+  "CHANGE_PASSWORD_INVALID_NEW_PASSWORD": "「新しいパスワードがセキュリティ要件を満たしていません。",
+  "CHANGE_PASSWORD_ACCOUNT_LOCKED": "「セキュリティの問題でアカウントがロックされました。問題を解決するためには、サポートにご連絡ください。",
+  "CHANGE_PASSWORD_STRENGTH": "「パスワードの強度が足りません。",
+  "CHANGE_PASSWORD_USED_BEFORE": "「以前使われたことのあるパスワードです。",
+  "CHANGE_PASSWORD_FAILED_UPDATE": "「パスワードの変更に失敗しました。カスタマーケアにご連絡ください。",
+  "CHANGE_PASSWORD_TEXT_REQUIRED_FIELD": "「必須項目",
+  "CHANGE_CURRENT_PASSWORD_REQUIRED_ERROR_MSG": "「現在のパスワードが必要です。"
+}

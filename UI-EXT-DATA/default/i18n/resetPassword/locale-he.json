@@ -1,0 +1,20 @@
+{  
+  "RESETPASSWORD_HEADING": "שכחת את הסיסמא",
+  "RESETPASSWORD_NEW_PASSWORD": "סיסמה חדשה",
+  "RESETPASSWORD_TEXT_PASSWORD": "סיסמה",
+  "RESETPASSWORD_STRENGTH_CONDITION1": ".חייב להיות בין 7 ל -10 תווים",
+  "RESETPASSWORD_STRENGTH_CONDITION2": ".חייב להכיל לפחות אות קטנה אחת, אות רישית אחת וספרה אחת",
+  "RESETPASSWORD_STRENGTH_CONDITION3": ".תווים מיוחדים הם אופציונליים",
+  "RESETPASSWORD_REQUIRED_ERROR_MSG": ".דרושה סיסמא",
+  "RESETPASSWORD_INCORRECT_PATTERN": ".הסיסמה אינה עומדת בדרישות האבטחה",
+  "RESETPASSWORD_CONFIRM_PASSWORD": "אשר סיסמה",
+  "RESETPASSWORD_TEXT_VERIFY_PASSWORD": "אמת את הסיסמה",
+  "RESETPASSWORD_VERIFY_PASSWORD_REQUIRED_ERROR_MSG": ".אמת סיסמא",
+  "RESETPASSWORD_VERIFY_PASSWORD": ".אמת סיסמא",
+  "RESETPASSWORD_TEXT_REQUIRED_FIELD": "שדה נדרש",
+  "RESETPASSWORD_INPUT_CANCEL": "בטל",
+  "RESETPASSWORD_SAVE_AND_LOGIN": "שמור שינויים והכנס",
+  "RESETPASSWORD_USED_BEFORE": ".הסיסמה כבר בשימוש בעבר",
+  "LOGIN_RESETPASSWORD_ERROR": "אירעה שגיאה במהלך עיבוד הבקשה שלך. נסה שוב או התקשר לשירות הלקוחות לקבלת סיוע",
+  "LOGIN_RESETPASSWORD_LINK_EXPIRED": "פג תוקפו של קישור זה. בקש קישור חדש או התקשר לשירות הלקוחות לקבלת סיוע"
+}
